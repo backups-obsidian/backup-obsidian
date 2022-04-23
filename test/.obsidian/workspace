@@ -1,0 +1,156 @@
+{
+  "main": {
+    "id": "c2946b86fb985067",
+    "type": "split",
+    "children": [
+      {
+        "id": "49e29181d9501694",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "notion export.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "57f9ed2b511378f1",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily-notes/2022-04-13.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      },
+      {
+        "id": "8d55731ad5f0957a",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "daily-notes/2022-04-10.md",
+            "mode": "preview",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7515808c2ad09d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "223b1bbef2c13d6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be909fedd485f885",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7af1a7106a5325af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f04b2c8fde3d5e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dd0802fb96df6a1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3410c5302560b9b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5578cc7750ad813",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "daily-notes/2022-04-13.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6a3fc1de25fdf96a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "daily-notes/2022-04-13.md"
+              }
+            }
+          },
+          {
+            "id": "2edabf964f303401",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "57f9ed2b511378f1",
+  "lastOpenFiles": [
+    "daily-notes/2022-04-13.md",
+    "main note.md",
+    "daily-notes/2022-04-10.md",
+    "notion export.md",
+    "test f.md",
+    "link.md",
+    "Pasted image 20220409230143.png"
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "main": {
+    "id": "c2946b86fb985067",
+    "type": "split",
+    "children": [
+      {
+        "id": "12fca3be1cbcb731",
+        "type": "leaf",
+        "pinned": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          },
+          "pinned": true
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d7515808c2ad09d3",
+    "type": "split",
+    "children": [
+      {
+        "id": "223b1bbef2c13d6e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "be909fedd485f885",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "7af1a7106a5325af",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "2f04b2c8fde3d5e8",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "f465adf22d1c312a",
+            "type": "leaf",
+            "state": {
+              "type": "recent-files",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 263,
+    "collapsed": true
+  },
+  "right": {
+    "id": "dd0802fb96df6a1b",
+    "type": "split",
+    "children": [
+      {
+        "id": "3410c5302560b9b0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e5578cc7750ad813",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              }
+            }
+          },
+          {
+            "id": "6a3fc1de25fdf96a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+              }
+            }
+          },
+          {
+            "id": "2edabf964f303401",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9ae295725d8efd1f",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "8629f583543f668d",
+            "type": "leaf",
+            "state": {
+              "type": "localgraph",
+              "state": {
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "options": {
+                  "collapse-filter": true,
+                  "search": "",
+                  "localJumps": 1,
+                  "localBacklinks": true,
+                  "localForelinks": true,
+                  "localInterlinks": false,
+                  "showTags": false,
+                  "showAttachments": false,
+                  "hideUnresolved": false,
+                  "collapse-color-groups": true,
+                  "colorGroups": [],
+                  "collapse-display": true,
+                  "showArrow": false,
+                  "textFadeMultiplier": 0,
+                  "nodeSizeMultiplier": 1,
+                  "lineSizeMultiplier": 1,
+                  "collapse-forces": true,
+                  "centerStrength": 0.518713248970312,
+                  "repelStrength": 10,
+                  "linkStrength": 1,
+                  "linkDistance": 250,
+                  "scale": 1.2083031867738372,
+                  "close": false
+                }
+              }
+            }
+          },
+          {
+            "id": "d291663f514bb8df",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 393,
+    "collapsed": true
+  },
+  "active": "12fca3be1cbcb731",
+  "lastOpenFiles": [
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Aurora.md",
+    "100 study-notes/101 AWS SAA/S3.md",
+    "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
+    "100 study-notes/101 AWS SAA/S3 Storage Classes.md",
+    "100 study-notes/101 AWS SAA/Other Databases.md",
+    "100 study-notes/101 AWS SAA/S3 Performance.md",
+    "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md",
+    "100 study-notes/101 AWS SAA/S3 Replication.md",
+    "100 study-notes/101 AWS SAA/S3 Websites.md"
+  ]
+}
