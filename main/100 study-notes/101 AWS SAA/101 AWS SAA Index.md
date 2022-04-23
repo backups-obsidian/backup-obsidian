@@ -73,6 +73,8 @@ updated: 2022-04-23 16:06
 
 ## CloudFront
 ## Global Accelerator
+## Decoupling Applications
+## Serverless
 ## Encryption
 [[KMS]]
 
