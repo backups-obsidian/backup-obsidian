@@ -184,6 +184,7 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "000 home.md",
     "100 study-notes/101 AWS SAA/Aurora.md",
     "100 study-notes/101 AWS SAA/S3.md",
     "100 study-notes/101 AWS SAA/S3 Miscellaneous.md",
@@ -191,7 +192,6 @@
     "100 study-notes/101 AWS SAA/Other Databases.md",
     "100 study-notes/101 AWS SAA/S3 Performance.md",
     "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md",
-    "100 study-notes/101 AWS SAA/S3 Replication.md",
-    "100 study-notes/101 AWS SAA/S3 Websites.md"
+    "100 study-notes/101 AWS SAA/S3 Replication.md"
   ]
 }

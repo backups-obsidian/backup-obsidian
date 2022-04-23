@@ -5,6 +5,10 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
       "basename": "Aurora",
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
     },
@@ -91,10 +95,6 @@
     {
       "basename": "ideas",
       "path": "400 misc/ideas.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     },
     {
       "basename": "ElastiCache",
