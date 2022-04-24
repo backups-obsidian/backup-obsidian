@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-23 16:38
+updated: 2022-04-24 11:58
 ---
 ---
 **Links**: [[../100 home]]
@@ -71,8 +71,13 @@ updated: 2022-04-23 16:38
 [[S3 Performance]]
 [[S3 Miscellaneous]]
 
-## CloudFront
-## Global Accelerator
+## CloudFront & Global Accelerator
+[[CloudFront]]
+[[CloudFront Advanced]]
+[[Global Accelerator]]
+
+## AWS Storage
+
 ## Decoupling Applications
 ## Serverless
 ## Encryption

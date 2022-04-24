@@ -1,6 +1,6 @@
 ---
 created: 2022-04-22 22:12
-updated: 2022-04-22 22:20
+updated: 2022-04-23 22:55
 ---
 ---
 **Links**: [[projects]]
@@ -13,3 +13,6 @@ updated: 2022-04-22 22:20
 - The best case scenario would be to somehow publish my notes online and then use a subdomain to point to it.
 - I am going for a github based approach since I don't trust google drive a lot, difficult to read notes.
 - Also I like the point that use Gdrive for sync and use something else for backup in which you can't delete things.
+
+## Conclusion
+- Using GitHub for backup
