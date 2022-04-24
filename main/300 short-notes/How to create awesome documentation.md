@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 22:56
-updated: 2022-04-23 23:16
+updated: 2022-04-24 22:30
 ---
 ---
 **Links**: [[300 home]]
@@ -16,3 +16,4 @@ updated: 2022-04-23 23:16
 - Useful links
 	- [obsidian-publish-mkdocs/mkdocs.yml at main · jobindj/obsidian-publish-mkdocs (github.com)](https://github.com/jobindj/obsidian-publish-mkdocs/blob/main/mkdocs.yml)
 	- [mkdocs-roamlinks-plugin · PyPI](https://pypi.org/project/mkdocs-roamlinks-plugin/)
+	- [lyz-code/blue-book: My personal knowledge repository (github.com)](https://github.com/lyz-code/blue-book)

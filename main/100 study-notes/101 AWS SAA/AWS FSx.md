@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-24 20:53
+updated: 2022-04-24 21:22
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,6 +8,7 @@ updated: 2022-04-24 20:53
 ---
 - Launch **3rd party high performance file systems** on AWS
 - Fully managed service
+- All *FSx and EFS are file storage solutions*. For example EBS and instance are block storage solutions.
 
 ## FSx for windows file server
 -   EFS is only available for linux systems. So if you want to **share data between windows systems** you have to use FSx for windows 

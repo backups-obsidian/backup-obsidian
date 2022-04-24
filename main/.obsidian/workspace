@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -184,14 +184,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/Introduction.md",
-    "100 study-notes/101 AWS SAA/AWS Storage Gateway.md",
-    "100 study-notes/101 AWS SAA/AWS FSx.md",
-    "100 study-notes/101 AWS SAA/AWS Snow.md",
-    "100 study-notes/101 AWS SAA/Global Accelerator.md",
-    "100 study-notes/101 AWS SAA/AWS Shield.md",
-    "300 short-notes/How to create awesome documentation.md",
+    "400 misc/useful symbols.md",
+    "000 home.md",
     "400 misc/projects.md",
+    "400 misc/ideas.md",
+    "300 short-notes/300 home.md",
+    "200 general-notes/200 home.md",
+    "100 study-notes/100 home.md",
+    "200 general-notes/LinkedIn write up ideas.md",
     "400 misc/publish-obsidian-vault.md"
   ]
 }
