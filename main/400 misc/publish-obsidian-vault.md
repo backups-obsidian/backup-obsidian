@@ -1,9 +1,11 @@
 ---
 created: 2022-04-22 00:37
-updated: 2022-04-22 10:55
+updated: 2022-04-24 19:48
 ---
 ---
-**Links**: [[projects]]
+**Links**: 
+	- [[projects]]
+	- [[../300 short-notes/How to create awesome documentation]]
 
 ---
 
@@ -15,3 +17,6 @@ updated: 2022-04-22 10:55
 	- mkdocs
 
 - will have to do more research
+- [Publishing Obsidian.md notes with GitLab Pages | GitLab](https://about.gitlab.com/blog/2022/03/15/publishing-obsidian-notes-with-gitlab-pages/)
+
+- To do it you need `obs2mk`

@@ -5,8 +5,44 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "Introduction",
+      "path": "100 study-notes/101 AWS SAA/Introduction.md"
+    },
+    {
+      "basename": "AWS Storage Gateway",
+      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
+    },
+    {
+      "basename": "AWS FSx",
+      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
+    },
+    {
+      "basename": "AWS Snow",
+      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
+    },
+    {
       "basename": "Global Accelerator",
       "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
+    },
+    {
+      "basename": "How to create awesome documentation",
+      "path": "300 short-notes/How to create awesome documentation.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
+    },
+    {
+      "basename": "publish-obsidian-vault",
+      "path": "400 misc/publish-obsidian-vault.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "backup-obisidian-vault",
+      "path": "400 misc/backup-obisidian-vault.md"
     },
     {
       "basename": "CloudFront Advanced",
@@ -19,22 +55,6 @@
     {
       "basename": "S3 Miscellaneous",
       "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "How to create awesome documentation",
-      "path": "300 short-notes/How to create awesome documentation.md"
-    },
-    {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
-    },
-    {
-      "basename": "backup-obisidian-vault",
-      "path": "400 misc/backup-obisidian-vault.md"
     },
     {
       "basename": "000 home",
@@ -103,10 +123,6 @@
     {
       "basename": "DynamoDB",
       "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
-    },
-    {
-      "basename": "publish-obsidian-vault",
-      "path": "400 misc/publish-obsidian-vault.md"
     },
     {
       "basename": "ideas",
@@ -183,22 +199,6 @@
     {
       "basename": "EC2 Hibernate",
       "path": "100 study-notes/101 AWS SAA/EC2 Hibernate.md"
-    },
-    {
-      "basename": "EC2 Metadata",
-      "path": "100 study-notes/101 AWS SAA/EC2 Metadata.md"
-    },
-    {
-      "basename": "EC2 AMI",
-      "path": "100 study-notes/101 AWS SAA/EC2 AMI.md"
-    },
-    {
-      "basename": "EFS",
-      "path": "100 study-notes/101 AWS SAA/EFS.md"
-    },
-    {
-      "basename": "Instance store",
-      "path": "100 study-notes/101 AWS SAA/Instance store.md"
     }
   ],
   "omittedPaths": [],

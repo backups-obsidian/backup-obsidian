@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-24 11:58
+updated: 2022-04-24 20:54
 ---
 ---
 **Links**: [[../100 home]]
@@ -77,6 +77,9 @@ updated: 2022-04-24 11:58
 [[Global Accelerator]]
 
 ## AWS Storage
+[[AWS Snow]]
+[[AWS FSx]]
+[[AWS Storage Gateway]]
 
 ## Decoupling Applications
 ## Serverless
