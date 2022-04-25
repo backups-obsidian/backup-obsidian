@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-24 20:54
+updated: 2022-04-25 20:50
 ---
 ---
 **Links**: [[../100 home]]
@@ -80,9 +80,25 @@ updated: 2022-04-24 20:54
 [[AWS Snow]]
 [[AWS FSx]]
 [[AWS Storage Gateway]]
+[[AWS Transfer Family]]
 
 ## Decoupling Applications
+[[SQS]]
+[[SNS]]
+[[Kinesis]]
+[[Amazon MQ]]
+
+> [!important]- **SQS vs SNS vs Kinesis**
+> ![[attachments/Pasted image 20220425162952.png]]
+
+## Containerisation
+[[ECS]]
+[[ECR & EKS]]
+
+For *logging* in both EKC and ECS use **CloudWatch Container Insights** to *collect*, *aggregate*, and *summarise metrics* and logs from your containerised applications and micro services. 
+
 ## Serverless
+
 ## Encryption
 [[KMS]]
 

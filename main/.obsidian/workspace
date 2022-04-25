@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": true
           },
@@ -184,14 +184,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/ECS.md",
+    "100 study-notes/101 AWS SAA/ECR & EKS.md",
     "400 misc/useful symbols.md",
-    "000 home.md",
-    "400 misc/projects.md",
-    "400 misc/ideas.md",
-    "300 short-notes/300 home.md",
-    "200 general-notes/200 home.md",
-    "100 study-notes/100 home.md",
-    "200 general-notes/LinkedIn write up ideas.md",
-    "400 misc/publish-obsidian-vault.md"
+    "100 study-notes/101 AWS SAA/Kinesis.md",
+    "100 study-notes/101 AWS SAA/SNS.md",
+    "100 study-notes/101 AWS SAA/Amazon MQ.md",
+    "100 study-notes/101 AWS SAA/SQS.md",
+    "100 study-notes/101 AWS SAA/AWS Transfer Family.md",
+    "600 rough/unlinked_files_output.md"
   ]
 }

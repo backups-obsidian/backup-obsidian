@@ -5,8 +5,44 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "ECS",
+      "path": "100 study-notes/101 AWS SAA/ECS.md"
+    },
+    {
+      "basename": "ECR & EKS",
+      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
+    },
+    {
       "basename": "useful symbols",
       "path": "400 misc/useful symbols.md"
+    },
+    {
+      "basename": "Kinesis",
+      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
+    },
+    {
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
+    },
+    {
+      "basename": "Amazon MQ",
+      "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
+      "basename": "AWS Transfer Family",
+      "path": "100 study-notes/101 AWS SAA/AWS Transfer Family.md"
+    },
+    {
+      "basename": "unlinked_files_output",
+      "path": "600 rough/unlinked_files_output.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
     },
     {
       "basename": "000 home",
@@ -163,42 +199,6 @@
     {
       "basename": "RDS Read Replica & Multi AZ",
       "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
-    },
-    {
-      "basename": "EC2 EBS",
-      "path": "100 study-notes/101 AWS SAA/EC2 EBS.md"
-    },
-    {
-      "basename": "Types of ELBs",
-      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
-    },
-    {
-      "basename": "Stickiness, Cross zone balancing & Connection Draining",
-      "path": "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md"
-    },
-    {
-      "basename": "ASG",
-      "path": "100 study-notes/101 AWS SAA/ASG.md"
-    },
-    {
-      "basename": "Termination Policy & Life Cycle Hooks",
-      "path": "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
-    },
-    {
-      "basename": "Launch Configuration-Template",
-      "path": "100 study-notes/101 AWS SAA/Launch Configuration-Template.md"
-    },
-    {
-      "basename": "Scaling Policies",
-      "path": "100 study-notes/101 AWS SAA/Scaling Policies.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "EC2 Lifecycle states",
-      "path": "100 study-notes/101 AWS SAA/EC2 Lifecycle states.md"
     }
   ],
   "omittedPaths": [],
