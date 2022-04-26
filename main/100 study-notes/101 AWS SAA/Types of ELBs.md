@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-20 16:06
+updated: 2022-04-26 21:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -42,7 +42,7 @@ updated: 2022-04-20 16:06
 - `X-Forwarded-For`: *Source IP address*, `X-Forwarded-Proto`: *Protocol*, `X-Forwarded-Port`: *Port*. These header is automatically added by the ALB.
 
 - ALB **supports authentication** from *OIDC (Open ID Connect)* compliant identity providers such as Google, Facebook and Amazon. It is *implemented through an authentication action on a listener rule* that integrates with **Amazon Cognito user pools**.
-
+ ^92a439
 - **Health checks** are performed using **HTTP and HTTPS**.
 - **Health checks can fail** for the following reasons:
 	- The *security group* of the EC2 instance does not allow for traffic from the security group of the Application Load Balancer.

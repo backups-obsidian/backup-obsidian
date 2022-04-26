@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-25 20:50
+updated: 2022-04-26 21:09
 ---
 ---
 **Links**: [[../100 home]]
@@ -98,6 +98,15 @@ updated: 2022-04-25 20:50
 For *logging* in both EKC and ECS use **CloudWatch Container Insights** to *collect*, *aggregate*, and *summarise metrics* and logs from your containerised applications and micro services. 
 
 ## Serverless
+In the beginning serverless just meant AWS Lambda but now it means anything that’s managed like databases, messaging, storage etc.
+[[Lambda]]
+[[API Gateway]]
+
+- SAM (Serverless Application Model)
+	- **Framework** for **developing**, **testing** and **deploying** serverless applications.
+	- All the *configuration* is in **YAML**.
+	- SAM can help us run Lambdas, DynamoDB, API Gateway etc **locally** in our system for **development**.
+	- SAM can use **CodeDeploy to deploy Lambda functions**
 
 ## Encryption
 [[KMS]]

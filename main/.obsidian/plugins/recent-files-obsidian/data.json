@@ -1,8 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "DynamoDB",
+      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
+    },
+    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "STS & Identity Federation",
+      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
+    },
+    {
+      "basename": "Types of ELBs",
+      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "300 short-notes/gRPC.md"
     },
     {
       "basename": "ECS",
@@ -161,10 +185,6 @@
       "path": "100 study-notes/101 AWS SAA/KMS.md"
     },
     {
-      "basename": "gRPC",
-      "path": "300 short-notes/gRPC.md"
-    },
-    {
       "basename": "Route53 Health Checks",
       "path": "100 study-notes/101 AWS SAA/Route53 Health Checks.md"
     },
@@ -177,28 +197,8 @@
       "path": "100 study-notes/101 AWS SAA/Route53.md"
     },
     {
-      "basename": "DynamoDB",
-      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
-    },
-    {
       "basename": "ElastiCache",
       "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
-    },
-    {
-      "basename": "RDS Security",
-      "path": "100 study-notes/101 AWS SAA/RDS Security.md"
-    },
-    {
-      "basename": "Pasted image 20220421144808",
-      "path": "100 study-notes/101 AWS SAA/attachments/Pasted image 20220421144808.png"
-    },
-    {
-      "basename": "RDS",
-      "path": "100 study-notes/101 AWS SAA/RDS.md"
-    },
-    {
-      "basename": "RDS Read Replica & Multi AZ",
-      "path": "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md"
     }
   ],
   "omittedPaths": [],

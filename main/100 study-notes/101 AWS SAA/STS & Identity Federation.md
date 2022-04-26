@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 20:21
-updated: 2022-04-19 09:50
+updated: 2022-04-26 21:07
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -67,3 +67,19 @@ updated: 2022-04-19 09:50
 - We have **Identity pools** and **User pools**.
 - STS API: **AssumeRoleWithWebIdentity**
 - In Cognito we can have **MFA**.
+
+#### User Pools
+- Create a serverless database of **user for your mobile apps**. 
+- *Simple login*: Username (or email) / password combination with the possibility to verify emails / phone numbers and *add MFA*
+-   *Can enable* **Federated Identities** (Facebook, Google, SAML...)
+- Sends back a JSON Web Tokens (*JWT*).
+- With a user pool, *users can sign in to web or mobile apps* through Amazon Cognito. Something like okta or keycloak. Manages all the authentication.
+
+> [!important] Can be integrated with [[Types of ELBs#^92a439|ALB]] and [[API Gateway]] for authentication.
+
+#### Identity Pools
+- Provide **direct access to AWS resources** such as *S3* and *DynamoDB* from the Client Side.
+- Provides **temporary access**.
+- Can *use federated identities* with identity pool also
+
+> [!note] Identity pool is the one that *uses AssumeRoleWithWebIdentity* and not user pool.
