@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 20:21
-updated: 2022-04-26 21:07
+updated: 2022-04-27 09:56
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -75,7 +75,7 @@ updated: 2022-04-26 21:07
 - Sends back a JSON Web Tokens (*JWT*).
 - With a user pool, *users can sign in to web or mobile apps* through Amazon Cognito. Something like okta or keycloak. Manages all the authentication.
 
-> [!important] Can be integrated with [[Types of ELBs#^92a439|ALB]] and [[API Gateway]] for authentication.
+> [!important] Can be integrated with [[Types of ELBs#^92a439|ALB]] and [[API Gateway#Cognito User Pools|API Gateway]] for authentication.
 
 #### Identity Pools
 - Provide **direct access to AWS resources** such as *S3* and *DynamoDB* from the Client Side.

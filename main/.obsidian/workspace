@@ -17,19 +17,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "e2f99fcb861013ec",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/101 AWS SAA/DynamoDB.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -81,7 +68,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/DynamoDB.md",
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/DynamoDB.md"
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
               }
             }
           },
@@ -148,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/DynamoDB.md",
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,17 +181,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "e2f99fcb861013ec",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "100 study-notes/101 AWS SAA/DynamoDB.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/STS & Identity Federation.md",
-    "100 study-notes/101 AWS SAA/Types of ELBs.md",
     "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "300 short-notes/gRPC.md",
-    "100 study-notes/101 AWS SAA/ECS.md",
-    "100 study-notes/101 AWS SAA/ECR & EKS.md",
-    "400 misc/useful symbols.md"
+    "100 study-notes/101 AWS SAA/STS & Identity Federation.md",
+    "100 study-notes/101 AWS SAA/DynamoDB.md",
+    "200 general-notes/200 home.md",
+    "200 general-notes/Useful Mac Apps.md",
+    "300 short-notes/300 home.md",
+    "300 short-notes/What is oh-my-zsh actually.md",
+    "100 study-notes/101 AWS SAA/Types of ELBs.md",
+    "100 study-notes/101 AWS SAA/Lambda.md"
   ]
 }

@@ -112,10 +112,14 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[KMS]]
 
 ## Monitoring and Auditing
+[[CloudWatch]]
+[[EventBridge]]
 [[Cloud Trail]]
+[[Config]]
+
+## VPC
 
 
----
 ## Miscellaneous
 - Billing is a **global** service.
 - All the snapshots are stored in S3.
