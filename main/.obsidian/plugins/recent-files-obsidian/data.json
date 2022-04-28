@@ -5,6 +5,22 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "Config",
+      "path": "100 study-notes/101 AWS SAA/Config.md"
+    },
+    {
+      "basename": "Cloud Trail",
+      "path": "100 study-notes/101 AWS SAA/Cloud Trail.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
       "basename": "API Gateway",
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
     },
@@ -181,24 +197,8 @@
       "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
     },
     {
-      "basename": "Cloud Trail",
-      "path": "100 study-notes/101 AWS SAA/Cloud Trail.md"
-    },
-    {
       "basename": "S3 Encryption",
       "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
-      "basename": "Route53 Health Checks",
-      "path": "100 study-notes/101 AWS SAA/Route53 Health Checks.md"
-    },
-    {
-      "basename": "Route53 Routing Policies",
-      "path": "100 study-notes/101 AWS SAA/Route53 Routing Policies.md"
     }
   ],
   "omittedPaths": [],
