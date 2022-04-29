@@ -1,12 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "Guard Duty",
-      "path": "100 study-notes/101 AWS SAA/Guard Duty.md"
-    },
-    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "GuardDuty",
+      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
+    },
+    {
+      "basename": "Inspector & Macie",
+      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
     },
     {
       "basename": "WAF & Firewall",
@@ -195,10 +199,6 @@
     {
       "basename": "S3 Miscellaneous",
       "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
-    },
-    {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
     }
   ],
   "omittedPaths": [],

@@ -117,7 +117,7 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 ## Security
 [[Shield]]
 [[WAF & Firewall]]
-[[Guard Duty]]
+[[GuardDuty]]
 [[Inspector & Macie]]
 
 ## Monitoring and Auditing
@@ -127,6 +127,7 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[Config]]
 
 ## VPC
+
 
 
 ## Miscellaneous
