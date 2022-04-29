@@ -1,6 +1,7 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-04-26 22:57
+updated: 2022-04-28 21:54
+description: Any thing short that is tech related
 ---
 ---
 **Links**:  [[../000 home]]
@@ -11,3 +12,4 @@ updated: 2022-04-26 22:57
 [[gRPC]]
 [[How to create awesome documentation]]
 [[What is oh-my-zsh actually]]
+[[Setting up ZSH]]

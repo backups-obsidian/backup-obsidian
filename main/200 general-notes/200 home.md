@@ -1,6 +1,7 @@
 ---
 created: 2022-04-16 16:38
-updated: 2022-04-26 21:37
+updated: 2022-04-28 21:54
+description: Non tech related stuff
 ---
 ---
 **Links**: [[../000 home]]

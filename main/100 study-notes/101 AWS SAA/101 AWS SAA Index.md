@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-27 10:06
+updated: 2022-04-29 10:16
 ---
 ---
 **Links**: [[../100 home]]
@@ -110,6 +110,15 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 
 ## Encryption
 [[KMS]]
+[[SSM Parameter Store]]
+[[Secrets Manager]]
+[[CloudHSM]]
+
+## Security
+[[Shield]]
+[[WAF & Firewall]]
+[[Guard Duty]]
+[[Inspector & Macie]]
 
 ## Monitoring and Auditing
 [[CloudWatch]]

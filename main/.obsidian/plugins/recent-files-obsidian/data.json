@@ -1,8 +1,48 @@
 {
   "recentFiles": [
     {
+      "basename": "Guard Duty",
+      "path": "100 study-notes/101 AWS SAA/Guard Duty.md"
+    },
+    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "WAF & Firewall",
+      "path": "100 study-notes/101 AWS SAA/WAF & Firewall.md"
+    },
+    {
+      "basename": "Shield",
+      "path": "100 study-notes/101 AWS SAA/Shield.md"
+    },
+    {
+      "basename": "CloudHSM",
+      "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "Secrets Manager",
+      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
+    },
+    {
+      "basename": "SSM Parameter Store",
+      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "Setting up ZSH",
+      "path": "300 short-notes/Setting up ZSH.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "Config",
@@ -33,16 +73,8 @@
       "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
     },
     {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
       "basename": "Useful Mac Apps",
       "path": "200 general-notes/Useful Mac Apps.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "What is oh-my-zsh actually",
@@ -167,38 +199,6 @@
     {
       "basename": "Aurora",
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
-      "basename": "S3",
-      "path": "100 study-notes/101 AWS SAA/S3.md"
-    },
-    {
-      "basename": "S3 Storage Classes",
-      "path": "100 study-notes/101 AWS SAA/S3 Storage Classes.md"
-    },
-    {
-      "basename": "Other Databases",
-      "path": "100 study-notes/101 AWS SAA/Other Databases.md"
-    },
-    {
-      "basename": "S3 Performance",
-      "path": "100 study-notes/101 AWS SAA/S3 Performance.md"
-    },
-    {
-      "basename": "S3 Lifecycle Rules",
-      "path": "100 study-notes/101 AWS SAA/S3 Lifecycle Rules.md"
-    },
-    {
-      "basename": "S3 Replication",
-      "path": "100 study-notes/101 AWS SAA/S3 Replication.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "S3 Encryption",
-      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
     }
   ],
   "omittedPaths": [],
