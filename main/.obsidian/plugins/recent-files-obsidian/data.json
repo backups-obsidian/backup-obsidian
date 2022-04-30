@@ -1,16 +1,28 @@
 {
   "recentFiles": [
     {
-      "basename": "DNS in VPC",
-      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
-    },
-    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+    },
+    {
+      "basename": "VPC Peering and Endpoints",
+      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    },
+    {
       "basename": "VPC Internet Access",
       "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+    },
+    {
+      "basename": "NACLs",
+      "path": "100 study-notes/101 AWS SAA/NACLs.md"
+    },
+    {
+      "basename": "DNS in VPC",
+      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
     },
     {
       "basename": "VPC & Subnets",
@@ -187,18 +199,6 @@
     {
       "basename": "AWS FSx",
       "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
-    },
-    {
-      "basename": "Introduction",
-      "path": "100 study-notes/101 AWS SAA/Introduction.md"
-    },
-    {
-      "basename": "AWS Snow",
-      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "Global Accelerator",
-      "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
     }
   ],
   "omittedPaths": [],

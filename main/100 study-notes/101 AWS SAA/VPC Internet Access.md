@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 20:22
-updated: 2022-04-30 08:15
+updated: 2022-04-30 09:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -92,3 +92,11 @@ updated: 2022-04-30 08:15
 
 - After creating the NAT gateway in the public subnet we need to **modify the route tables of the private subnet to use the NAT gateway**.
 	- ![[attachments/Pasted image 20220430080937.png]]
+
+## VPC Reachability Analyser
+- It **doesn’t send packets** just analyses the configuration.
+- It is a network diagnostics tool that troubleshoots network connectivity between two endpoints in your VPC(s)
+- It *builds a model* of the network configuration, then checks the reachability based on these configurations (it doesn't send packets) 
+- When the destination is reachable it produces hop-by-hop details of the virtual network path  
+- When not reachable it *identifies the blocking component(s)* (e.g., configuration issues in SGs, NACLs, Route Tables, ...)
+- **Use cases**: *troubleshoot connectivity issues*, ensure network configuration is as intended etc.

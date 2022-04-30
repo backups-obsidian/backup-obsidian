@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-30 07:59
+updated: 2022-04-30 11:33
 ---
 ---
 **Links**: [[../100 home]]
@@ -131,7 +131,8 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[VPC Internet Access]]
 [[DNS in VPC]]
 [[NACLs]]
-
+[[VPC Peering and Endpoints]]
+[[VPC Flow Logs]]
 
 
 ## Miscellaneous
