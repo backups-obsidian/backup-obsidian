@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "Rough",
       "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     }
   ],
   "omittedPaths": [],

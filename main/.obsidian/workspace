@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "a44abd46a570abb4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "000 home.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "file": "000 home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+                "file": "000 home.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "file": "000 home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +194,9 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "12fca3be1cbcb731",
+  "active": "a44abd46a570abb4",
   "lastOpenFiles": [
+    "000 home.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/Direct Connect.md",
     "100 study-notes/101 AWS SAA/AWS PrivateLink.md",
@@ -191,7 +205,6 @@
     "100 study-notes/101 AWS SAA/Site to Site VPN.md",
     "100 study-notes/101 AWS SAA/DataSync & Backup.md",
     "100 study-notes/101 AWS SAA/DMS.md",
-    "100 study-notes/101 AWS SAA/Disaster Recovery.md",
-    "100 study-notes/101 AWS SAA/Other Services.md"
+    "100 study-notes/101 AWS SAA/Disaster Recovery.md"
   ]
 }
