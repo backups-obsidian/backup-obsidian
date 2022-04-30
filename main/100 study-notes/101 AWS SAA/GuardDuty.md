@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-29 19:27
+updated: 2022-04-30 11:39
 ---
 ---
 **Links**: [[101 AWS SAA Index]]

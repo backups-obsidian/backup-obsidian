@@ -5,6 +5,22 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "DataSync & Backup",
+      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
+    },
+    {
+      "basename": "DMS",
+      "path": "100 study-notes/101 AWS SAA/DMS.md"
+    },
+    {
+      "basename": "Disaster Recovery",
+      "path": "100 study-notes/101 AWS SAA/Disaster Recovery.md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
       "basename": "VPC Flow Logs",
       "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "publish-obsidian-vault",
       "path": "400 misc/publish-obsidian-vault.md"
-    },
-    {
-      "basename": "backup-obisidian-vault",
-      "path": "400 misc/backup-obisidian-vault.md"
-    },
-    {
-      "basename": "How to create awesome documentation",
-      "path": "300 short-notes/How to create awesome documentation.md"
-    },
-    {
-      "basename": "AWS Storage Gateway",
-      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
-    },
-    {
-      "basename": "AWS FSx",
-      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
     }
   ],
   "omittedPaths": [],

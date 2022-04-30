@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-30 11:33
+updated: 2022-04-30 15:37
 ---
 ---
 **Links**: [[../100 home]]
@@ -134,11 +134,25 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 [[VPC Peering and Endpoints]]
 [[VPC Flow Logs]]
 
+## Disaster Recovery
+[[Disaster Recovery]]
+[[DMS]]
+[[DataSync & Backup]]
+
+## Other Services
+[[Other Services]]
 
 ## Miscellaneous
 - Billing is a **global** service.
 - All the snapshots are stored in S3.
+- Pillars of **well architected framework**.
+	- *Operational Excellence*
+	- *Security*
+	- *Reliability*
+	- *Performance Efficiency*
+	- *Cost optimisation*
 
----
-Later
-- In S3 for **bucket level** permissions you **don't need trailing \*** in the resource like ListBucket. You need a **trailing \* for object level permissions** like get put or delete object.
+## References
+- [(1) AWS and Cloud Interview Questions - YouTube](https://www.youtube.com/playlist?list=PLiH9_MU-6RjJVmB9QznLHSO5OHrlWBSCh)
+- Stephane Maerek Udemy course
+- Tests in Udemy by Stephane, Neal Davis and Jon Bonso.
