@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-29 10:49
+updated: 2022-04-29 19:27
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -10,9 +10,9 @@ updated: 2022-04-29 10:49
 - **Intelligent threat discovery** to protect AWS account.
 - Uses ML algorithms, anomaly detection
 - Input data includes:  
-	- **VPC** 
-	- **DNS** 
-	- **CloudTrail** data and management events. Since S3 can be categorised under cloud trail data events it can also monitor data stored in S3.
+	- **VPC flow logs** 
+	- **DNS logs** 
+	- **CloudTrail** *data and management events*. Since S3 can be categorised under cloud trail data events it can also monitor data stored in S3.
     
 - **Disabling** the service *will delete all remaining data*, including your findings and configurations before relinquishing the service permissions and resetting the service.
 - Can protect against **crypto currency attacks**. It has a *dedicated finding* for it.

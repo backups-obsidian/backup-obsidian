@@ -1,8 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "DNS in VPC",
+      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
+    },
+    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "VPC Internet Access",
+      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
+    },
+    {
+      "basename": "VPC & Subnets",
+      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
     },
     {
       "basename": "GuardDuty",
@@ -187,18 +199,6 @@
     {
       "basename": "Global Accelerator",
       "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "S3 Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
     }
   ],
   "omittedPaths": [],
