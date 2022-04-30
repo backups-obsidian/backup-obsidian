@@ -5,6 +5,26 @@
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
+      "basename": "Direct Connect",
+      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
+    },
+    {
+      "basename": "AWS PrivateLink",
+      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
+    },
+    {
+      "basename": "IPv6 & Egress Internet Gateway",
+      "path": "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md"
+    },
+    {
+      "basename": "Transit Gateway",
+      "path": "100 study-notes/101 AWS SAA/Transit Gateway.md"
+    },
+    {
+      "basename": "Site to Site VPN",
+      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
+    },
+    {
       "basename": "DataSync & Backup",
       "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "000 home",
       "path": "000 home.md"
-    },
-    {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
-    },
-    {
-      "basename": "ideas",
-      "path": "400 misc/ideas.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "LinkedIn write up ideas",
-      "path": "200 general-notes/LinkedIn write up ideas.md"
-    },
-    {
-      "basename": "publish-obsidian-vault",
-      "path": "400 misc/publish-obsidian-vault.md"
     }
   ],
   "omittedPaths": [],

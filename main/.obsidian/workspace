@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -184,14 +184,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Direct Connect.md",
+    "100 study-notes/101 AWS SAA/AWS PrivateLink.md",
+    "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md",
+    "100 study-notes/101 AWS SAA/Transit Gateway.md",
+    "100 study-notes/101 AWS SAA/Site to Site VPN.md",
     "100 study-notes/101 AWS SAA/DataSync & Backup.md",
     "100 study-notes/101 AWS SAA/DMS.md",
     "100 study-notes/101 AWS SAA/Disaster Recovery.md",
-    "100 study-notes/101 AWS SAA/Other Services.md",
-    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
-    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md",
-    "100 study-notes/101 AWS SAA/VPC Internet Access.md",
-    "100 study-notes/101 AWS SAA/NACLs.md",
-    "100 study-notes/101 AWS SAA/DNS in VPC.md"
+    "100 study-notes/101 AWS SAA/Other Services.md"
   ]
 }
