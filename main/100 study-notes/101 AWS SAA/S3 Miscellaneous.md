@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2022-04-23 15:53
+updated: 2022-05-01 15:46
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -47,6 +47,8 @@ updated: 2022-04-23 15:53
 - Adopt a **WORM (write once read many)** model.
 - It is helpful for **compliance** and at **data retention**
 - An object would go in the glacier and you will add a glacier vault lock policy saying that the **object cannot be deleted** and the **policy** itself **cannot be deleted**.
+
+> [!note] A vault is a container for *storing archives on Glacier*. Vault Lock is *only for Glacier and not for S3*.
 
 ## S3 Object Lock
 - To use this we **must** **enable versioning**

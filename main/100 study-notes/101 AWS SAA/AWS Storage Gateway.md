@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-04-24 22:11
+updated: 2022-05-01 16:15
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -47,6 +47,8 @@ updated: 2022-04-24 22:11
 - Back up data using **existing tape-based processes** (and **iSCSI interface**)
 
 > [!tip] If question mentions backed by *S3 Glacier*, *tape* then always go for tape gateway.
+
+> [!note] Tape Gateway is the *only way of transferring data stored in tapes to AWS*. You *cannot use DataSync* since it uses SMB or NFS file types.
 
 ## Required hardware
 > [!caution] **Gateway** has to run on **corporate data centres**.

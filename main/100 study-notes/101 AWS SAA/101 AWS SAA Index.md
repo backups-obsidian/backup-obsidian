@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-05-01 12:58
+updated: 2022-05-01 16:11
 ---
 ---
 **Links**: [[../100 home]]
@@ -167,6 +167,10 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 - Billing is a **global** service.
 - **Unpredictable load** always go for **serverless** option.
 - All the snapshots are stored in S3.
+- *CloudFront* allows you to increase the performance and reduce the cost of the application *without making any application changes*.
+
+- Different layers of caching
+	- ![[attachments/Pasted image 20220501161025.png]]
 
 - Use *Golden AMI*, *EC2 User Data* and *ElasticBeanstalk* for instantiating applications quickly.
 	- Create a *Golden AMI* with the *static installation components* already setup
@@ -186,6 +190,6 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 	- We **cannot use ALB** since it works for HTTP level traffic and for SSH we need TCP level traffic.
 
 ## References
-- [(1) AWS and Cloud Interview Questions - YouTube](https://www.youtube.com/playlist?list=PLiH9_MU-6RjJVmB9QznLHSO5OHrlWBSCh)
+- [AWS and Cloud Interview Questions - YouTube](https://www.youtube.com/playlist?list=PLiH9_MU-6RjJVmB9QznLHSO5OHrlWBSCh)
 - Stephane Maerek Udemy course
 - Tests in Udemy by Stephane, Neal Davis and Jon Bonso.

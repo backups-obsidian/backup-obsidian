@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 15:35
+updated: 2022-05-01 15:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,16 +20,18 @@ updated: 2022-04-30 15:35
 
 ## DR Strategies
 - List of strategies with RPO and RTO in decreasing order.
-- **Backup & Restore** 
+- **Backup & Restore**: RPO and RTO in *hours*.
     - It is quite *cheap*. We *recreate infrastructure only when we have a disaster*.
     - Very *easy*.
-- **Pilot Light**
+- **Pilot Light**: *RPO in minutes, RTO in hours*.
     - A *small version of the app* is always running in the cloud.
     - Useful for the **critical core (pilot light)**
     - **Faster than Backup and Restore as critical systems are already up**
     - For example in the RDS will be running but not the EC2 instances so if some disaster strikes the on premise data centre then Route53 will manage the failover.
-- **Warm Standby**
+- **Warm Standby**: *RPO in seconds, RTO in minutes*.
     - **Full system is up and running, but at minimum size**
     - Upon disaster, we can *scale to production load*
--   **Multi Site/ Hot Site approach**
+-   **Multi Site/ Hot Site approach**: RPO and RTO is *almost 0*.
 	- **Full Production Scale** is running AWS and On Premise
+
+> [!note] To remember RPO and RTO RPO decreases first, left hand side since P < T so RPO < RTO.

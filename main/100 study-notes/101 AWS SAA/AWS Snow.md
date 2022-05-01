@@ -1,6 +1,6 @@
 ---
 created: 2022-04-24 20:22
-updated: 2022-04-24 20:40
+updated: 2022-05-01 16:07
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -42,6 +42,8 @@ updated: 2022-04-24 20:40
 - **Use Cases**: *large cloud migrations*, disaster recovery
 
 > [!caution]- Snowball **cannot import to Glacier directly**. You must use Amazon S3 first, in combination with an S3 lifecycle policy.
+
+> [!note] Both snowball edge compute and storage optimised allow for **storage clustering**.
 
 ### Snowmobile
 - It is used for **transferring EBs** of data

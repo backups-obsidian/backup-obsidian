@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 12:50
+updated: 2022-05-01 16:17
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -76,7 +76,9 @@ updated: 2022-05-01 12:50
 - Less latency (*100 ms*) as compared to ALBs (*400 ms*).
 - It maintains a *single connection* between the client and the EC2 machine. So we can *passthrough traffic* from NLB and *terminate SSL at EC2 instances*.
 
-> [!caution] NLB has **one static IP per AZ** and **supports assigning elastic IP**. This feature is important. In *ALB and CLB we only get fixed hostname*.
+> [!caution]- NLB has **one static IP per AZ** and **supports assigning elastic IP**. This feature is important. In *ALB and CLB we only get fixed hostname*.
+> - Go for NLBs if the question mentions anything about IPs since ALBs can be target groups for NLBs. 
+> - But if the question mentions multi region balancing then go for [[Global Accelerator]].
 
 > [!note] We *cannot use SGs* with NLBs.
 

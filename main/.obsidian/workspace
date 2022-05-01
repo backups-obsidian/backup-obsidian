@@ -183,14 +183,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Global Accelerator.md",
     "100 study-notes/101 AWS SAA/Types of ELBs.md",
+    "100 study-notes/101 AWS SAA/AWS Storage Gateway.md",
     "100 study-notes/101 AWS SAA/EC2 AMI.md",
-    "100 study-notes/101 AWS SAA/DMS.md",
     "100 study-notes/101 AWS SAA/Aurora.md",
-    "100 study-notes/101 AWS SAA/Route53.md",
-    "100 study-notes/101 AWS SAA/CloudWatch.md",
-    "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md",
-    "100 study-notes/101 AWS SAA/EC2 Tenancy.md",
-    "100 study-notes/101 AWS SAA/EC2 Basics.md"
+    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/AWS Snow.md",
+    "100 study-notes/101 AWS SAA/Other Services.md",
+    "100 study-notes/101 AWS SAA/RDS Security.md"
   ]
 }

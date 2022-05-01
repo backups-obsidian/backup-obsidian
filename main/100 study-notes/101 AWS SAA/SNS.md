@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-04-25 19:03
+updated: 2022-05-01 15:39
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -21,9 +21,9 @@ updated: 2022-04-25 19:03
 		- *Lambda*
 		- *SQS*
 	- Other:
-		- Email
-		- SMS
-		- Mobile Notifications
+		- *Email*
+		- *SMS*
+		- *Mobile Notifications*
 		- HTTP/HTTPS
 - Many services can **send data directly to SNS for notifications**. 
 	- Like CloudWatch alarms

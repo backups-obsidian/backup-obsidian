@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-21 13:53
+updated: 2022-05-01 16:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -48,3 +48,4 @@ updated: 2022-04-21 13:53
 - The major benefit of using IAM authentication is that we can **centrally manage users** using IAM *instead of using the DB*.
 	- Can leverage *IAM Roles* and EC2 Instance profiles *for easy integration*.
 - It is supported by **Postgres** and **MySQL**.
+- IAM authentication to RDS is supported, which must be *achieved by attaching an IAM role* the AWS Lambda function

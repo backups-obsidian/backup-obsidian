@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-26 20:56
+updated: 2022-05-01 15:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -18,10 +18,13 @@ updated: 2022-04-26 20:56
 - It has extensive support for different languages. Even if a language is not supported by AWS there is *Custom Runtime API which is community supported*.
 - You can run **containers on lambda** but it **must** implement **Lambda Runtime API**. ECS/fargate are preferred for running arbitrary docker images.
 - Lambda seamlessly integrates with a lot of AWS services. It has a *direct integration with S3*.
+- If you intend to *reuse code* in more than one Lambda function, you should consider creating a **Lambda Layer** for the reusable code.
 
 - *Some use cases* of lambda: thumbnail creation when an image is uploaded to S3, *serverless cron jobs* using CloudWatch events. If you would have used EC2 instances then you will have to run the instance 24x7 and pay for the time when the CRON job is not running
 
 > [!note] Lambda and in general any serverless application is best for intermittent and *bursty load*.
+
+> [!note] You can package and deploy lambda functions as *container images*.
 
 ### Using a custom VPC
 > [!caution]+ By **default**, Lambda functions always **operate from an AWS owned VPC** and hence *have access to any public internet address or public AWS APIs*. Once a *Lambda function is VPC enabled*, it will need a *route through a NAT gateway in a public subnet* to access public resources.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 09:25
-updated: 2022-04-19 09:52
+updated: 2022-05-01 15:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -26,6 +26,14 @@ updated: 2022-04-19 09:52
 
 > [!question]+ Why use AWS managed or Customer managed policy over inline policy?
 > When the **identity is deleted the inline policy gets deleted**. It is also **not reusable** for example if you want to attach the same inline policy to another user you will have to create it again whereas if you create a customer managed policy then you can assign it to any user, role or group.
+
+## Trust Policy
+- **Trust policies** define which *principal entities* (accounts, users, roles, and federated users) *can assume the role*. 
+- An IAM role is **both an identity and a resource** that supports resource-based policies.
+- For this reason, you *must attach both a trust policy and an identity-based policy to an IAM role.* 
+- The IAM service supports **only one type of resource-based policy** called a role trust policy, which is attached to an IAM role.
+
+> [!note] Trust policy is the only resource based policy supported by IAM service.
 
 ## RAM (Resource Access Manager)
 - **Share AWS resources** that you own with **other AWS accounts** or share with any account **or within your Organisation**.

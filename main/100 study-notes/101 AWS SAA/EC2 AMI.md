@@ -1,12 +1,13 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 12:35
+updated: 2022-05-01 16:13
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 - Built for a **specific region**. **Can be copied to other regions**.
+	- In case of a DR strategy where EC2 instances have to be booted up from a single AMI make sure that the *AMI has been copied to all the regions*.
 - If you have a *custom AMI then the boot time will be faster*. You have to make and maintain you own custom AMIs.
 - AMIs *can be shared* with other AWS accounts.
 - There are 3 options for AMIs: 

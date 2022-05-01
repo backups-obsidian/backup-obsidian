@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 10:07
+updated: 2022-05-01 16:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -102,7 +102,7 @@ updated: 2022-05-01 10:07
 - Create *custom reports* that analyse cost and usage data.
 - Choose an optimal **Savings Plan** (to lower prices on your bill)
 - **Forecast** usage up to 12 months based on previous usage
-- **Compute optimiser** is used to get *EC2 instance type recommendations*.
+- **Compute optimiser** is used to get *EC2 instance type recommendations*. It *doesn't give instance purchase recommendations* like going for reserved instances.
 
 > [!note] Keywords: **recommendations**, *optimise costs*, *reports*,*forecast*.
 
@@ -116,7 +116,7 @@ updated: 2022-05-01 10:07
 
 ## X-RAY
 - AWS X-Ray helps developers **analyse and debug production, distributed applications**, such as those built using a microservices architecture.
-- You can use X-Ray to collect data **across AWS Accounts**.
+- You can use X-Ray to *collect and trace* data **across AWS Accounts**.
 - Use case: There is a requirement to trace and *analyse user requests as they travel through your Amazon API Gateway APIs* to the underlying services.
 
 ## Systems Manager 

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-28 08:02
+updated: 2022-05-01 15:59
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,3 +19,6 @@ updated: 2022-04-28 08:02
 - We create **rules** on **how** we want **to process the events**.
 - **Schema Registry** → know in advance how the data will look like and generate code in advance
 - The *main difference* between EventBridge and CloudWatch Events are the *buses and schema registry*.
+
+> [!note]- Go for EventBridge over SQS when the question mentions **3rd SaaS party applications**.
+> SQS works well for decoupling applications. It *does not directly integrate with third-party SaaS services*.
