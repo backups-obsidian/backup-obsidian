@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:48
-updated: 2022-04-20 20:29
+updated: 2022-05-01 10:20
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -9,6 +9,9 @@ updated: 2022-04-20 20:29
 
 ## Dynamic Scaling Policies
 - It is of 3 types: **target tracking**, **step** and **simple**
+
+> [!note]- If you have multiple scaling policies and multiple of them are met at the same time then
+> Amazon EC2 Auto Scaling chooses the *policy that provides the largest capacity*.
 
 ### Target Tracking
 - It increases or decreases the current capacity of the group **based on a target value** for a specific metric. 

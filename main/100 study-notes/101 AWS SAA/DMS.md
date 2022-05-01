@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 15:58
+updated: 2022-05-01 12:06
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,12 +15,13 @@ updated: 2022-04-30 15:58
     - **Heterogeneous migrations**: ex Microsoft SQL Server to Aurora
 - Continuous Data Replication using **CDC (Change Data Capture)**
 - You must create an *EC2 instance* to perform the *migration tasks*.
+- DMS can be used to **replicate the data from the databases** into Amazon Redshift.
 
 > [!important]+ It can act as a bridge from *S3 to KDS*.
 > - Not only for migrating databases but *also for migrating data between different sources*.
 > - It can also be used for **data replication** related to databases.
 
-> [!note] Keywords: *replication on premise*, *database migration* 
+> [!note] Keywords: *replication*, *database migration* 
 
 ## SCT
 - It stands **Schema Conversion Tool**.

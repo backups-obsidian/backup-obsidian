@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 15:25
+updated: 2022-05-01 10:07
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -47,7 +47,7 @@ updated: 2022-04-30 15:25
 - We can have different stacks for different things for separation of concerns.
 - We can use AWS CLI to fully automate infrastructure deployment using CloudFormation.
 - Some important template components are *resources*, *parameters* and *outputs*.
-- With **StackSets** we can Create, update, or delete stacks across **multiple accounts and regions** with a single operation. Useful in AWS organisations.
+- With **StackSets** we can Create, update, or delete stacks across **multiple accounts and regions** with a single operation. Useful in **AWS organisations**.
 - Use **direct updates** when you want to quickly *deploy your updates*. 
 - With **change sets**, you can *preview the changes AWS CloudFormation* will make to your stack, and then decide whether to apply those changes.
 

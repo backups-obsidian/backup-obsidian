@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-22 19:32
+updated: 2022-05-01 11:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -40,6 +40,19 @@ updated: 2022-04-22 19:32
 -   **Private hosted zones** are for domain names that are not publicly available but are private. It can be only resolved by us in our **VPC**.
 -   For **any hosted zone** we are going to **pay 0.5$**
 - Public and private hosted zones work in the exact same way, the only difference is that public hosted zones allow anyone from the internet to query your records where as in private hosted zone the records can be queried only from the VPC.
+
+## Inbound and Outbound Endpoints
+- Amazon Route 53 effectively *connects user requests to infrastructure running in AWS* – such as Amazon EC2 instances  
+- It can also be used to **route users to infrastructure outside of AWS**. 
+- By **default**, Route 53 Resolver automatically *answers DNS queries for local VPC domain* names for EC2 instances. 
+- You can **integrate** DNS resolution between **Route 53 Resolver and DNS resolvers on your on-premises** network by *configuring forwarding rules*.
+- To resolve any *DNS queries for resources in the AWS VPC from the on-premises network*, you can create an **inbound endpoint** on Route 53 Resolver. DNS resolvers on the on-premises network can forward DNS queries to Route 53 Resolver via this endpoint.
+	- ![[attachments/Pasted image 20220501115457.png]]
+
+- To resolve *DNS queries for any resources in the on-premises network from the AWS VPC*, you can create an **outbound endpoint** on Route 53 Resolver. Route 53 Resolver can conditionally *forward queries to resolvers on the on-premises network via this endpoint*. 
+	- ![[attachments/Pasted image 20220501115514.png]]
+
+> [!note] To remember: **in** means queries **from on premises**.
 
 ## TTL
 - Stands for Time To Live
@@ -82,3 +95,8 @@ updated: 2022-04-22 19:32
 	- Route 53 record in the same hosted zone
 
 > [!caution] You cannot set ALIAS record for *EC2 DNS* name
+
+> [!note]- CNAME over ALIAS
+>  So, if you register the DNS name `covid19survey.com`, the zone apex is `covid19survey.com`. You *can't create a CNAME record* for `covid19survey.com`, but you can create an **alias record** for `covid19survey.com` that routes traffic to `www.covid19survey.com`.
+> 
+> An alias record *can only redirect queries to selected AWS resources* such as S3 buckets, CloudFront distributions, and another record in the same Route 53 hosted zone; however a *CNAME record can redirect DNS queries to any DNS record*. So, you can **create a CNAME** record that redirects queries from `app.covid19survey.com` to `app.covid19survey.net`.

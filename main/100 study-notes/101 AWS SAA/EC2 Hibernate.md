@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-19 19:40
+updated: 2022-05-01 11:16
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,3 +15,5 @@ updated: 2022-04-19 19:40
 > [!caution] **Root** EBS volume must be **encrypted** to use hibernate.
 
 > [!caution] **Instance storage** is not supported.
+
+> [!note] Use hibernate if you want to *keep the instance pre-warmed* so it can launch the analysis right away when needed. *Custom AMIs cannot be used* to pre-warm the instances.

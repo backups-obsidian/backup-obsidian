@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-20 10:44
+updated: 2022-05-01 12:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,6 +8,7 @@ updated: 2022-04-20 10:44
 ---
 - Built for a **specific region**. **Can be copied to other regions**.
 - If you have a *custom AMI then the boot time will be faster*. You have to make and maintain you own custom AMIs.
+- AMIs *can be shared* with other AWS accounts.
 - There are 3 options for AMIs: 
 	- *Public*: AWS provided 
 	- *Marketplace*: Made by someone else and potentially sold.
@@ -15,6 +16,7 @@ updated: 2022-04-20 10:44
 - **AMIs are stored in S3** but we cannot view them.
 - We can copy EBS and instance store backed AMIs. 
 - There are *no charges on copying an AMI*. 
+- Use a **Golden AMI** to get EC2 instances ready quicker. In the Golden AMI install your applications, OS dependencies etc, all the *static installation components*.
 
 > [!important] When the new AMI is copied from region A into region B, it **automatically creates a snapshot in region B because AMIs are based on the underlying snapshots**. 
 

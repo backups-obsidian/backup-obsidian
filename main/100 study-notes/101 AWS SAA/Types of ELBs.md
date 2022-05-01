@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-26 21:02
+updated: 2022-05-01 12:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -78,12 +78,18 @@ updated: 2022-04-26 21:02
 
 > [!caution] NLB has **one static IP per AZ** and **supports assigning elastic IP**. This feature is important. In *ALB and CLB we only get fixed hostname*.
 
+> [!note] We *cannot use SGs* with NLBs.
+
 ### Target Groups
 
 - Supported target groups are:
 	- **EC2 instances**
 	- **IP Addresses**: must be *private IPs*. They are used for [[Types of ELBs#^343219|the same reasons as ALB]]
 	- **ALBs**
+
+### Request Routing
+- If you specify targets using an **instance ID**, traffic is *routed to instances* using the **primary private IP address** specified in the primary network interface for the instance. The load balancer rewrites the destination IP address from the data packet before forwarding it to the target instance.
+- If you specify targets using **IP addresses**, you can route traffic to an instance using **any private IP address from one or more network interfaces**. This enables *multiple applications on an instance to use the same port*. Note that each network interface can have its security group. The load balancer rewrites the destination IP address before forwarding it to the target.
 
 ## Gateway Load Balancer
 

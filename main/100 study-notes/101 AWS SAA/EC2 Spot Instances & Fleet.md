@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-19 19:25
+updated: 2022-05-01 10:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -13,7 +13,9 @@ updated: 2022-04-19 19:25
 
 ### The difference between one time and persistent request
 -   **One Time request** → once the request is *fulfilled* instances are launched and the *spot request will go away*.
--   **Persistent** → we want x number of instances from the spot request *as long as the spot request is valid* (`valid from → valid until`). If the instances are stopped because current spot price > max price then the spot request will go back into action and will restart the instances when spot price < max price.
+-   **Persistent** → we want x number of instances from the spot request *as long as the spot request is valid* (`valid from → valid until`). 
+	- If the instances are **interrupted** because current spot price > max price then the spot request will go back into action and *will restart* the instances when spot price < max price.
+	- If you **stop** the instances then the *instances will not be started automatically*.
 
 > [!info] Cancelling a spot request does not terminate the instances. So it is our responsibility to terminate the running instances.
 
@@ -27,3 +29,7 @@ updated: 2022-04-19 19:25
 - Spot fleet allows us to **automatically request instances with the lowest price**.
 - By default, Spot Fleets are set to maintain target capacity by launching replacement instances after Spot Instances in the fleet are terminated.
 - Strategies to launch spot instances: **lowestPrice** (*short workloads*), **diversified**(*long workloads*), **capacityOptimised**.
+
+## Spot Block
+- Unlike **spot blocks are designed not to be interrupted**. 
+- Only in rare situations, spot blocks may be interrupted due to Amazon EC2 capacity needs.

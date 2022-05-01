@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 10:36
-updated: 2022-04-23 15:17
+updated: 2022-05-01 11:33
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -39,6 +39,9 @@ updated: 2022-04-23 15:17
 > [!note] Transfer acceleration is the only case where you *pay for data going* into S3.
 
 > [!tip] Go for transfer acceleration if you come across key words like *fast data transfer irrespective of user location*.
+
+> [!important]+ When to choose Transfer Acceleration over CloudFront
+> If you have objects that are *smaller than 1GB* or if the data set is less than 1GB in size, you should consider using Amazon CloudFront's PUT/POST commands for optimal performance. If the use case has *data larger than 1GB* then Transfer Acceleration is the better option.
 
 ## Byte Range Fetches
 - **Parallelising get requests** by requesting specific byte ranges.

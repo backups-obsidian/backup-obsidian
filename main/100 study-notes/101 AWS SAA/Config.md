@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-28 09:49
+updated: 2022-05-01 10:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -18,6 +18,8 @@ updated: 2022-04-28 09:49
 > - Do my buckets have any public access?
 > - How has my ALB configuration changed over time?
 > - Password policy
+
+> [!note] Keywords: *compliance*, *history*, *configuration changes*.
 
 ## Config Rules
 - We can use **AWS managed config rules** (over 75)

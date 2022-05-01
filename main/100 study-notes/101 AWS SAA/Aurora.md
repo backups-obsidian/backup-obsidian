@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-21 19:38
+updated: 2022-05-01 12:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -102,11 +102,7 @@ updated: 2022-04-21 19:38
 - If you need **good RPO (1s) and RTO(1m)** go for global aurora.
 - Can promote another region for disaster recovery. *Mitigate multi region failure*.
 
-- *Keywords* for identifying *questions* related to aurora: 
-	- another **region** 
-	- **global** 
-	- decreasing inter region **latency**
-	- **RPO/RTO**
+> [!note] *Keywords* for identifying *questions* related to aurora: another **region**,  **global** , decreasing inter region **latency**, **RPO/RTO**
 
 ## Aurora ML
 -   Add ML based predictions to your applications **via SQL**

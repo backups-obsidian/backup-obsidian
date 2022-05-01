@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-27 22:13
+updated: 2022-05-01 11:50
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -107,7 +107,7 @@ updated: 2022-04-27 22:13
 - The alarms have **3 main targets**. 
 	- *EC2* : *Stop*, *Terminate*, *Reboot*, or **Recover** an EC2 Instance. You can directly do these things from CloudWatch alarms, there is no need to use any other services like Lambda in between.
 		- The following things will be **recovered**: 
-			- Same *Private, Public, Elastic IP*, metadata, placement group, *EBS volume* 
+			- Same *Private*, **Public**, *Elastic IP*, *metadata*, *placement group*, *EBS volume* 
 			- *Instance store will not be recovered*.
 	- *Auto scaling* : Trigger Auto Scaling Action
 	- *SNS* : Send notification to SNS (from which *you can do pretty much anything*)  

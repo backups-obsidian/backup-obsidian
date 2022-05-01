@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-04-30 21:49
+updated: 2022-05-01 12:58
 ---
 ---
 **Links**: [[../100 home]]
@@ -161,16 +161,29 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 
 ## Other Services
 [[Other Services]]
+[[ElasticBeanstalk]]
 
 ## Miscellaneous
 - Billing is a **global** service.
+- **Unpredictable load** always go for **serverless** option.
 - All the snapshots are stored in S3.
+
+- Use *Golden AMI*, *EC2 User Data* and *ElasticBeanstalk* for instantiating applications quickly.
+	- Create a *Golden AMI* with the *static installation components* already setup
+	- Use *EC2 user data* to customise the *dynamic installation* parts at boot time
+
+
 - Pillars of **well architected framework**.
 	- *Operational Excellence*
 	- *Security*
 	- *Reliability*
 	- *Performance Efficiency*
 	- *Cost optimisation*
+
+- **HA Bastion**: 
+	- We will another create a bastion host in a new AZ for backup.
+	- We can use a *NLB to route traffic* to the bastion hosts.
+	- We **cannot use ALB** since it works for HTTP level traffic and for SSH we need TCP level traffic.
 
 ## References
 - [(1) AWS and Cloud Interview Questions - YouTube](https://www.youtube.com/playlist?list=PLiH9_MU-6RjJVmB9QznLHSO5OHrlWBSCh)
