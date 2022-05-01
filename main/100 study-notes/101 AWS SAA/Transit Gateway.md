@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 19:44
-updated: 2022-04-30 20:56
+updated: 2022-05-01 21:39
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -32,7 +32,8 @@ updated: 2022-04-30 20:56
 
 > [!note] Go for transit gateway if the question mentions *multiple VPCs* or *multiple VPCs talking to each other*.
 
-> [!note] Transit Gateway is *never the cheapest option*. So if the question mentions the word *cost effective* or *cheapest* then **don't go for transit gateway**.
+> [!note]+ Transit Gateway is *never the cheapest option*. So if the question mentions the word *cost effective* or *cheapest* then **don't go for transit gateway**.
+> But it is always the **most scalable** and **resource efficient** option.
 
 ### Transit Gateway: ECMP/ECMR Site to Site VPN
 - ECMP = **Equal-cost multi-path routing**

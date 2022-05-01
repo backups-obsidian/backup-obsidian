@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-24 20:16
+updated: 2022-05-01 21:35
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -24,7 +24,7 @@ updated: 2022-04-24 20:16
 > ![[attachments/Pasted image 20220424195538.png]]
 
 - It has *DDoS protection* with the help of **AWS Shield**.
-- Global health checks for automatic failover.
+- Global health checks for **automatic failover**.
 - Intelligent routing to lowest latency.
 
 - It provides static IP addresses that provide a **fixed entry point** to your applications and *eliminate the complexity of managing specific IP addresses for different AWS Regions and Availability Zones*.

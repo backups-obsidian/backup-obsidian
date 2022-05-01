@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-04-20 20:55
+updated: 2022-05-01 21:30
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -14,6 +14,8 @@ updated: 2022-04-20 20:55
 - ASGs are free to use.
 
 > [!caution] A role applied to ASG will be applied to all the EC2 instances in the ASG.
+
+> [!caution] If you have an EC2 Auto Scaling group (ASG) with running instances and you choose to **delete the ASG**, the *instances will be terminated and the ASG will be deleted*.
 
 - Having instances under an ASG means that if for some reason they get terminated then ASG will automatically create new ones for replacement.
 
@@ -29,6 +31,8 @@ updated: 2022-04-20 20:55
 
 ## Health Checks
 - If *using an ELB* it is best to **enable ELB health checks** as otherwise *EC2 status checks may show an instance as being healthy that the ELB has determined is unhealthy*. In this case the *instance will be removed from service by the ELB but will not be terminated by Auto Scaling*.
+	- This can happen when the *Auto Scaling group is using EC2 based health check* and the *Application Load Balancer is using ALB based health check*.
+
 -   By **default** uses **EC2 status checks**.
 -   **Can also use ELB health checks and custom health checks**.
 -   **ELB health checks are in addition to the EC2 status checks**.

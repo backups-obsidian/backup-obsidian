@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-05-01 16:11
+updated: 2022-05-01 21:27
 ---
 ---
 **Links**: [[../100 home]]
@@ -34,9 +34,6 @@ updated: 2022-05-01 16:11
 [[EC2 Lifecycle states]]
 
 ## ASGs
-- Meaning of *horizontal scaling* and *high availability*
-	- **Horizontal scaling** implies **distributed systems**. This is very common for web applications.
-	- **High availability** means running your applications in **at least 2 AZs**. So one data centre failure doesn’t affect your business.
 [[ASG]]
 [[Scaling Policies]]
 [[Termination Policy & Life Cycle Hooks]]
@@ -87,6 +84,7 @@ updated: 2022-05-01 16:11
 [[SNS]]
 [[Kinesis]]
 [[Amazon MQ]]
+[[Event Processing]]
 
 > [!important]- **SQS vs SNS vs Kinesis**
 > ![[attachments/Pasted image 20220425162952.png]]
@@ -162,6 +160,7 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 ## Other Services
 [[Other Services]]
 [[ElasticBeanstalk]]
+[[HPC in AWS]]
 
 ## Miscellaneous
 - Billing is a **global** service.

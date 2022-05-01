@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-29 09:48
+updated: 2022-05-01 21:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -23,13 +23,14 @@ updated: 2022-04-29 09:48
 - KMS seamlessly integrates with other AWS services which need data encryption like S3, EBS volumes, RDS etc.
 - We can **audit** the key using **CloudTrail**. Which service has used the key.
 
-- There are **3 types of CMKs**:
-    - **AWS Managed Service Default CMK**: *free*. 
-	    - Gets *created during the integration of AWS services*. Like the key you use in S3 SSE-KMS.
+- There are **4 types of CMKs**:
+	- **AWS owned master key**: Collection of CMKs that an *AWS service owns and manages for use in multiple AWS accounts*. Although AWS owned CMKs are *not in your AWS account*, an AWS service can use its AWS owned CMKs to protect the resources in your account. Like SSE-S3.
+	- **AWS Managed Service Default CMK**: *free*. 
+		- Gets *created during the integration of AWS services*. Like the key you use in S3 SSE-KMS.
 		- It rotates every 3 years.
-    - **Customer Managed CMK**: *$1/Month*
+	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
-    - **User Imported keys** (AES 256) (not recommended): *$1/month*
+	- **User Imported keys** (AES 256) (not recommended): *$1/month*
 
 - We *pay for API calls to KMS* 0.03$ / 10,000 calls.
 - We can use KMS keys when we want to share sensitive information.

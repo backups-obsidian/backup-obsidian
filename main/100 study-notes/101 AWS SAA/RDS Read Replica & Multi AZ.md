@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-21 12:50
+updated: 2022-05-01 21:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,6 +34,7 @@ updated: 2022-04-21 12:50
 - Spans at least 2 AZ. As the name suggests the standby instance is in a different AZ in the same region.
 - Replication is **sync**.
 - We have a **single DNS name** which **switches automatically**(**Automatic failover**) to the standby database in case the primary database becomes unavailable. 
+	- We can say the *CAME record* will be updated to point to the standby DB.
 - Automatic failover takes places in case (**3**) of: 
 	- Loss of AZ
 	- Storage failure on primary 

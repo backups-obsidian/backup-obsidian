@@ -35,7 +35,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "health",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -183,14 +183,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/Global Accelerator.md",
-    "100 study-notes/101 AWS SAA/Types of ELBs.md",
-    "100 study-notes/101 AWS SAA/AWS Storage Gateway.md",
-    "100 study-notes/101 AWS SAA/EC2 AMI.md",
-    "100 study-notes/101 AWS SAA/Aurora.md",
-    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/S3 Encryption.md",
+    "100 study-notes/101 AWS SAA/EC2 EBS.md",
+    "100 study-notes/101 AWS SAA/Transit Gateway.md",
     "100 study-notes/101 AWS SAA/AWS Snow.md",
-    "100 study-notes/101 AWS SAA/Other Services.md",
-    "100 study-notes/101 AWS SAA/RDS Security.md"
+    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/Global Accelerator.md",
+    "100 study-notes/101 AWS SAA/WAF & Firewall.md",
+    "100 study-notes/101 AWS SAA/RDS Security.md",
+    "100 study-notes/101 AWS SAA/Aurora.md"
   ]
 }

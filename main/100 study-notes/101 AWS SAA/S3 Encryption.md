@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-23 09:47
+updated: 2022-05-01 21:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,6 +37,8 @@ updated: 2022-04-23 09:47
 >  We should go for SSE - KMS if the company does not want to spend time managing and rotating the keys, *but it does want to control who can access those keys*.
 > ---
 > If you see terms like *audit trail*, *envelope encryption*, *automatic key rotation*. 
+
+> [!caution] **Metadata**, which can be included with the object, is **not encrypted by any encryption method** while being stored on Amazon S3. Therefore, AWS recommends that *customers not place sensitive information in Amazon S3 metadata*.
 
 ### SSE - C
 - Keys are **handled** and **managed** by **customer outside** of AWS

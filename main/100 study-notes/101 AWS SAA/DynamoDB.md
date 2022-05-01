@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-27 09:26
+updated: 2022-05-01 21:13
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,6 +27,10 @@ updated: 2022-04-27 09:26
 
 - It allows us to write to *2 tables at the same time or to None* as part of one specific write.
 - Store more frequently and less frequently accessed data in *separate tables*.
+- **All DynamoDB tables are encrypted**. 
+	- There is *no option to enable or disable encryption* for new or existing tables. 
+	- By *default*, all tables are encrypted *under an AWS owned customer master key (CMK)* in the DynamoDB service account. 
+	- However, you *can select* an option to encrypt some or all of your tables under a *customer-managed CMK* or the *AWS managed CMK* for DynamoDB in your account.
 
 ## Read and Write Capacity Modes
 - *Control* how you manage your **table’s capacity** (*read/write throughput*)

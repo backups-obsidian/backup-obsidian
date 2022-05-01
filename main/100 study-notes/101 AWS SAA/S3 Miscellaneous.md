@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2022-05-01 15:46
+updated: 2022-05-01 21:25
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -26,6 +26,8 @@ updated: 2022-05-01 15:46
 - Generally the notifications are delivered in a second but sometimes it can take minutes
 
 > [!tip] For best performance and making sure you get the event *enable versioning*.
+
+> [!caution] Only normal SQS is allowed. **SQS FIFO is NOT allowed**.
 
 ## Requester Pays
 - In **general** S3 *bucket owners pay for the storage and data transfer costs*.
