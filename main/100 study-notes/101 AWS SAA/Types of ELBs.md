@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 16:17
+updated: 2022-05-02 15:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -81,6 +81,8 @@ updated: 2022-05-01 16:17
 > - But if the question mentions multi region balancing then go for [[Global Accelerator]].
 
 > [!note] We *cannot use SGs* with NLBs.
+
+> [!note] NLBs also *support TLS offloading* just like ALBs and CLBs (SSL only).
 
 ### Target Groups
 

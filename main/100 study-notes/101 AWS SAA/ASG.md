@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-05-01 21:30
+updated: 2022-05-02 12:55
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -51,3 +51,14 @@ updated: 2022-05-01 21:30
 - A monitoring unit for CloudWatch alarms can be CPU usage. *Metrics are the **average** of all the ASG instances*.
 - We can define *better auto scaling rules* that are **directly managed by EC2**. These rules are easier to set than the CloudWatch alarms. Some of these rules include average CPU usage, network in/out etc.
 - We can also auto scale on a **custom metric** (ex no of connected users). We send the parameter of our custom metric to cloud watch alarms via the **PutMetric API**. Now we can create cloud watch alarms with this metric to scale in or out. So *ASG is not just limited to the metrics AWS exposes*.
+
+## Rebalancing and Scaling
+- Actions like explicitly terminating an instance can lead to an *ASG becoming unbalanced across an ASG*.
+- Amazon EC2 Auto Scaling compensates by rebalancing the Availability Zones.
+
+> [!note] When rebalancing, Amazon EC2 Auto Scaling **launches new instances before terminating the old ones**, so that rebalancing does not compromise the performance or availability of your application.
+
+- **Scaling activity** of Auto Scaling *works in a different sequence compared to the rebalancing activity*. 
+
+> [!note]+ Auto Scaling creates a new scaling activity for terminating the unhealthy instance and then terminates it. Later, another scaling activity launches a new instance to replace the terminated instance.
+> **First Termination then new instances**.

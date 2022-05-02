@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 21:38
+updated: 2022-05-02 13:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -50,6 +50,17 @@ updated: 2022-05-01 21:38
 
 > [!tip]- If you see key words like *high availability* and *automatic failover* then always go for RDS multi AZ. 
 > Although you can have read replicas in different regions they don't offer automatic failover. You have to manually promote it.
+
+> [!question]- How does *OS patching* take place in multi AZ?
+> - Perform maintenance on the standby.
+> - Promote the standby to primary.
+> - Perform maintenance on the old primary, which becomes the new standby.
+> 
+> This **ensures HA**. 
+
+> [!question]- How does *database engine update* takes place?
+> When you modify the database engine for your DB instance in a Multi-AZ deployment, then Amazon RDS upgrades **both the primary and secondary DB instances at the same time**. In this case, the database engine for the entire Multi-AZ deployment is shut down during the upgrade.
+> There is **some down time**.
 
 - We can easily configure a RDS database to be multi AZ by enabling it in settings.
 - What happens when you *convert a single AZ database to multi AZ*?

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2022-05-01 21:21
+updated: 2022-05-02 16:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -67,9 +67,12 @@ updated: 2022-05-01 21:21
 > [!question]- Why use KDS with Kinesis Data Firehose?
 > *Kinesis Data Streams cannot directly write the output to S3*. In addition, KDS does not offer a plug and play integration with an intermediary Lambda function like Firehose does. You will need to do a lot of custom coding to get the Lambda function to process the incoming stream and then reliably dump the transformed output to S3.
 
-> [!note] Keywords: *processing data*, *least infra maintenance (serverless)*, *load*,*store*, *data stores*, *data stores*
+> [!note] Keywords: **processing data**, *least infra maintenance (serverless)*, *load*,**store**, *data stores*.
 
 > [!note] Can send data to ElasticSearch but *not to EMR*.
+
+> [!tip]+ Amazon Kinesis Data Firehose is the easiest way to capture, transform, and *load streaming data into Redshift* for **near real-time analytics**. It is also an *auto-scaling solution* as there is no need to provision any shards like Kinesis Data Streams.
+> If you see **autoscaling** or *no infra management* keywords then always go for *Kinesis Firehose over Kinesis data streams*.
 
 ## Kinesis Data Analytics
 - **Analyse** data streams with **SQL** or Apache Flink

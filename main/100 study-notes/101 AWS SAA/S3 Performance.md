@@ -1,13 +1,13 @@
 ---
 created: 2022-04-23 10:36
-updated: 2022-05-01 11:33
+updated: 2022-05-02 15:21
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 ## Strongly consistent
-- All S3 GET, PUT, and LIST operations, as well as operations that change object tags, ACLs, or metadata, are *strongly consistent*. **What you write is what you will read**, and the results of a LIST will be an accurate reflection of what’s in the bucket.
+- All S3 *GET, PUT, and LIST* operations, as well as operations that change object tags, ACLs, or metadata, are *strongly consistent*. **What you write is what you will read**, and the results of a LIST will be an accurate reflection of what’s in the bucket.
 - For example:  A process replaces an existing object and immediately tries to read it. Amazon S3 always returns the latest version of the object.
 
 ## Scaling Requests
@@ -47,3 +47,6 @@ updated: 2022-05-01 11:33
 - **Parallelising get requests** by requesting specific byte ranges.
 - Can be used to speed up downloads
 - Can be used to *retrieve only partial data* (for example the head of a file)
+
+> [!note]- You can use *concurrent connections* to Amazon S3 to fetch different byte ranges from within the same object. **No need to go through object one by one**.
+> This means *Create an application that will traverse the S3 bucket, issue a Byte Range Fetch for the first 250 bytes, and store that information in RDS* over *Create an application that will traverse the S3 bucket, read all the files one by one, extract the first 250 bytes, and store that information in RDS*

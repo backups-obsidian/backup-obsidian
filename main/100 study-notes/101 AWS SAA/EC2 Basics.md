@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-04-20 15:13
+updated: 2022-05-02 13:21
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,7 +34,10 @@ updated: 2022-04-20 15:13
 
 ## EC2 User Data
 - Using EC2 User Data we can run a script when our **instance boots for the first time**.
-- It is not run when rebooting instances.
+- We can run **shell scripts** and **cloud init directives**.
+- It is not run when rebooting instances *but*
+	- You can *update your configuration* to ensure that your user data scripts and cloud-init directives run *every time you restart your instance*. By default, the scripts are run, only once during the boot process while first launching the instance.
+
 - It helps in *automating boot tasks*.
 
 > [!caution] EC2 User Data script **runs with the root user**. Any command you have in there will have sudo rights.

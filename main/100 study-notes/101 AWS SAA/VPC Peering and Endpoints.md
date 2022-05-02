@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 11:33
+updated: 2022-05-02 15:25
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -70,6 +70,7 @@ updated: 2022-04-30 11:33
 
 - It **only** supports **2** services **S3** and **DynamoDB**.
 	- You can use two types of VPC endpoints to access Amazon S3: gateway endpoints and interface endpoints
+	- You can have both the endpoints independently in a VPC.
 
 > [!important]+ **Endpoint policies** control the security in case of gateway endpoint.
 > - When you create a VPC endpoint, you can *attach an endpoint policy* that controls access to the service to which you are connecting.  

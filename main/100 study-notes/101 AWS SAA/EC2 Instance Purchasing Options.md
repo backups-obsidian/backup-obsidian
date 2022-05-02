@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2022-05-01 11:48
+updated: 2022-05-02 13:28
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -55,6 +55,7 @@ updated: 2022-05-01 11:48
 - *Automatic instance placement*.
 - Your instance runs on some dedicated hardware. **Its not lockdown to you**. If you stop/start instance, you can get some other hardware somewhere else. Basically, the hardware is "yours" (*you are not sharing it with others) for the time your instance is running*. You stop/start it, you may get different physical machine later on (maybe older, maybe newer, maybe its specs will be a bit different), and so on. **So your instance is moved around on different physical servers - whichever is not occupied by others at the time.**
 - If you see keyword **single tenancy** in questions then go for dedicated instances. Dedicated hosts also offers single tenancy but it is more expensive. So unless there is a demand for licensing go for dedicated instances.
+	- In short dedicated instances are the *most cost effective* way of achieving single tenancy.
 
 ## Tenancy Options
 ![[attachments/Pasted image 20220501114513.png]]

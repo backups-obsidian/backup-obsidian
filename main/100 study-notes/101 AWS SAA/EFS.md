@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-20 09:24
+updated: 2022-05-02 13:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,6 +27,7 @@ updated: 2022-04-20 09:24
 
 - **Only works with linux based AMIs**.
 - We use **security groups to control access to EFS**. If you want more security POSIX permissions can be used to restrict host from hosts based on users and groups.
+- Use an *lAM policy* to control access for clients who can mount your file system with the required permissions.
 - Data is *encrypted in transit and at rest*.
 - You can connect to Amazon EFS file systems from EC2 instances in other AWS regions using an inter-region VPC peering connection, and from on-premises servers using an AWS VPN connection
 
@@ -43,5 +44,8 @@ updated: 2022-04-20 09:24
 		- Suitable for high frequency read and write operations.
 
 - **Throughput mode**: **Defaults to bursting**.
-	- Bursting
-	- Provisioned
+	- **Bursting**: *File-based workloads* are typically *spiky*, driving high levels of throughput for short periods of time, and low levels of throughput the rest of the time
+	- **Provisioned**: *high frequency reading and writing*, better performance than bursting.
+
+> [!note]+ Bursting vs Provisioned
+> By default, AWS recommends that you run your application in the Bursting Throughput mode. But, if you're *planning to migrate large amounts of data into your file system*, consider switching to **Provisioned Throughput** mode.

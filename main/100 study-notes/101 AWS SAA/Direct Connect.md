@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 21:39
+updated: 2022-05-02 16:16
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -49,7 +49,15 @@ updated: 2022-04-30 21:39
 
 ### Resiliency
 - **High Resiliency**: One connection at multiple locations.
+	- *Wording*: Opt for *one Direct Connect connection* at each of the *multiple Direct Connect locations*
 	- ![[attachments/Pasted image 20220430200332.png]]
 - **Maximum resiliency**: Separate connections terminating on separate devices in more than one location.
+	- *Wording*: Opt for *two separate Direct Connect connections* terminating on *separate devices* in *more than one Direct Connect location*.
 	- ![[attachments/Pasted image 20220430200345.png]]
+- **Non critical** production or development workload:
+	- *Wording*: Opt for at least two Direct Connect connections terminating on different devices at a single Direct Connect location
+	- ![[attachments/Pasted image 20220502161454.png]]
 
+> [!note] The *inner lines are the connections*. What they are passing through are the locations.
+
+> [!important] For resiliency in DX, *DX location* has a *higher preference than the number of connections*.

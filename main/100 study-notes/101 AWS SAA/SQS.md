@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-04-25 14:56
+updated: 2022-05-02 16:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,7 +8,13 @@ updated: 2022-04-25 14:56
 
 ---
 - It is a simple queuing service in which we have *multiple producers and multiple consumers*.
-- Oldest AWS service and **fully managed**.
+- Oldest AWS service and **fully managed**. 
+- **Scales infinitely**.
+
+> [!question]- How do you do prioritisation of work using queues?
+> AWS recommends *using separate queues* to provide prioritisation of work.
+> Create two SQS standard queues: one for pro and one for lite. Set up *EC2 instances to prioritise polling for the pro queue over the lite queue*.
+
 - There are *2 types of queue*.
 
 ## Types of Queues

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-01 10:18
+updated: 2022-05-02 13:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -31,5 +31,5 @@ updated: 2022-05-01 10:18
 - Strategies to launch spot instances: **lowestPrice** (*short workloads*), **diversified**(*long workloads*), **capacityOptimised**.
 
 ## Spot Block
-- Unlike **spot blocks are designed not to be interrupted**. 
+- Spot blocks are designed **not to be interrupted** and will run continuously for the duration *you select* (**1 to 6 hours**), *independent of the Spot market price*.
 - Only in rare situations, spot blocks may be interrupted due to Amazon EC2 capacity needs.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 21:10
+updated: 2022-05-02 12:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -24,7 +24,10 @@ updated: 2022-05-01 21:10
 - We can **audit** the key using **CloudTrail**. Which service has used the key.
 
 - There are **4 types of CMKs**:
-	- **AWS owned master key**: Collection of CMKs that an *AWS service owns and manages for use in multiple AWS accounts*. Although AWS owned CMKs are *not in your AWS account*, an AWS service can use its AWS owned CMKs to protect the resources in your account. Like SSE-S3.
+	- **AWS owned master key**: 
+		- Collection of CMKs that an *AWS service owns and manages for use in multiple AWS accounts*. 
+		- Although AWS owned CMKs are *not in your AWS account*, an AWS service can use its AWS owned CMKs to protect the resources in your account. Like *SSE-S3*.
+		- Generally used if the user wants encryption and doesn't want to managed the keys.
 	- **AWS Managed Service Default CMK**: *free*. 
 		- Gets *created during the integration of AWS services*. Like the key you use in S3 SSE-KMS.
 		- It rotates every 3 years.

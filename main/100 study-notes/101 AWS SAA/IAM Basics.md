@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 19:08
-updated: 2022-04-19 10:01
+updated: 2022-05-02 15:42
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -105,6 +105,19 @@ updated: 2022-04-19 10:01
 > Create an IAM role for the Lambda function that grants access to the S3 bucket. Set the IAM role as the Lambda function's execution role. **Make sure that the bucket policy also grants access to the Lambda function's execution role**.
 > ---
 > **If** the IAM role that you create for the Lambda function is in the same **AWS account as the bucket, then you don't need to grant Amazon S3 permissions on both the IAM role and the bucket policy**. Instead, you can grant the permissions on the IAM role and then verify that the bucket policy doesn't explicitly deny access to the Lambda function role. If the IAM role and the bucket are in different accounts, then you need to grant Amazon S3 permissions on both the lAM role and the bucket policy.
+
+### EC2 instance profile
+- Amazon EC2 uses an **instance profile** as a *container for an IAM role*. 
+- When you **create an IAM role using the IAM console**, the console *creates an instance profile automatically* and *gives it the same name as the role* to which it corresponds. 
+	- If you use the *Amazon EC2 console to launch an instance* with an IAM role or to attach an IAM role to an instance, *you choose the role based on a list of instance profile names*.
+- If you use the **AWS CLI, API, or an AWS SDK** to create a role, *you create the role and instance profile as separate actions*, with potentially different names. 
+	- If you then use the AWS CLI, API, or an AWS SDK to *launch an instance* with an IAM role or to attach an IAM role to an instance, *specify the instance profile name*.
+
+> [!note] An instance profile can contain *only one IAM role*. This limit cannot be increased.
+
+> [!caution]+ Why use an instance profile for an EC2 instead of a role?
+> An **EC2 Instance cannot be assigned a Role directly**, but it can be assigned an Instance Profile which contains a Role. 
+> Thats why we have to use an *instance profile* which act as a *container for a role*.
 
 ## Resource based policies
 - Resource based policies are supported by **S3**, **SNS**, **SQS**

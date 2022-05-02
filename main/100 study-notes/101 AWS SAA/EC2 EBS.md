@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2022-04-20 10:56
+updated: 2022-05-02 13:25
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -22,7 +22,11 @@ updated: 2022-04-20 10:56
 
 - We can create EBS volumes and leave them unattached.
 - We can *only attach an EBS volume to a single instance* **unless** they are from the `io1/io2` family class.
-- By default on termination *root EBS volumes are destroyed* unless **DeleteOnTermination** is unchecked. Non root volumes are not destroyed.
+- By default on termination *root EBS volumes are destroyed* unless **DeleteOnTermination** is unchecked. This can be done in 2 ways:
+	- *Unchecking* it at the *time of launching the instance*.
+	- Set the `DeleteOnTermination` attribute to False using the **command line**.
+- Non root volumes are never destroyed
+
 - EBS is *automatically replicated in an AZ* so if the primary one goes down it can be replaced with secondary, without you knowing.
 - You have to mount a non root volume EBS volume to an EC2 instance.
 - EBS volumes **support live configuration changes**. So this means in production you can modify the volume type, volume size, IOPS without service interruptions.

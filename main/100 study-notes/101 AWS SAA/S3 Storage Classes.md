@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-23 15:45
+updated: 2022-05-02 15:19
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,6 +11,8 @@ updated: 2022-04-23 15:45
 - Except for S3 Standard and S3 intelligent tiering there are **retrieval charges** for all storage classes.
 - **Summary**
 	- ![[attachments/Pasted image 20220423120550.png]]
+
+> [!caution] **S3 Glacie** is the only storage class that *supports encryption by default* for both data at rest as well as in-transit
 
 ## S3 Standard - general purpose
 - For general purpose use

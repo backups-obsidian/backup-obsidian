@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 16:04
+updated: 2022-05-02 13:08
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -73,7 +73,7 @@ updated: 2022-05-01 16:04
 - *Auto-scaling* and integrated with Spot instances
 - **Use cases**: data processing, machine learning, web indexing, big data...
 
-> [!note] Key words are **hadoop**,**managed** and **big data**.
+> [!note] Key words are **hadoop**,**managed**,**spark** and **big data**.
 
 ## Opsworks
 - AWS Opsworks = **Managed Chef & Puppet**

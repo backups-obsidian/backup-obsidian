@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 21:09
-updated: 2022-04-18 21:16
+updated: 2022-05-02 12:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,7 +15,7 @@ updated: 2022-04-18 21:16
 ## AWS AD Services
 ### AWS Managed Microsoft AD
 - We can **create our own AD in AWS,** manage users locally and **supports MFA**
-- We can **establish a trust connection with on premise AD**.
+- We can **establish a trust connection/relationship with on premise AD**.
 - The **users are shared between on premise AD and AWS AD.**
 
 ### AWS AD Connector

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-29 10:03
-updated: 2022-05-01 21:23
+updated: 2022-05-02 16:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -44,3 +44,5 @@ updated: 2022-05-01 21:23
 	- *WAF rules* (Application Load Balancer, API Gateways, CloudFront)
 	- *AWS Shield Advanced* (ALB, CLB, Elastic IP, CloudFront)
 	- *Security Groups* for EC2 and *ENI* resources in VPC
+
+> [!note] **No NACLs** configuration.
