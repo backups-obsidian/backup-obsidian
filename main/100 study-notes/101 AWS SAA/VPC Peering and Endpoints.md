@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 15:25
+updated: 2022-05-03 15:13
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,9 +34,8 @@ updated: 2022-05-02 15:25
 - These are **private endpoints within VPC** that allow us to **initiate a private connection to the AWS services**. For example an instance in the private subnet can connect to S3 without going through the public internet.
 	- ![[attachments/Pasted image 20220430111219.png]]
 
-- These are also **known** as **AWS PrivateLink**.
+- These are also **known** as **AWS PrivateLink**. So if the question doesn't mention Endpoints then you can go with PrivateLink.
 - They are redundant and scale horizontally.
-
 
 ### Why use VPC Endpoint
 - Let's take the example of connecting to AWS SNS with and without VPC Endpoint.

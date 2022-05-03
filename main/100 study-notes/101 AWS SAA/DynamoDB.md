@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 21:13
+updated: 2022-05-03 15:41
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -71,7 +71,14 @@ updated: 2022-05-01 21:13
 - There is **two way replication** between the tables.
 - This will make DynamoDB tables accessible with **low latency** in **multiple regions**.
 - It is an **Active Active** replication which means **data can be READ and WRITTEN to the table in any region**.
-- **DynamoDB streams** **must be enabled** to use this feature.
+- **DynamoDB streams must be enabled** to use this feature.
+
+> [!note]+ Here **active active** configuration is the key. 
+> - You will be presented with questions in which you will have to choose between DynamoDB global tables and [[Aurora#Global Aurora|Global Aurora]] for a database that spans *multiple regions*.
+> - If the question mentions *active active* then go for DynamoDB tables since in Global Aurora you cannot have active active config. There is *only one master and read replicas* in other regions for low latency. The read replicas don't take writes.
+> - We do have [[Aurora#Aurora Multi Master|Aurora Multi Master]] in which all the databases take writes but it is not multi region.
+> - So we can say **DynamoDB global tables** are **multi master**, **multi region** 
+> - Whereas **Aurora Global** is **single master**, **multi region**.
 
 ## DynamoDB TTL
 - It is possible to *delete items in DynamoDB after a certain time automatically*.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 13:18
+updated: 2022-05-03 15:11
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -23,7 +23,7 @@ updated: 2022-05-02 13:18
 
 - Don't modify permissions of root directory, create a subdirectory for each user.
 
->[!caution] It is **not block storage** like EBS and Instance stores.
+>[!caution] It is **not block storage** like EBS and Instance stores. It is a **file based storage system**.
 
 - **Only works with linux based AMIs**.
 - We use **security groups to control access to EFS**. If you want more security POSIX permissions can be used to restrict host from hosts based on users and groups.

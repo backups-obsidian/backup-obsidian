@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-01 21:33
+updated: 2022-05-03 15:43
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -95,6 +95,8 @@ updated: 2022-05-01 21:33
 > **Each node does R/W** instead of promoting a Read replica to master. Since there is no need of promotion fail over is instantaneous.
 
 - In a multi-master cluster, all DB instances can perform write operations. There isn't any failover when a writer DB instance becomes unavailable, because another writer DB instance is immediately available to take over the work of the failed instance.
+
+- It has a *very specialised use case*. Like in applications where you *can't afford even brief downtime for database write operations*. In *most cases you should opt for Global Aurora*.
 
 ## Global Aurora 
 - **1 primary region** (R/W)

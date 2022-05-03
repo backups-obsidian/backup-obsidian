@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-05-02 12:55
+updated: 2022-05-03 15:23
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -62,3 +62,19 @@ updated: 2022-05-02 12:55
 
 > [!note]+ Auto Scaling creates a new scaling activity for terminating the unhealthy instance and then terminates it. Later, another scaling activity launches a new instance to replace the terminated instance.
 > **First Termination then new instances**.
+
+### Impaired Status
+- If any health check returns an **unhealthy status** the instance will be **terminated**. 
+- For the **impaired status**, the *ASG will wait a few minutes to see if the instance recovers before taking action*. 
+- If the “impaired” status *persists, termination occurs*. 
+ 
+> [!note]- Unlike AZ rebalancing and *just like scaling*, **termination of unhealthy instances happens first**, then Auto Scaling attempts to launch new instances to replace terminated instances.
+
+## Suspending Scaling and Standby State
+- You can **suspend and then resume** one or more of the **scaling processes** for your Auto Scaling group. 
+- This can be useful when you want to *investigate a configuration problem or other issue* with your web application and then *make changes to your application, without invoking the scaling processes*. 
+- You can manually move an **instance** from an ASG and put it in the **standby state**.
+- *Instances in standby state* are still managed by Auto Scaling, are charged as normal, and *do not count towards available EC2 instance for workload/application use*. 
+- Auto scaling **does not perform health checks on instances in the standby state**. 
+- *Standby state* can be used for *performing updates/changes/troubleshooting etc without health checks being performed or replacement instances being launched*.
+- Suspending scaling and standby state go hand in hand for *troubleshooting an ASG*.

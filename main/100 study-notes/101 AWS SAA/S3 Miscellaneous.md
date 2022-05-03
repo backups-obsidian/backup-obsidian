@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2022-05-01 21:25
+updated: 2022-05-03 11:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,7 +43,7 @@ updated: 2022-05-01 21:25
 - Use case: *analytics*, *BI*
 - It is much **cheaper** than Redshift and EMR.
 
-> [!tip] Go for Athena if you see keywords like *cost effective*, *easiest*, *quickly*, *serverless* (minimise operational overhead)
+> [!tip] Go for Athena if you see keywords like *cost effective*, *easiest*, *quickly*, *serverless* (minimise operational overhead), *adhoc*
 
 ## Glacier Vault Lock
 - Adopt a **WORM (write once read many)** model.

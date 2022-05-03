@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 13:26
+updated: 2022-05-03 15:30
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -43,7 +43,7 @@ updated: 2022-05-02 13:26
 > [!important]- The standby database in Multi AZ is *not used for scaling*. **No one can read to it or write to it**. It is just here as a failover.
 > Remember *high-availability feature is not a scaling solution for read-only scenarios*; you cannot use a standby replica to serve read traffic. To service read-only traffic, you should use a Read Replica.
 
-- With Multi AZ we get increased database availability in case of system upgrades like OS patching or DB instance scaling.
+- With Multi AZ we get increased database availability in case of system upgrades like OS/security patching or DB instance scaling. If you are using a *non Multi AZ* instance then *security/OS patching will cause a downtime*.
 
 > [!question]- Why not use Read Replica for disaster recovery?
 > Read replicas can be setup in a different AZ for disaster recovery. Although you can promote a read replica, its *asynchronous replication might not provide you the latest version of your database*. **Always go for multi AZ for disaster recovery**.
@@ -62,7 +62,7 @@ updated: 2022-05-02 13:26
 > When you modify the database engine for your DB instance in a Multi-AZ deployment, then Amazon RDS upgrades **both the primary and secondary DB instances at the same time**. In this case, the database engine for the entire Multi-AZ deployment is shut down during the upgrade.
 > There is **some down time**.
 
-- We can easily configure a RDS database to be multi AZ by enabling it in settings.
+- We can easily *configure a RDS database to be multi AZ* by enabling it in settings. This will *not cause any downtime*.
 - What happens when you *convert a single AZ database to multi AZ*?
 	- AWS automatically takes a *snapshot of our DB*, 
 	- Creates a *new DB from the snapshot* 

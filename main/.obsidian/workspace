@@ -183,14 +183,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Aurora.md",
+    "100 study-notes/101 AWS SAA/DynamoDB.md",
+    "100 study-notes/101 AWS SAA/AWS Snow.md",
+    "100 study-notes/101 AWS SAA/RDS Read Replica & Multi AZ.md",
+    "100 study-notes/101 AWS SAA/RDS.md",
     "100 study-notes/101 AWS SAA/Direct Connect.md",
-    "100 study-notes/101 AWS SAA/WAF & Firewall.md",
-    "100 study-notes/101 AWS SAA/SQS.md",
-    "100 study-notes/101 AWS SAA/Kinesis.md",
-    "100 study-notes/101 AWS SAA/EC2 Placement Groups.md",
-    "100 study-notes/101 AWS SAA/EC2 Instance Purchasing Options.md",
-    "100 study-notes/101 AWS SAA/Types of ELBs.md",
-    "100 study-notes/101 AWS SAA/IAM Basics.md",
-    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    "100 study-notes/101 AWS SAA/ASG.md",
+    "100 study-notes/101 AWS SAA/Scaling Policies.md",
+    "100 study-notes/101 AWS SAA/Termination Policy & Life Cycle Hooks.md"
   ]
 }
