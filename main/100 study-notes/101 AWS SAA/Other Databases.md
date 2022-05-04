@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-23 15:37
+updated: 2022-05-04 10:32
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -52,7 +52,7 @@ updated: 2022-04-23 15:37
 - All the snapshots are *stored* in **S3**.
 - You can configure Amazon Redshift to *automatically copy snapshots* (automated or manual) of a cluster *to another AWS Region*. 
 	- For this to work *automated snapshots must be enabled*.
-	- Enable Cross-Region Snapshots Copy in your Amazon Redshift Cluster.
+	- Enable **Cross-Region Snapshots Copy in your Amazon Redshift Cluster**.
 
 
 #### Redshift Spectrum

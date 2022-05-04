@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-22 20:37
+updated: 2022-05-04 12:37
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -67,7 +67,7 @@ updated: 2022-04-22 20:37
 	- *continent*
 	- **US state**
 
-> [!tip] Mainly for *content restriction*.
+> [!tip] Mainly for *content restriction*, *distribution rights*.
 
 ## Geoproximity
 -   Route traffic to resources **based on the geographic location of users and the resources**

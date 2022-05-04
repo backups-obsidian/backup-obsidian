@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-05-03 15:23
+updated: 2022-05-03 20:33
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -28,6 +28,12 @@ updated: 2022-05-03 15:23
 > So if you want your instances to use a new AMI and they are using launch configuration then you can just create a new launch configuration and update the ASG.
 
 - While creating an ASG we have to specify the subnets. Make sure you specify all the subnets.
+
+> [!question]- What happens if a scaling activity causes me to reach my Amazon EC2 limit of instances?
+> Amazon EC2 Auto Scaling cannot scale past the Amazon EC2 limit of instances that you can run
+
+> [!question]- If I have data installed in an EC2 Auto Scaling group, and a new instance is dynamically created later, *is the data copied over to the new instances*?
+> Data is *not automatically copied* from existing instances to new instances. You can use lifecycle hooks to copy the data.
 
 ## Health Checks
 - If *using an ELB* it is best to **enable ELB health checks** as otherwise *EC2 status checks may show an instance as being healthy that the ELB has determined is unhealthy*. In this case the *instance will be removed from service by the ELB but will not be terminated by Auto Scaling*.
@@ -71,7 +77,7 @@ updated: 2022-05-03 15:23
 > [!note]- Unlike AZ rebalancing and *just like scaling*, **termination of unhealthy instances happens first**, then Auto Scaling attempts to launch new instances to replace terminated instances.
 
 ## Suspending Scaling and Standby State
-- You can **suspend and then resume** one or more of the **scaling processes** for your Auto Scaling group. 
+- You can **suspend and then resume** one or more of the **scaling processes** for your Auto Scaling group. This is done using `SuspendProcesses` and `ResumeProcesses` API. 
 - This can be useful when you want to *investigate a configuration problem or other issue* with your web application and then *make changes to your application, without invoking the scaling processes*. 
 - You can manually move an **instance** from an ASG and put it in the **standby state**.
 - *Instances in standby state* are still managed by Auto Scaling, are charged as normal, and *do not count towards available EC2 instance for workload/application use*. 

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2022-05-02 13:28
+updated: 2022-05-04 12:33
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -32,6 +32,13 @@ updated: 2022-05-02 13:28
 - Less cost savings as compared to normal reserved.
 
 >[!caution] Convertible unused instances **cannot be sold** in the Reserved instance marketplace.
+
+### Scheduled Reserved
+- Scheduled Reserved Instances (Scheduled Instances) enable you to **purchase capacity reservations that recur on a daily, weekly, or monthly** basis, with a specified start time and duration, for a **one year term**. 
+- You reserve the capacity in advance, so that you know it is available when
+- Scheduled Instances are a good choice for workloads that *do not run continuously but do run on a regular schedule*. For example, you can use Scheduled Instances for an application that runs during business *hours or for batch processing that runs at the end of the week*.
+
+> [!note]- The main difference between standard and scheduled reserved is that **standard reserved** reserves the instance for **continuous** use.
 
 ## Spot
 - Highest discount **90%** as compared to on demand.

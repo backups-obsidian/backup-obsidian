@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2022-05-02 16:01
+updated: 2022-05-04 12:12
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -60,7 +60,7 @@ updated: 2022-05-02 16:01
 - It is a **fully managed** service with **automatic scaling** and is **serverless**.
 - We *pay for the data going through firehose*.
 - It is *near real time(60s)*.
-- Can be used for **transforming data** (using a *lambda*) coming from different sources.
+- Can be used for **transforming data** (using a *lambda*) (minimal overhead) coming from different sources.
 - It can send *all or failed data to S3*.
 - It doesn't have any data storage so no replay capability.
 

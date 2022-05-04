@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 15:19
+updated: 2022-05-04 22:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -40,7 +40,7 @@ updated: 2022-05-02 15:19
 > [!tip]- If you need something which is *highly available* and less frequently accessed then go for S3 IA over S3 IA One Zone *if cost has not been mentioned*.
 > *S3 IA is more available than S3 IA one zone*.
 
-> [!tip] If you need something which is *cost effective* then go for IA One Zone for Standard IA.
+> [!tip] When asked for the *most cost effective* option then go for IA One Zone over Standard IA.
 
 > [!tip] If question asks for *HA* then *don't go for One Zone*.
 
@@ -62,7 +62,7 @@ updated: 2022-05-02 15:19
     -   Bulk (5 to 12 hours)
 
 - **Provisioned capacity** ensures that your *retrieval capacity for expedited retrievals is available when you need it*. Each unit of capacity provides that at least three expedited retrievals can be performed every five minutes and provides up to 150 MB/s of retrieval throughput. *You should purchase provisioned retrieval capacity if your workload requires highly reliable and predictable access to a subset of your data in minutes*. Without provisioned capacity Expedited retrievals are accepted, except for rare situations of unusually high demand. However, if you require access to Expedited retrievals under all circumstances, you must purchase provisioned retrieval capacity.
-	
+	 ^78779e
 - Minimum storage duration of **90 days**.
 
 ## S3 Glacier Deep Archive

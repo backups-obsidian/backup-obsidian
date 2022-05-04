@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:18
-updated: 2022-04-17 23:14
+updated: 2022-05-04 22:49
 Description: Tips and tricks while using obsidian
 ---
 ---
@@ -29,4 +29,3 @@ Normal text
 - Use workspaces if you want saved states
 
 How to use the [dataview plugin](https://www.youtube.com/watch?v=7kFEl7Ovsr8).
-

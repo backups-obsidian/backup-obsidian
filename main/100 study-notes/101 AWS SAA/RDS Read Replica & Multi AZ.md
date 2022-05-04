@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-03 15:30
+updated: 2022-05-04 16:31
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -11,7 +11,8 @@ updated: 2022-05-03 15:30
 - Read replicas help in scaling our reads.
 - With RDS non [[Aurora]] engines we can create upto **5** read replicas.
 
-> [!important] Read replicas can be in the *same AZ*, *different AZ* or in a *different region*.
+> [!important]- Read replicas can be in the *same AZ*, *different AZ* or in a *different region*.
+> RDS Multi AZ is for only one region. So if you want your database backed up to a different region then create cross region read replicas. In the case of a disaster you will have to *manually promote the read replica in another region to become the master*.
 
 - Replication is **async** so the reads are **eventually consistent**.
 
@@ -31,7 +32,7 @@ updated: 2022-05-03 15:30
 > You can create a **read replica as a Multi-AZ DB instance**. Amazon RDS creates a standby of your replica in another Availability Zone for failover support for the replica. *Creating your read replica as a Multi-AZ DB instance is **independent** of whether the source database is a Multi-AZ DB instance*.
 
 ## RDS Multi AZ
-- Spans at least 2 AZ. As the name suggests the standby instance is in a different AZ in the same region.
+- Spans at least 2 AZ. As the name suggests the *standby instance* is in a **different AZ in the same region**.
 - Replication is **sync**.
 - We have a **single DNS name** which **switches automatically**(**Automatic failover**) to the standby database in case the primary database becomes unavailable. 
 	- We can say the *CAME record* will be updated to point to the standby DB.
