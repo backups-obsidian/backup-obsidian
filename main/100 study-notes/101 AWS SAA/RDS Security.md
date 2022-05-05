@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 16:02
+updated: 2022-05-05 19:58
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,7 +17,7 @@ updated: 2022-05-01 16:02
 
 - **TDE** (Transparent Data Encryption) is possible for **Oracle** and **SQL Server**. This is *for data at rest*. 
 - We can *force SSL* connections to out DB instance by 
-	- Setting `rds.force_ssl`(**parameter groups**) to **true** and then rebooting the DB instance. or
+	- Setting `rds.force_ssl`(**parameter groups**) to **true** and then rebooting the DB instance *or*
 	- DB can be configured to allow only SSL connections.
 
 - Snapshots of unencrypted database are unencrypted. Snapshots of encrypted database are encrypted.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 10:04
-updated: 2022-05-02 13:25
+updated: 2022-05-05 16:12
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -17,7 +17,7 @@ updated: 2022-05-02 13:25
 - [[EFS]] and EBS are **network attached** storage options. Since they are network attached storage options there is a bit of latency.
 - [[Instance store]] is **hardware attached** storage.
 
-> [!caution]+ EBS volume is bound to a **specific AZ**. The EC2 instance and the EBS must be in the same AZ.
+> [!caution]+ EBS volume is bound to a **specific AZ** just like an ENI. The EC2 instance and the EBS must be in the same AZ.
 > To use the EBS volume in a different AZ we have to use **snapshots**.
 
 - We can create EBS volumes and leave them unattached.

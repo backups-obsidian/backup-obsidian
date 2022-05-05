@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-04 16:31
+updated: 2022-05-05 19:54
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -22,11 +22,12 @@ updated: 2022-05-04 16:31
 - To take advantage of the read replicas the *application must update the connection string*. You don't have to update the connection string in Aurora.
 
 > [!tip]- Classic use case of Read Replicas
-> **Reporting application** wants to read you data. You create a read replica for it. Reading from the main database will effect the performance of production application.
+> **Reporting application** wants to read you data. You create a read replica for it since reading from the main database will effect the performance of production application.
 
 - In AWS there is a *cost when data goes from one AZ to another*. For *RDS read replicas* if its in the *same region then we don’t have to pay this fee*.
 	- ![[attachments/Pasted image 20220421121900.png]]
 	- Read Replicas are *billed as a standard DB Instance and at the same rates*. You are not charged for the data transfer incurred in replicating data between your source DB instance and read replica within the same AWS Region.
+	- Remember inter AZ transfer does cost money but its less when you are using private IPs. In case of RDS Read Replica its nice you don't have to pay for the inter AZ transfer.
 
 > [!question]+ How to create a *high availability read replica*?
 > You can create a **read replica as a Multi-AZ DB instance**. Amazon RDS creates a standby of your replica in another Availability Zone for failover support for the replica. *Creating your read replica as a Multi-AZ DB instance is **independent** of whether the source database is a Multi-AZ DB instance*.
@@ -47,7 +48,8 @@ updated: 2022-05-04 16:31
 - With Multi AZ we get increased database availability in case of system upgrades like OS/security patching or DB instance scaling. If you are using a *non Multi AZ* instance then *security/OS patching will cause a downtime*.
 
 > [!question]- Why not use Read Replica for disaster recovery?
-> Read replicas can be setup in a different AZ for disaster recovery. Although you can promote a read replica, its *asynchronous replication might not provide you the latest version of your database*. **Always go for multi AZ for disaster recovery**.
+> - Read replicas can be setup in a different AZ for disaster recovery. Although you can promote a read replica, its *asynchronous replication might not provide you the latest version of your database*. **Always go for multi AZ for disaster recovery**.
+> - Also you have to *manually promote read replicas*, in case of multi AZ it is automatic.
 
 > [!tip]- If you see key words like *high availability* and *automatic failover* then always go for RDS multi AZ. 
 > Although you can have read replicas in different regions they don't offer automatic failover. You have to manually promote it.

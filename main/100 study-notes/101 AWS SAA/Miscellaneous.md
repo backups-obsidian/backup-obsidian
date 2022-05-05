@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 09:25
-updated: 2022-05-01 15:50
+updated: 2022-05-05 15:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,7 +8,7 @@ updated: 2022-05-01 15:50
 ---
 
 ## Permission Boundaries
-- It sets the maximum permissions an entity can get.
+- It sets the maximum permissions an [[IAM Basics#^182218|entity]] can get.
 - When you use a policy to set the permissions boundary for a user, it *limits the user's permissions* but does not provide permissions on its own.
 
 >[!caution] They are supported for users and roles and **not for groups**.
@@ -33,7 +33,7 @@ updated: 2022-05-01 15:50
 - For this reason, you *must attach both a trust policy and an identity-based policy to an IAM role.* 
 - The IAM service supports **only one type of resource-based policy** called a role trust policy, which is attached to an IAM role.
 
-> [!note] Trust policy is the only resource based policy supported by IAM service.
+> [!note] Trust policy is the only **resource based policy** supported by IAM service.
 
 ## RAM (Resource Access Manager)
 - **Share AWS resources** that you own with **other AWS accounts** or share with any account **or within your Organisation**.

@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "9173fd069cfcdd77",
+        "id": "28129256e8e27392",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "400 misc/backup-obisidian-vault.md",
+            "file": "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400 misc/backup-obisidian-vault.md",
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400 misc/backup-obisidian-vault.md"
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "400 misc/backup-obisidian-vault.md",
+                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,17 +193,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "9173fd069cfcdd77",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "400 misc/backup-obisidian-vault.md",
-    "400 misc/projects.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/EC2 EBS.md",
-    "100 study-notes/101 AWS SAA/ELB.md",
-    "100 study-notes/101 AWS SAA/EC2 Basics.md",
-    "400 misc/obsidian tips and tricks.md",
-    "100 study-notes/101 AWS SAA/S3 Storage Classes.md",
-    "100 study-notes/101 AWS SAA/EC2 Placement Groups.md",
-    "100 study-notes/101 AWS SAA/EC2 Spot Instances & Fleet.md"
+    "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
+    "100 study-notes/101 AWS SAA/Route53 Routing Policies.md",
+    "100 study-notes/101 AWS SAA/Route53.md",
+    "100 study-notes/101 AWS SAA/Other Databases.md",
+    "100 study-notes/101 AWS SAA/DynamoDB.md",
+    "100 study-notes/101 AWS SAA/RDS.md",
+    "100 study-notes/101 AWS SAA/ElastiCache.md",
+    "100 study-notes/101 AWS SAA/Aurora.md",
+    "100 study-notes/101 AWS SAA/RDS Security.md"
   ]
 }

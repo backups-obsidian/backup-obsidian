@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-04 12:37
+updated: 2022-05-05 21:07
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -34,12 +34,6 @@ updated: 2022-05-04 12:37
 - Use case would be to *load balance between different regions* or *test the new application version*.
 - We also use *weighted routing* for active active failover and active passive failover. 
 
-### Active Active Failover
-- Use this failover configuration when you want *all of your resources to be available the majority of the time*. 
-
-### Active Passive Failover
-- Use an active-passive failover configuration when you want a primary resource or group of resources to be available the majority of the time and you want a *secondary resource or group of resources to be on standby* in case all the primary resources become unavailable. 
-
 ## Latency based
 - **Redirect** to resource which has the **lowest latency**.
 
@@ -50,12 +44,18 @@ updated: 2022-05-04 12:37
 - It can be combined with **health checks**.
 
 > [!tip]+ If you see terms like *latency*, *high load times*, *deteriorated performance* then always go for latency based routing.
-> You can also use *geolocation routing to restrict the distribution of content* to only the locations in which you have distribution rights. You *cannot use geolocation routing to reduce latency* even though you might think it makes sense to serve US users from US region.
+> You can use *geolocation routing to restrict the distribution of content* to only the locations in which you have distribution rights. You *cannot use geolocation routing to reduce latency* even though you might think it makes sense to serve US users from US region.
 
 ## Failover
 - **Health check is mandatory**.
 - DNS failover to a standby instance
 	- ![[attachments/Pasted image 20220422194449.png]]
+
+### Active Active Failover
+- Use this failover configuration when you want *all of your resources to be available the majority of the time*. 
+
+### Active Passive Failover
+- Use an active-passive failover configuration when you want a primary resource or group of resources to be available the majority of the time and you want a *secondary resource or group of resources to be on standby* in case all the primary resources become unavailable. 
 
 ## Geolocation
 -  Routing is based on **user location**.

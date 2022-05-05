@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-03 15:11
+updated: 2022-05-05 16:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -8,7 +8,7 @@ updated: 2022-05-03 15:11
 ---
 - It is a **managed** and **shared NFS (network file system)** 
 - It can be **mounted on many EC2 across AZs** (shared component). EBS was locked in a single AZ. This means **EFS is a regional service**.
-- It is quite expensive as compared to EBS volumes. It is*3 times the cost of a gp2 drive*.
+- It is quite expensive as compared to EBS volumes. It is *3 times the cost of a gp2 drive*.
 
 >[!important]+ You **pay for only what you use**. In EBS volumes you pay for the whole volume even though you are not using it.
 > - With *Amazon EFS*, you pay only for the resources that you use. The EFS Standard Storage pricing is **$0.30 per GB per month**. Therefore the cost for storing the test file (1GB) on EFS is $0.30 for the month.
@@ -41,7 +41,7 @@ updated: 2022-05-03 15:11
 	- *General purpose*: **latency sensitive** use cases. *Web servers*, *CMS*.
 	- *Max IO*: -   **High latency**. 
 		- Max I/O performance mode is used to scale to higher levels of **aggregate throughput** and operations per second. This *scaling is done with a tradeoff of slightly higher latencies* for file metadata operations. **Highly parallelised applications** and workloads, such as **big data analysis, media processing**, and genomic analysis, can benefit from this mode. 
-		- Suitable for high frequency read and write operations.
+		- Suitable for *high frequency read and write operations*.
 
 - **Throughput mode**: **Defaults to bursting**.
 	- **Bursting**: *File-based workloads* are typically *spiky*, driving high levels of throughput for short periods of time, and low levels of throughput the rest of the time

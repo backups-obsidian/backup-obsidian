@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 15:52
+updated: 2022-05-05 16:08
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -32,4 +32,4 @@ updated: 2022-05-02 15:52
 
 > [!tip] If you receive a *capacity error* when launching an instance in a placement group that already has running instances, *stop and start all of the instances in the placement group*, and try the launch again. 
 
-> [!note] If you have an application that needs a large of instances and minimise hardware failure then go for partition over spread.
+> [!note] If you have an application that needs a large number of instances and minimise hardware failure then go for partition over spread.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:48
-updated: 2022-05-01 10:20
+updated: 2022-05-05 19:21
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -25,7 +25,7 @@ updated: 2022-05-01 10:20
 - It increases or decreases the current capacity of the group based on a **set of scaling adjustments**, known as *step adjustments*, that vary based on the size of the alarm breach.
 - We have instance warmup time in step scaling.
 
-> [!info] Here the important term is set. This is what separates it from simple scaling policy.
+> [!info] Here the important term is **set**. This is what separates it from simple scaling policy.
 
 - You will have to setup *how many units you want to add or remove*.
 	- ![[attachments/Pasted image 20220420195330.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 15:47
+updated: 2022-05-05 19:31
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -38,8 +38,8 @@ updated: 2022-05-02 15:47
 > [!important] We get a *fixed hostname* for the load balancer. We *don't get any public IP*.
 
 - If the EC2 machines behind the load balancer want to **access the IP address of the client** and other information like protocol then they have to **use some special headers** since *communication between the ALB and the EC2 machine takes place over a private network* and connection termination takes place at ALB. 
-- So *EC2 instances always see the traffic coming from the private IP address of the ALB*. 
-- `X-Forwarded-For`: *Source IP address*, `X-Forwarded-Proto`: *Protocol*, `X-Forwarded-Port`: *Port*. These header is automatically added by the ALB.
+	- EC2 instances always see the traffic coming from the private IP address of the ALB. 
+	- `X-Forwarded-For`: *Source IP address*, `X-Forwarded-Proto`: *Protocol*, `X-Forwarded-Port`: *Port*. These header is automatically added by the ALB.
 
 - ALB **supports authentication** from *OIDC (Open ID Connect)* compliant identity providers such as Google, Facebook and Amazon. It is *implemented through an authentication action on a listener rule* that integrates with **Amazon Cognito user pools**.
  ^92a439

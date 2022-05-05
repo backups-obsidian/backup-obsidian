@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 11:14
-updated: 2022-05-04 12:33
+updated: 2022-05-05 16:02
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -35,7 +35,6 @@ updated: 2022-05-04 12:33
 
 ### Scheduled Reserved
 - Scheduled Reserved Instances (Scheduled Instances) enable you to **purchase capacity reservations that recur on a daily, weekly, or monthly** basis, with a specified start time and duration, for a **one year term**. 
-- You reserve the capacity in advance, so that you know it is available when
 - Scheduled Instances are a good choice for workloads that *do not run continuously but do run on a regular schedule*. For example, you can use Scheduled Instances for an application that runs during business *hours or for batch processing that runs at the end of the week*.
 
 > [!note]- The main difference between standard and scheduled reserved is that **standard reserved** reserves the instance for **continuous** use.
@@ -52,7 +51,7 @@ updated: 2022-05-04 12:33
 - For **compliance** reasons and **server bound software licenses** (complex licensing, BYOL - Bring your own license).
 - **3 year reservation**.
 - Billing per host.
-- With dedicated hosts you have additional control and visibility on how instances are placed on the server.
+- With dedicated hosts you have *additional control and visibility on how instances are placed* on the server.
 - With Dedicated Host the physical server is basically yours. It does not change, **it's always the same physical machine for as long as you are paying.**
 
 ## Dedicated Instances
@@ -62,7 +61,7 @@ updated: 2022-05-04 12:33
 - *Automatic instance placement*.
 - Your instance runs on some dedicated hardware. **Its not lockdown to you**. If you stop/start instance, you can get some other hardware somewhere else. Basically, the hardware is "yours" (*you are not sharing it with others) for the time your instance is running*. You stop/start it, you may get different physical machine later on (maybe older, maybe newer, maybe its specs will be a bit different), and so on. **So your instance is moved around on different physical servers - whichever is not occupied by others at the time.**
 - If you see keyword **single tenancy** in questions then go for dedicated instances. Dedicated hosts also offers single tenancy but it is more expensive. So unless there is a demand for licensing go for dedicated instances.
-	- In short dedicated instances are the *most cost effective* way of achieving single tenancy.
+	- In short dedicated instances are the *most cost effective way of achieving single tenancy*.
 
 ## Tenancy Options
 ![[attachments/Pasted image 20220501114513.png]]

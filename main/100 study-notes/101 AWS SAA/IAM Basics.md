@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 19:08
-updated: 2022-05-02 15:42
+updated: 2022-05-05 15:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -9,7 +9,7 @@ updated: 2022-05-02 15:42
 ## Terminologies
 -   IAM **Resources** → `user`, `group`, `role`, `policy`, and identity provider objects that are stored in IAM.
 -   IAM **Identities** → The IAM resource objects that are used to identify and group. *You can attach a policy to an IAM identity*. These include `users`, `groups`, and `roles`.
--   IAM **Entities** → The IAM resource objects that AWS **uses for authentication**. These include IAM `users` and `roles`.
+-   IAM **Entities** → The IAM resource objects that AWS **uses for authentication**. These include IAM `users` and `roles`. ^182218
 -   IAM **Principals** → A person or application that uses the `AWS account root user`, an `IAM user`, or an `IAM role` to **sign in and make requests to AWS**. Principals include federated users and assumed roles.
 
 ## Introduction

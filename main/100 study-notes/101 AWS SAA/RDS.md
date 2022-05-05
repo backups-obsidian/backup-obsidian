@@ -1,6 +1,6 @@
 ---
 created: 2022-04-21 11:18
-updated: 2022-04-21 13:49
+updated: 2022-05-05 19:47
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -12,12 +12,11 @@ updated: 2022-04-21 13:49
 
 ## Why use RDS instead of manually provisioning databases on EC2
 - **Automated provisioning** and **OS patching**
--   [[RDS Read Replica & Multi AZ#RDS Read Replica | RDS Read Replica]] to improve read performance.
--   [[RDS Read Replica & Multi AZ#RDS Multi AZ | RDS Multi AZ]] setup for **disaster recovery**.
--   **Backups are stored in EBS**
--   To handle a higher load in your database, **you can vertically scale up your master database** with a simple push of a button.
--   In addition to scaling your master database vertically, you can also improve the performance of a read-heavy database by using **read replicas to horizontally scale your database**.
--   You can restore a DB instance to a specific point in time, creating a new DB instance.
+- [[RDS Read Replica & Multi AZ#RDS Read Replica | RDS Read Replica]] to improve read performance.
+- [[RDS Read Replica & Multi AZ#RDS Multi AZ | RDS Multi AZ]] setup for **disaster recovery**.
+- To handle a higher load in your database, **you can vertically scale up your master database** with a simple push of a button.
+- In addition to scaling your master database vertically, you can also improve the performance of a read-heavy database by using **read replicas to horizontally scale your database**.
+- You can restore a DB instance to a specific point in time, creating a new DB instance.
 
 > [!caution] You cannot SSH into RDS instances.
 
@@ -33,7 +32,7 @@ updated: 2022-04-21 13:49
 -   **Snapshots** **can be retained as long as we want**. In automated backups its **7** days by default and maximum of **35** days.
 
 > [!important]- Backups are stored in **S3**.
-> Just for reference, snapshots of EBS volumes were stored in S3.
+> Just for reference, snapshots of EBS volumes were also stored in S3.
 
 ### Autoscaling
 - RDS will detect when you are running out of space and will **scale automatically** with zero downtime. This means we don’t have to scale our database manually. 
@@ -63,4 +62,4 @@ updated: 2022-04-21 13:49
 -   **Enhanced Monitoring metrics** are useful when you want to see how **different processes** or **threads on a DB instance use the CPU**.
 -   We can **view the following** in enhanced monitoring: **RDS child processes**, **RDS processes**, **OS processes**.
 
-> [!tip] Whenever you see processes and threads in question go for RDS Enhanced monitoring.
+> [!tip] Whenever you see *processes* and *threads* in question go for RDS Enhanced monitoring.

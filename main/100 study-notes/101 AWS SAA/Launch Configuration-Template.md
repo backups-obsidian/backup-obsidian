@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 10:06
+updated: 2022-05-05 19:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -20,4 +20,8 @@ updated: 2022-05-01 10:06
 - Launch configurations cannot be versioned and you have to create new ones every time if you want to make any changes. They cannot be modified.
 
 > [!question]- Which tenancy to use?
-> When you create a launch configuration, the default value for the instance placement tenancy is null and the instance tenancy is controlled by the tenancy attribute of the VPC. If you set the *Launch Configuration Tenancy to default and the VPC Tenancy is set to dedicated, then the instances have dedicated tenancy*. If you set the *Launch Configuration Tenancy to dedicated and the VPC Tenancy is set to default, then again the instances have dedicated tenancy*.
+> - When you create a launch configuration, the default value for the instance placement tenancy is null and the instance tenancy is controlled by the tenancy attribute of the VPC. 
+> - If you set the *Launch Configuration Tenancy to default and the VPC Tenancy is set to dedicated, then the instances have dedicated tenancy*. 
+> - If you set the *Launch Configuration Tenancy to dedicated and the VPC Tenancy is set to default, then again the instances have dedicated tenancy*.
+> 
+> **Always dedicated**.

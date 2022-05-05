@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-03 15:43
+updated: 2022-05-05 20:05
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -30,6 +30,8 @@ updated: 2022-05-03 15:43
 > - In a DB cluster we have *one master* which supports read and writes
 > - We can have several *read replicas*.
 > - In the event of disaster any of these *read replicas* can be *automatically promoted to the new master*. 
+> ---
+> In RDS you have to use multi AZ for automatic failover. Also the standby instances don't take read requests in aurora they do.
 
 - Aurora DB cluster uses a *cluster volume* that manages the data for those DB instances. It is a *virtual database storage volume that spans multiple Availability Zones*, with each Availability Zone having a copy of the DB cluster data. 
 - This is also known as a **provisioned DB cluster** since you can *choose your DB instance class size* and create Aurora Replicas to increase read throughput. If your workload changes, you can *modify the DB instance class size* and change the number of Aurora Replicas. This model *works well* when the **database workload is predictable**, because **you can adjust capacity manually** based on the expected workload.

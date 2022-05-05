@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 20:42
-updated: 2022-04-20 20:47
+updated: 2022-05-05 19:23
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -10,7 +10,7 @@ updated: 2022-04-20 20:47
 ## Termination Policy
 - Termination policy decides which instance will be deleted in case of a scale in.
 
-- Default termination policy**Steps**: 
+- Default termination policy **steps**: 
 	- Find the **AZ with the most number of instances**.
 	- Find instances that are not protected from scale in.
 	- If there are multiple instances delete the one with the **oldest launch template or configuration**.

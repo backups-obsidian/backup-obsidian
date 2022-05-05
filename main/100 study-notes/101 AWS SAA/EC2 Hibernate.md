@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 11:16
+updated: 2022-05-05 16:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -10,7 +10,7 @@ updated: 2022-05-01 11:16
 - Some **use cases** of this would be *saving the ram state* (redis) or *services that take a long time to initialise*.
 - RAM size cannot be greater than **150 GB**.
 - An instance cannot be hibernated for more than **60 days**.
-- Hibernate is not supported on bare metal.
+- Hibernate is *not supported on bare metal*.
 
 > [!caution] **Root** EBS volume must be **encrypted** to use hibernate.
 

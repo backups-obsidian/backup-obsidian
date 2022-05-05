@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-05-03 20:33
+updated: 2022-05-05 19:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -27,7 +27,7 @@ updated: 2022-05-03 20:33
 > [!important]- You *can edit ASGs* after they have been created but you *cannot edit launch configurations*. You *can edit launch templates*.
 > So if you want your instances to use a new AMI and they are using launch configuration then you can just create a new launch configuration and update the ASG.
 
-- While creating an ASG we have to specify the subnets. Make sure you specify all the subnets.
+- While creating an ASG we have to specify the subnets. Make sure you **specify all the subnets**. Otherwise EC2 instances will only be balanced in the subnets provided and it won't be HA.
 
 > [!question]- What happens if a scaling activity causes me to reach my Amazon EC2 limit of instances?
 > Amazon EC2 Auto Scaling cannot scale past the Amazon EC2 limit of instances that you can run
@@ -47,9 +47,6 @@ updated: 2022-05-03 20:33
 -   A *healthy* instance enters the *InService* state.
 -   If connection draining is enabled, Auto Scaling waits for in-flight requests to complete or timeout before terminating instances.
 -   **The health check grace period allows a period of time for a new instance to warm up before performing a health check (300 seconds by default**).
-
--  You can put an instance that is in the *InService* state into the *Standby* state, update some software or troubleshoot the instance, and then return the instance to service. Instances that are on standby are still part of the Auto Scaling group, but they do not actively handle application traffic.
-- If the instance is in *Impaired status* Amazon EC2 Auto Scaling *does not immediately terminate instances*.
 
 ## Auto Scaling Alarms
 - These alarms trigger scaling.
@@ -76,11 +73,13 @@ updated: 2022-05-03 20:33
  
 > [!note]- Unlike AZ rebalancing and *just like scaling*, **termination of unhealthy instances happens first**, then Auto Scaling attempts to launch new instances to replace terminated instances.
 
-## Suspending Scaling and Standby State
+## Suspending Scaling 
 - You can **suspend and then resume** one or more of the **scaling processes** for your Auto Scaling group. This is done using `SuspendProcesses` and `ResumeProcesses` API. 
 - This can be useful when you want to *investigate a configuration problem or other issue* with your web application and then *make changes to your application, without invoking the scaling processes*. 
-- You can manually move an **instance** from an ASG and put it in the **standby state**.
-- *Instances in standby state* are still managed by Auto Scaling, are charged as normal, and *do not count towards available EC2 instance for workload/application use*. 
+
+## Standby State
+- You can manually move an **instance** from an ASG and put it in the **standby state**. In general it is in *InService* state.
+- *Instances in standby state* are still managed by Auto Scaling, are charged as normal, and do not count towards available EC2 instance for workload/application use i.e. they **do not handle application traffic**. 
 - Auto scaling **does not perform health checks on instances in the standby state**. 
 - *Standby state* can be used for *performing updates/changes/troubleshooting etc without health checks being performed or replacement instances being launched*.
 - Suspending scaling and standby state go hand in hand for *troubleshooting an ASG*.
