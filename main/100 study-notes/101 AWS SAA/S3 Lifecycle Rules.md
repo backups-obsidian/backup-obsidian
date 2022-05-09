@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-23 12:36
+updated: 2022-05-06 08:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -32,7 +32,7 @@ updated: 2022-04-23 12:36
 - Rules can be **created** for a **certain folder** (prefix). Ex: `s3://mybucket/mp3/*`
 
 ## S3 Analytics
--  We can setup S3 analytics to help determine when to transition objects **from Standard to Standard IA**
+-  We can setup S3 analytics to help determine when to transition objects **from Standard to Standard IA**. Same classes offered by Intelligent tiering.
 - It **DOESNOT** work for **Glacier** or **One Zone IA**.
 - *Report is updated daily*.
 

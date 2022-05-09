@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-30 16:17
+updated: 2022-05-06 22:20
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -23,7 +23,7 @@ updated: 2022-04-30 16:17
 
 > [!important] Generally used *when you no longer need to store data on premises*.
 
-> [!note] Keywords: *data replication*, *automated*,*moving on premise data*.
+> [!note] Keywords: *data replication*, *automated*, *moving on premise data*.
 
 ## Backup
 - **Fully managed service**

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 16:24
-updated: 2022-05-04 12:12
+updated: 2022-05-06 10:28
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -19,7 +19,7 @@ updated: 2022-05-04 12:12
 - *We control the throughput and scaling*, it has to be provisioned by configuring the number of shards.
 - Each shard can **ingest** **1MB/s** or **1000Msg/s** and can give and **output** of **2MB/s**. If you get `ProvisionedThroughputExceeded` exception you should add more shards.
 	- If want to go for a more *cost effective option* then you should use **batch messages**.
-- By default, the *2MB/second/shard output* is *shared between all of the applications consuming data from the stream*. You should use built in**enhanced fan-out** if you have *multiple consumers retrieving data from a stream in parallel*. With enhanced fan out developers can register stream consumers to use enhanced fan-out and *receive their own 2MB/second pipe of read throughput per shard*.
+- By default, the *2MB/second/shard output* is *shared between all of the applications consuming data from the stream*. You should use built in **enhanced fan-out** if you have *multiple consumers retrieving data from a stream in parallel*. With enhanced fan out developers can register stream consumers to use enhanced fan-out and *receive their own 2MB/second pipe of read throughput per shard*.
 
 > [!tip]+ If you want to *increase the performance* then try to *increase the number of shards* or go for *enhanced fan out*. 
 > **Enhanced fan out** is used when you are getting performance hit because of **multiple consumers**. 
@@ -67,7 +67,7 @@ updated: 2022-05-04 12:12
 > [!question]- Why use KDS with Kinesis Data Firehose?
 > *Kinesis Data Streams cannot directly write the output to S3*. In addition, KDS does not offer a plug and play integration with an intermediary Lambda function like Firehose does. You will need to do a lot of custom coding to get the Lambda function to process the incoming stream and then reliably dump the transformed output to S3.
 
-> [!note] Keywords: **processing data**, *least infra maintenance (serverless)*, *load*,**store**, *data stores*.
+> [!note] Keywords: **processing data**, *least infra maintenance (serverless)*, *load*, **store**, *data stores*.
 
 > [!note] Can send data to ElasticSearch but *not to EMR*.
 

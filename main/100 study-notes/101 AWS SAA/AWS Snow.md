@@ -1,6 +1,6 @@
 ---
 created: 2022-04-24 20:22
-updated: 2022-05-01 16:07
+updated: 2022-05-06 09:27
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -70,4 +70,3 @@ updated: 2022-05-01 16:07
 ## AWS OpsHub
 - *Historically* to deal with the snow family of devices *one had to use CLI*.
 - **AWS OpsHub** is something you can download on your desktop to **manage** the **snow devices**.
-- What can be done with OpsHub

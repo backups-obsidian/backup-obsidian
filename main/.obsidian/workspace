@@ -6,25 +6,10 @@
       {
         "id": "12fca3be1cbcb731",
         "type": "leaf",
-        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
             "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          },
-          "pinned": true
-        }
-      },
-      {
-        "id": "28129256e8e27392",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -196,14 +181,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/Route53 Health Checks.md",
-    "100 study-notes/101 AWS SAA/Route53 Routing Policies.md",
-    "100 study-notes/101 AWS SAA/Route53.md",
-    "100 study-notes/101 AWS SAA/Other Databases.md",
-    "100 study-notes/101 AWS SAA/DynamoDB.md",
-    "100 study-notes/101 AWS SAA/RDS.md",
-    "100 study-notes/101 AWS SAA/ElastiCache.md",
-    "100 study-notes/101 AWS SAA/Aurora.md",
-    "100 study-notes/101 AWS SAA/RDS Security.md"
+    "100 study-notes/101 AWS SAA/Introduction.md",
+    "100 study-notes/101 AWS SAA/HPC in AWS.md",
+    "100 study-notes/101 AWS SAA/ElasticBeanstalk.md",
+    "100 study-notes/101 AWS SAA/Other Services.md",
+    "100 study-notes/101 AWS SAA/DataSync & Backup.md",
+    "100 study-notes/101 AWS SAA/DMS.md",
+    "100 study-notes/101 AWS SAA/Disaster Recovery.md",
+    "100 study-notes/101 AWS SAA/Transit Gateway.md",
+    "100 study-notes/101 AWS SAA/Miscellaneous.md"
   ]
 }

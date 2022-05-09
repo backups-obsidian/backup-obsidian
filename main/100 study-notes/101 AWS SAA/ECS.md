@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 20:00
-updated: 2022-04-25 20:48
+updated: 2022-05-06 10:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -98,9 +98,9 @@ updated: 2022-04-25 20:48
 - ECS service **scales automatically** to launch a new task. 
 - This works for both fargate and EC2 launch type. The only difference is that *for EC2 launch type you will have to sometimes scale the EC2 instances with an ASG* to create space for new tasks.
 - The following metrics are available for ECS Service: 
-- `ECSServiceAverageCPUUtilization`
-- `ECSServiceAverageMemoryUtilization`
-- `ALBRequestCountPerTarget`
+	- `ECSServiceAverageCPUUtilization`
+	- `ECSServiceAverageMemoryUtilization`
+	- `ALBRequestCountPerTarget`
 
 ## Rolling Updates
 - When updating ECS from v1 to v2 we can control how many tasks will be stopped, started and in which order.

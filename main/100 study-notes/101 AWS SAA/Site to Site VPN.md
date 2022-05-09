@@ -1,6 +1,6 @@
 ---
 created: 2022-04-30 19:10
-updated: 2022-04-30 20:00
+updated: 2022-05-06 20:10
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -61,5 +61,4 @@ updated: 2022-04-30 20:00
 
 > [!caution]+ We can also use DX with CloudHub
 > - Suppose we have a DX connection to the corporate HQ and multiple site to site VPNs to other locations then with a CloudHub HQ and the sites can communicate with each other along with communicating to the AWS VPC. The *only catch* is that the *DX connection must use the same VPG* (for securing connection) that is being used by the other sites for their site to site VPN.
-> -  VPN CloudHub enables your remote sites to communicate with each other, and not just with the VPC. Sites that use **AWS Direct Connect connections to the virtual private gateway** can *also be part of the AWS VPN CloudHub*. The VPN CloudHub operates on a simple hub-
-
+> -  VPN CloudHub enables your remote sites to communicate with each other, and not just with the VPC. Sites that use **AWS Direct Connect connections to the virtual private gateway** can *also be part of the AWS VPN CloudHub*.

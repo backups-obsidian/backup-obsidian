@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-02 12:57
+updated: 2022-05-06 13:48
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -56,7 +56,7 @@ updated: 2022-05-02 12:57
 		- Create a volume from the snapshot
 
 ### KMS Key Policies
-- These are resource based policies similar to bucket policies in S3. The *main difference is that we cannot control access without them*. 
+- These are **resource based policies** similar to bucket policies in S3. The *main difference is that we cannot control access without them*. 
 	- If no key policy is specified then no one can access them.
 
 - **Default** KMS Key Policy
@@ -70,7 +70,7 @@ updated: 2022-05-02 12:57
     - **Useful for cross account access** of you KMS key
 
 > [!note]- Suppose you have an *AMI that has an encrypted EBS snapshot* using KMS CMK. You *want to share this AMI with another AWS account*. You have shared the AMI with the desired AWS account, but the other AWS account still can't use it. How would solve this problem?
-> You need to share the KMS CMK with a used to encrypt the AMI with the other AWS account. A *custom key policy has to be used for cross account access*.
+> You need to share the KMS CMK used to encrypt the AMI with the other AWS account. A *custom key policy has to be used for cross account access*.
 
 > [!caution]- Deleting a customer CMK
 > - Deleting a customer master key (CMK) in AWS Key Management Service (AWS KMS) is *destructive and potentially dangerous*. Therefore, AWS KMS *enforces a waiting period*. 

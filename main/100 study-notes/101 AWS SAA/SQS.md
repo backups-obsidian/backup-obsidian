@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-05-02 16:04
+updated: 2022-05-06 10:19
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -63,7 +63,7 @@ updated: 2022-05-02 16:04
 - The **default** value of visibility timeout is **30s**. This means once the message has been polled by one of the consumers it *becomes invisible to other consumer for 30s*.
 - If the **message is not processed within the visibility timeout** then it will be visible to other consumers and they can pick up this message.
 - So we see that if the *message is not processed within the visibility timeout window* then it will be **processed twice** by two different consumers or the same consumer.
-- So if the **consumer knowns** that it is going to **need more time** than the visibility period to process the message then the consumer can call **ChangeMessageVisibility** API.
+- So if the **consumer knowns** that it is going to **need more time** than the visibility period to process the message then the consumer can call `ChangeMessageVisibility` API.
 - If the visibility timeout is **HIGH** and the *consumer crashes* then *reprocessing* will *take time*. If the visibility timeout is **LOW** then there is a *chance of messages* getting *processed* **multiple times**.
 
 ## Dead Letter Queue
@@ -77,7 +77,7 @@ updated: 2022-05-02 16:04
 ## Delay Queue
 - It is used to **delay messages** so that the consumers don’t see it immediately upto **15 minutes**.
 - By **default delay** is **0s** i.e. the *messages are available immediately* to be processed by a consumer.
-- We can set a **delay at the queue level** to delay **all** the **messages** coming to the queue **or** every time a producer sends a message we can set a **per message delay** using the **DelaySeconds** parameter.
+- We can set a **delay at the queue level** to delay **all** the **messages** coming to the queue **or** every time a producer sends a message we can set a **per message delay** using the `DelaySeconds` parameter.
 
 ## Long Polling
 - When a consumer requests for a message and if there are **no messages** in the queue then the consumer can **optionally wait** for the messages. This is known as **Long Polling**.
@@ -85,7 +85,7 @@ updated: 2022-05-02 16:04
 - It is done to **decrease latency** and the **number of API calls** to SQS. 
 - Long polling *increases the efficiency of your application*.
 - The wait time is **1** to **20s. 20s is preferred**. The parameter is called `ReceiveMessageWaitTimeSeconds`. By **default** it is **0** which means **short polling**. Any value greater than 0 means long polling.
-- Long polling can be **configured at the queue level** **OR** any **consumer** can configure it using the **WaitTimeSeconds** API.
+- Long polling can be **configured at the queue level** **OR** any **consumer** can configure it using the `WaitTimeSeconds` API.
 
 ## Request Response System
 - The producer sends messages to the Request Queue with the instruction on which queue the responders should place the response payload.
