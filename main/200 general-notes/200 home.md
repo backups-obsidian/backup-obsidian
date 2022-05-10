@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:38
-updated: 2022-04-28 21:54
+updated: 2022-05-10 10:40
 description: Non tech related stuff
 ---
 ---
@@ -11,3 +11,4 @@ description: Non tech related stuff
 
 [[LinkedIn write up ideas]]
 [[Useful Mac Apps]]
+[[Useful Chrome Extensions]]
