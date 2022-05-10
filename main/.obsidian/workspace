@@ -6,11 +6,26 @@
       {
         "id": "12fca3be1cbcb731",
         "type": "leaf",
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+            "file": "300 short-notes/300 home.md",
             "mode": "preview",
+            "backlinks": false,
+            "source": true
+          },
+          "pinned": true
+        }
+      },
+      {
+        "id": "2496540ac1c00e7f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "300 short-notes/HTTP Deep Dive.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -87,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "file": "300 short-notes/HTTP Deep Dive.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+                "file": "300 short-notes/HTTP Deep Dive.md"
               }
             }
           },
@@ -133,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+                "file": "300 short-notes/HTTP Deep Dive.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -178,17 +193,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "12fca3be1cbcb731",
+  "active": "2496540ac1c00e7f",
   "lastOpenFiles": [
+    "300 short-notes/HTTP Deep Dive.md",
+    "200 general-notes/Useful Mac Apps.md",
+    "300 short-notes/300 home.md",
+    "000 home.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
     "100 study-notes/101 AWS SAA/Introduction.md",
     "100 study-notes/101 AWS SAA/HPC in AWS.md",
     "100 study-notes/101 AWS SAA/ElasticBeanstalk.md",
     "100 study-notes/101 AWS SAA/Other Services.md",
-    "100 study-notes/101 AWS SAA/DataSync & Backup.md",
-    "100 study-notes/101 AWS SAA/DMS.md",
-    "100 study-notes/101 AWS SAA/Disaster Recovery.md",
-    "100 study-notes/101 AWS SAA/Transit Gateway.md",
-    "100 study-notes/101 AWS SAA/Miscellaneous.md"
+    "100 study-notes/101 AWS SAA/DataSync & Backup.md"
   ]
 }

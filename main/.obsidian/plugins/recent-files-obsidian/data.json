@@ -1,6 +1,22 @@
 {
   "recentFiles": [
     {
+      "basename": "HTTP Deep Dive",
+      "path": "300 short-notes/HTTP Deep Dive.md"
+    },
+    {
+      "basename": "Useful Mac Apps",
+      "path": "200 general-notes/Useful Mac Apps.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
@@ -183,22 +199,6 @@
     {
       "basename": "AWS Transfer Family",
       "path": "100 study-notes/101 AWS SAA/AWS Transfer Family.md"
-    },
-    {
-      "basename": "AWS Snow",
-      "path": "100 study-notes/101 AWS SAA/AWS Snow.md"
-    },
-    {
-      "basename": "AWS Storage Gateway",
-      "path": "100 study-notes/101 AWS SAA/AWS Storage Gateway.md"
-    },
-    {
-      "basename": "AWS FSx",
-      "path": "100 study-notes/101 AWS SAA/AWS FSx.md"
-    },
-    {
-      "basename": "Global Accelerator",
-      "path": "100 study-notes/101 AWS SAA/Global Accelerator.md"
     }
   ],
   "omittedPaths": [],
