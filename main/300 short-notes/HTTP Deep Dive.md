@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09 19:06
-updated: 2022-05-10 15:47
+updated: 2022-05-10 20:13
 ---
 ---
 **Links**: [[300 home]]
@@ -56,15 +56,17 @@ updated: 2022-05-10 15:47
 	- Now since we have a single TCP connection it will wait for the response of index.html files before requesting the CSS and JS files.
 	- One way of making it a bit better is by *establishing multiple TCP connections (6)*. But this is working around the problem instead of solving it. What if you have more than 6 things then we are back to the initial problem.
 		- ![[attachments/Pasted image 20220510154008.png]]
+		- ![[attachments/Pasted image 20220510200345.png]]
+	- Analogy for HOL
+		- A simple analogy is a platform on a railways station. If the platform is occupied by a train, all the trains that are behind are blocked until this train departs. Obviously, blocked trains can occupy other free platforms, but what if all other platforms are also occupied. This is what actually browsers do to speed up page loads with HTTP/1. They open multiple TCP connections and route pending requests through those TCP connections, but there is a limit to the number of TCP connections that can be opened and currently, this is 6 for chrome and Mozilla firefox.
 
 - Repetition of Header Data
 	- Header information is repeated with each request.
 
-- More focus on gzip, minifying CSS/JS, caching etc.
-
 ## HTTP 2
 - Header data is separate from request data.
 - *Compress HTTP Headers* using **HPACK**
+- Stream prioritisation.
 - Allows *Server Push*:
 	- Push frames enables us to send mandatory resources in advance along with an HTTP response.
 	- Server Push can be abused when configured incorrectly
@@ -72,6 +74,20 @@ updated: 2022-05-10 15:47
 - HTTP 2 is built upon HTTP 1.1 so even though the client doesn't support HTTP 2 it will served using HTTP 1.1.
 - HTTP/2 encodes request and response messages into **binary**, instead of transmitting the normal plain-text messages you would see with HTTP/1.1.
 - HOL Blocking problem in HTTP 1.1 is solved by **multiplexing**.
+
+### Working
+- HTTP/2 breaks down the HTTP protocol communication into an exchange of **binary-encoded frames**, which are then mapped to *messages* that belong to a particular *stream*, and all of which are multiplexed within a *single TCP connection*.
+
+> [!important]+ **Frames → Messages → Streams → A single TCP connection**
+> - The *frame* is the *smallest unit of communication* that carries a specific type of data — e.g., HTTP headers, message payload, and so on.
+> -  Each *message* is a *logical HTTP message*, such as a request, or response, which consists of *one or more frames*.
+> - Each *stream* has a *unique identifier* and optional priority information that is used to carry bidirectional messages. 
+> - A single TCP connection can have *hundreds of streams*.
+
+> [!note]- The ability to break down an HTTP message into independent frames, interleave them, and then reassemble them on the other end is the single most important enhancement of HTTP/2.
+> ![[attachments/Pasted image 20220510194815.png]] 
+> ---
+> The above figure has three parallel streams(stream 1, stream 3 and stream 5) in a single connection. While the client is transmitting a DATA frame to the server(Over stream 5) the server, on the other hand, is transmitting an interleaved sequence of frames to the client over stream 1 and stream 3.
 
 ### Multiplexing
 - HTTP/1.1 loads resources one after the other, so if one resource cannot be loaded, it *blocks all the other resources behind it*. 
@@ -82,15 +98,22 @@ updated: 2022-05-10 15:47
 	- ![[attachments/Pasted image 20220510150310.png]]
 	- ![[attachments/Pasted image 20220510154249.png]]
 
-### Stream Prioritisation
-- When downloading a website, the *order in which assets* (HTML, CSS, images, Javascript) *are downloaded is important* and can affect what you see in the browser. 
-- If the assets are loaded in the wrong order your website may look incomplete or even lose functionality in some areas.
-- *HTTP/1.1 eliminates this issue, as the head-of-line blocking makes it straightforward to load assets in the right order*. 
-- HTTP/2 doesn’t have head-of-line blocking, therefore responses to the browser request might be received in any order.
-- *HTTP/2 solves this issue by allowing the browser to indicate to the server what priorities should be given for downloading the specific files or objects*. 
-- This means that web browsers will automatically download the most important assets first, therefore removing any potential for assets to be loaded in the wrong order.
+### Flaw - TCP HOL Blocking
+- HTTP 2.0 is great until there’s a hiccup in the network connection, like network congestion or moving from one cell to another on the mobile network and when a packet gets lost. 
+- *TCP guarantees that the order in which packets are sent is the order in which received by the app* — so if you miss one, everything has to stop until that particular packet gets retransmitted. 
+
+> [!important] If you multiplex multiple requests onto a single TCP connection, then all those requests have to stop and wait even though the lost packet might affect only one of them.
+
+- This *TCP head of line blocking problem* is inherent to TCP and *UDP fixes it by allowing the application to control the retransmission of packets*. 
+- Ideally, a missing packet should have affected only the stream from which packet was lost, but instead, *it blocks all other streams*. 
+
+> [!caution] This makes HTTP/2 highly unreliable and **worse performant** in **poor network conditions**.
 
 ## HTTP 3
 - Perhaps the most obvious difference between HTTP/3 and the older versions is that HTTP/3 is fully based on **QUIC**, which utilises **UDP**.
+- HTTP/3 also includes TLS 1.3 encryption.
+	- ![[attachments/Pasted image 20220510201255.png]]
+- From TCP + TLS to UDP + QUIC.
 
 ## References
+- [HTTP/1 to HTTP/2 to HTTP/3. It’s not about being the best, it’s… | by Sandeep Verma | Medium](https://medium.com/@sandeep4.verma/http-1-to-http-2-to-http-3-647e73df67a8)

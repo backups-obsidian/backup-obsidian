@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
       "basename": "HTTP Deep Dive",
       "path": "300 short-notes/HTTP Deep Dive.md"
+    },
+    {
+      "basename": "useful symbols",
+      "path": "400 misc/useful symbols.md"
     },
     {
       "basename": "200 home",
@@ -15,10 +23,6 @@
     {
       "basename": "Useful Mac Apps",
       "path": "200 general-notes/Useful Mac Apps.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "000 home",
@@ -195,10 +199,6 @@
     {
       "basename": "Amazon MQ",
       "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
     }
   ],
   "omittedPaths": [],
