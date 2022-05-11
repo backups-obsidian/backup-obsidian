@@ -1,12 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "What are websockets",
+      "path": "300 short-notes/What are websockets.md"
+    },
+    {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
     },
     {
       "basename": "HTTP Deep Dive",
       "path": "300 short-notes/HTTP Deep Dive.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
+      "basename": "Setting up ZSH",
+      "path": "300 short-notes/Setting up ZSH.md"
     },
     {
       "basename": "useful symbols",
@@ -23,10 +39,6 @@
     {
       "basename": "Useful Mac Apps",
       "path": "200 general-notes/Useful Mac Apps.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     },
     {
       "basename": "101 AWS SAA Index",
@@ -183,22 +195,6 @@
     {
       "basename": "ECR & EKS",
       "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "Kinesis",
-      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
-    },
-    {
-      "basename": "Event Processing",
-      "path": "100 study-notes/101 AWS SAA/Event Processing.md"
-    },
-    {
-      "basename": "Amazon MQ",
-      "path": "100 study-notes/101 AWS SAA/Amazon MQ.md"
     }
   ],
   "omittedPaths": [],
