@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/What are websockets.md",
+            "file": "300 short-notes/Websockets, polling & SSE.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/What are websockets.md",
+                "file": "300 short-notes/Websockets, polling & SSE.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/What are websockets.md"
+                "file": "300 short-notes/Websockets, polling & SSE.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/What are websockets.md",
+                "file": "300 short-notes/Websockets, polling & SSE.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -209,14 +209,14 @@
   },
   "active": "b461ea08da2082d0",
   "lastOpenFiles": [
-    "300 short-notes/What are websockets.md",
+    "300 short-notes/Websockets, polling & SSE.md",
+    "400 misc/useful symbols.md",
+    "300 short-notes/How to setup neovim.md",
     "300 short-notes/300 home.md",
     "300 short-notes/HTTP Deep Dive.md",
-    "300 short-notes/How to setup neovim.md",
     "000 home.md",
     "000.md",
     "300 short-notes/Setting up ZSH.md",
-    "400 misc/useful symbols.md",
     "200 general-notes/200 home.md",
     "200 general-notes/Useful Chrome Extensions.md"
   ]

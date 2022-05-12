@@ -1,8 +1,16 @@
 {
   "recentFiles": [
     {
-      "basename": "What are websockets",
-      "path": "300 short-notes/What are websockets.md"
+      "basename": "Websockets, polling & SSE",
+      "path": "300 short-notes/Websockets, polling & SSE.md"
+    },
+    {
+      "basename": "useful symbols",
+      "path": "400 misc/useful symbols.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
     },
     {
       "basename": "300 home",
@@ -13,20 +21,12 @@
       "path": "300 short-notes/HTTP Deep Dive.md"
     },
     {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
-    },
-    {
       "basename": "000 home",
       "path": "000 home.md"
     },
     {
       "basename": "Setting up ZSH",
       "path": "300 short-notes/Setting up ZSH.md"
-    },
-    {
-      "basename": "useful symbols",
-      "path": "400 misc/useful symbols.md"
     },
     {
       "basename": "200 home",
