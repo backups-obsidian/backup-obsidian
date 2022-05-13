@@ -19,19 +19,6 @@
         }
       },
       {
-        "id": "b461ea08da2082d0",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "300 short-notes/Websockets, polling & SSE.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
         "id": "4f3011dd191c15cf",
         "type": "leaf",
         "state": {
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/Websockets, polling & SSE.md",
+                "file": "300 short-notes/300 home.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/Websockets, polling & SSE.md"
+                "file": "300 short-notes/300 home.md"
               }
             }
           },
@@ -162,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/Websockets, polling & SSE.md",
+                "file": "300 short-notes/300 home.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,12 +194,12 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "b461ea08da2082d0",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "300 short-notes/Websockets, polling & SSE.md",
-    "400 misc/useful symbols.md",
-    "300 short-notes/How to setup neovim.md",
     "300 short-notes/300 home.md",
+    "300 short-notes/Websockets, Polling, SSE & Webhooks.md",
+    "300 short-notes/How to setup neovim.md",
+    "400 misc/useful symbols.md",
     "300 short-notes/HTTP Deep Dive.md",
     "000 home.md",
     "000.md",

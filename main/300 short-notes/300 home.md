@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-05-12 16:29
+updated: 2022-05-13 12:39
 description: Any thing short that is tech related
 ---
 ---
@@ -15,4 +15,4 @@ description: Any thing short that is tech related
 [[Setting up ZSH]]
 [[HTTP Deep Dive]]
 [[How to setup neovim]]
-[[Websockets, polling & SSE]]
+[[Websockets, Polling, SSE & Webhooks]]
