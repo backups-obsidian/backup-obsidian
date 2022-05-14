@@ -10,25 +10,12 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/300 home.md",
+            "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
             "mode": "source",
             "backlinks": false,
             "source": true
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "4f3011dd191c15cf",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "300 short-notes/How to setup neovim.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
         }
       }
     ],
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/300 home.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -149,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/300 home.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -196,15 +183,15 @@
   },
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "300 short-notes/300 home.md",
-    "300 short-notes/Websockets, Polling, SSE & Webhooks.md",
-    "300 short-notes/How to setup neovim.md",
-    "400 misc/useful symbols.md",
-    "300 short-notes/HTTP Deep Dive.md",
-    "000 home.md",
-    "000.md",
-    "300 short-notes/Setting up ZSH.md",
-    "200 general-notes/200 home.md",
-    "200 general-notes/Useful Chrome Extensions.md"
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "300 short-notes/Bookmarklets.md",
+    "100 study-notes/102 AWS DVA/ElasticCache Replication.md",
+    "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/Direct Connect.md",
+    "100 study-notes/101 AWS SAA/Site to Site VPN.md",
+    "100 study-notes/101 AWS SAA/VPC Flow Logs.md",
+    "100 study-notes/101 AWS SAA/NACLs.md",
+    "100 study-notes/101 AWS SAA/VPC & Subnets.md"
   ]
 }

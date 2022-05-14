@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09 19:06
-updated: 2022-05-12 23:15
+updated: 2022-05-13 23:22
 ---
 ---
 **Links**: [[300 home]]
@@ -8,9 +8,25 @@ updated: 2022-05-12 23:15
 ---
 ## Installing neovim
 ```bash
-sudo apt install neovim
+cd ~/Downloads
+curl -L https://github.com/neovim/neovim/releases/latest/download/nvim.appimage -o nvim
+chmod u+x nvim
+
+# doing ./nvim should start a nvim 
+./nvim
+
+# which nvim won't work since we haven't added it to path
+# adding nvim to path
+sudo mv nvim /usr/local/bin
+```
+- Don't use apt for installing neovim since the versions are pretty old.
+- Best part of using app images is that you don't need dependencies everything is packaged into the app image.
+
+```bash
 brew install neovim
 ```
+
+- [Installing Neovim · neovim/neovim Wiki (github.com)](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 
 ## Zshrc configuration
 ```bash
@@ -20,7 +36,7 @@ alias vim='nvim'
 export EDITOR='nvim' 
 ```
 
-## Neovim Configuration
+## Neovim Configuration (vim)
 - Creating the config folder: `mkdir -p .config/nvim`
 - Config file: `~/.config/nvim/init.vim`. This is equivalent to `.vimrc` file in vim.
 
@@ -58,3 +74,9 @@ call plug#end()
 ## Tips
 - Once the plugin manager is set you can use tab for autocompletion while typing out commands.
 - Use a particular theme: `:colorscheme gruvbox`
+
+## Neovim configuration (lua)
+- We can use *modules* in lua which this means we will not end up with large configuration files.
+- We use the `require` function to load the different modules in lua. 
+- So the base directory will have a `init.lua` file which will load all the modules.
+- All the modules must be inside the `~/.config/nvim/lua` folder. For example we can have a settings folder inside lua folder. We will need a `init.lua` file in all the subfolders.

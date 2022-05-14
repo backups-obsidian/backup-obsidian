@@ -1,9 +1,10 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-22 00:07
+updated: 2022-05-14 09:41
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/ElastiCache DVA | ElastiCache DVA]]
 
 ---
 
@@ -48,4 +49,6 @@ updated: 2022-04-22 00:07
 - **Lazy loading**: You write to the cache only when there is a *cache miss*.
 - **Write through**: Write to cache *when written to DB* - no stale data.
 - **Session Store**: Refresh cache on expiry of TTL.
+
+For more info on caching patterns refer [[../102 AWS DVA/ElastiCache DVA#Caching strategies | Caching Strategies]]
 

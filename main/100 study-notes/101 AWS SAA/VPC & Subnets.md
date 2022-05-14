@@ -1,12 +1,14 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-04-29 20:07
+updated: 2022-05-14 11:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
 
 ---
 ## VPC
+- VPC is a *regional resource*.
+- When you use your AWS account you have a default VPC in each region with a public subnet in each AZ but no private subnets.
 - Amazon VPC enables you to launch AWS resources into a virtual network that you've defined. This virtual network closely resembles a traditional network that you'd operate in your own data centre, with the benefits of using the scalable infrastructure of AWS.
 - Amazon *VPC is the networking layer for Amazon EC2*.
 - VPC is **logically isolated** from other virtual networks in the AWS Cloud.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-04 12:27
+updated: 2022-05-14 11:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -49,6 +49,8 @@ updated: 2022-05-04 12:27
 	- ![[attachments/Pasted image 20220430111611.png]]
     
 - They **remove the need of NATGW and IGW** to access AWS services. This means you *only need access to internet in the private subnet if you want to update the instances* or if you are talking to services which are not inside AWS.
+
+> [!important] [[Site to Site VPN]] and [[Direct Connect]] *cannot access VPC endpoints*. VPC endpoints are just to access AWS services privately within your VPC.
 
 ### Types of Endpoints
 > [!note]- Differences between interface and gateway endpoint.

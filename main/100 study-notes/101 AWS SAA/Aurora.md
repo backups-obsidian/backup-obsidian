@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-05 20:05
+updated: 2022-05-14 09:33
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -16,7 +16,7 @@ updated: 2022-05-05 20:05
 - **Instantaneous automatic failover** (30s).
 - **Automatic backups** are stored for a **maximum of 35 days** just like RDS.
 - Aurora can handle highly transactional **OLTP** workloads. The database is also **ACID** compliant.
-- It has the same security measures as [[RDS Security#Network Security|RDS]]. It also *supports IAM based authentication*.
+- It has the same security measures as [[RDS Security#Network Security|RDS]] because it uses the same engines Postgres and MySQL. It also *supports IAM based authentication*.
 	- In Aurora also you have to *configure security groups*.
 
 ## High Availability and Read Scaling

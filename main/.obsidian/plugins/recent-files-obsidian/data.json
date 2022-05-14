@@ -1,16 +1,92 @@
 {
   "recentFiles": [
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Bookmarklets",
+      "path": "300 short-notes/Bookmarklets.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "VPC Peering and Endpoints",
+      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Direct Connect",
+      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
+    },
+    {
+      "basename": "Site to Site VPN",
+      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
+    },
+    {
+      "basename": "VPC Flow Logs",
+      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
+    },
+    {
+      "basename": "NACLs",
+      "path": "100 study-notes/101 AWS SAA/NACLs.md"
+    },
+    {
+      "basename": "VPC & Subnets",
+      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
+    },
+    {
+      "basename": "ElastiCache",
+      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
     },
     {
-      "basename": "Websockets, Polling, SSE & Webhooks",
-      "path": "300 short-notes/Websockets, Polling, SSE & Webhooks.md"
+      "basename": "Aurora",
+      "path": "100 study-notes/101 AWS SAA/Aurora.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
+      "basename": "200 home",
+      "path": "200 general-notes/200 home.md"
     },
     {
       "basename": "How to setup neovim",
       "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "300 short-notes/gRPC.md"
+    },
+    {
+      "basename": "What is WebRTC",
+      "path": "300 short-notes/What is WebRTC.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "notes",
+      "path": "999 templates/notes.md"
+    },
+    {
+      "basename": "Websockets, Polling, SSE & Webhooks",
+      "path": "300 short-notes/Websockets, Polling, SSE & Webhooks.md"
     },
     {
       "basename": "useful symbols",
@@ -29,20 +105,12 @@
       "path": "300 short-notes/Setting up ZSH.md"
     },
     {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
       "basename": "Useful Chrome Extensions",
       "path": "200 general-notes/Useful Chrome Extensions.md"
     },
     {
       "basename": "Useful Mac Apps",
       "path": "200 general-notes/Useful Mac Apps.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "Introduction",
@@ -89,14 +157,6 @@
       "path": "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md"
     },
     {
-      "basename": "Direct Connect",
-      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
-    },
-    {
-      "basename": "Site to Site VPN",
-      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
-    },
-    {
       "basename": "Route53",
       "path": "100 study-notes/101 AWS SAA/Route53.md"
     },
@@ -109,20 +169,8 @@
       "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
     },
     {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
       "basename": "AWS PrivateLink",
       "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
-    },
-    {
-      "basename": "VPC Peering and Endpoints",
-      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
-    },
-    {
-      "basename": "NACLs",
-      "path": "100 study-notes/101 AWS SAA/NACLs.md"
     },
     {
       "basename": "DNS in VPC",
@@ -131,10 +179,6 @@
     {
       "basename": "VPC Internet Access",
       "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
-    },
-    {
-      "basename": "VPC & Subnets",
-      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
     },
     {
       "basename": "Config",
@@ -155,46 +199,6 @@
     {
       "basename": "Inspector & Macie",
       "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
-    },
-    {
-      "basename": "GuardDuty",
-      "path": "100 study-notes/101 AWS SAA/GuardDuty.md"
-    },
-    {
-      "basename": "WAF & Firewall",
-      "path": "100 study-notes/101 AWS SAA/WAF & Firewall.md"
-    },
-    {
-      "basename": "Shield",
-      "path": "100 study-notes/101 AWS SAA/Shield.md"
-    },
-    {
-      "basename": "CloudHSM",
-      "path": "100 study-notes/101 AWS SAA/CloudHSM.md"
-    },
-    {
-      "basename": "Secrets Manager",
-      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
-    },
-    {
-      "basename": "SSM Parameter Store",
-      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
-    },
-    {
-      "basename": "API Gateway",
-      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
-      "basename": "ECR & EKS",
-      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
     }
   ],
   "omittedPaths": [],
