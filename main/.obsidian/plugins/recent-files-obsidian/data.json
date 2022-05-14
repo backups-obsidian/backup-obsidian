@@ -5,6 +5,18 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "useful symbols",
+      "path": "400 misc/useful symbols.md"
+    },
+    {
+      "basename": "AWS Limits",
+      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
+    },
+    {
       "basename": "Bookmarklets",
       "path": "300 short-notes/Bookmarklets.md"
     },
@@ -87,10 +99,6 @@
     {
       "basename": "Websockets, Polling, SSE & Webhooks",
       "path": "300 short-notes/Websockets, Polling, SSE & Webhooks.md"
-    },
-    {
-      "basename": "useful symbols",
-      "path": "400 misc/useful symbols.md"
     },
     {
       "basename": "HTTP Deep Dive",
@@ -191,14 +199,6 @@
     {
       "basename": "EventBridge",
       "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "Inspector & Macie",
-      "path": "100 study-notes/101 AWS SAA/Inspector & Macie.md"
     }
   ],
   "omittedPaths": [],
