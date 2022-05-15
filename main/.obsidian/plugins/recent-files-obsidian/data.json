@@ -1,24 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "ElasticBeanstalk",
+      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
+    },
+    {
       "basename": "ECS DVA",
       "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+    },
+    {
+      "basename": "ECR & EKS",
+      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
     },
     {
       "basename": "ECS",
       "path": "100 study-notes/101 AWS SAA/ECS.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "101 AWS SAA Index",
       "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "ECR & EKS",
-      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
     },
     {
       "basename": "CloudFront DVA",
@@ -159,10 +163,6 @@
     {
       "basename": "HPC in AWS",
       "path": "100 study-notes/101 AWS SAA/HPC in AWS.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     },
     {
       "basename": "Other Services",
