@@ -1,9 +1,10 @@
 ---
 created: 2022-04-25 20:00
-updated: 2022-05-06 10:48
+updated: 2022-05-15 11:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/ECS DVA | ECS DVA]]
 
 ---
 - It stands for **Elastic Container Service**
@@ -70,7 +71,7 @@ updated: 2022-05-06 10:48
 > *ECS Task Role*: Permissions related to *talking to services*.
 > - Each task should have a *specific role*.
 > - Use *different roles for the different ECS Services* you run
-> - Task Role is defined in the task definition
+> - Task Role is defined in the task definition. 
 > ---
 > ![[attachments/Pasted image 20220425201355.png]]
 
@@ -81,6 +82,8 @@ updated: 2022-05-06 10:48
 - We can *mount the EFS file system* on these ECS tasks.
 - Works for **both EC2 instances and fargate tasks**.
 	- ![[attachments/Pasted image 20220425201822.png]]
+
+> [!caution] FSx For *Lustre* is **not supported**. Amazon **S3** *cannot be mounted as a file system*.
 
 ## Load Balancing
 ### EC2 Launch Type

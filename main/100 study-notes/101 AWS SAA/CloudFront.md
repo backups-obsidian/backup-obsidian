@@ -1,9 +1,10 @@
 ---
 created: 2022-04-19 10:02
-updated: 2022-04-24 11:52
+updated: 2022-05-15 11:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/CloudFront DVA | CloudFront DVA]], [[CloudFront Advanced]]
 
 ---
 ## Introduction
@@ -69,6 +70,8 @@ updated: 2022-04-24 11:52
 - You can *restrict who can access your distribution* depending on the **country of request**.
 	- **Whitelist**: Allow your users to access your content only if they're in one of the countries on a list of approved countries.
 	- **Blacklist**: Prevent your users from accessing your content if they're in one of the countries on a blacklist of banned countries.
+	- Allow and block list example
+		- ![[attachments/Pasted image 20220515104749.png]]
 	
 - The **country** is determined using a 3rd party Geo-IP database
 - *Use case*: **Copyright Laws** to control access to content

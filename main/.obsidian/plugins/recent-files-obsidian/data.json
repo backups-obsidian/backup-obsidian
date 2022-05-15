@@ -1,8 +1,52 @@
 {
   "recentFiles": [
     {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+    },
+    {
+      "basename": "ECS",
+      "path": "100 study-notes/101 AWS SAA/ECS.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "ECR & EKS",
+      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "CloudFront",
+      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "CloudFront Advanced",
+      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
+    },
+    {
+      "basename": "S3 Websites",
+      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "CLI",
@@ -27,10 +71,6 @@
     {
       "basename": "VPC Peering and Endpoints",
       "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "Direct Connect",
@@ -69,10 +109,6 @@
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
     },
     {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
-    },
-    {
       "basename": "200 home",
       "path": "200 general-notes/200 home.md"
     },
@@ -87,10 +123,6 @@
     {
       "basename": "What is WebRTC",
       "path": "300 short-notes/What is WebRTC.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
     },
     {
       "basename": "notes",
@@ -167,38 +199,6 @@
     {
       "basename": "Route53",
       "path": "100 study-notes/101 AWS SAA/Route53.md"
-    },
-    {
-      "basename": "ELB",
-      "path": "100 study-notes/101 AWS SAA/ELB.md"
-    },
-    {
-      "basename": "Types of ELBs",
-      "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
-    },
-    {
-      "basename": "AWS PrivateLink",
-      "path": "100 study-notes/101 AWS SAA/AWS PrivateLink.md"
-    },
-    {
-      "basename": "DNS in VPC",
-      "path": "100 study-notes/101 AWS SAA/DNS in VPC.md"
-    },
-    {
-      "basename": "VPC Internet Access",
-      "path": "100 study-notes/101 AWS SAA/VPC Internet Access.md"
-    },
-    {
-      "basename": "Config",
-      "path": "100 study-notes/101 AWS SAA/Config.md"
-    },
-    {
-      "basename": "Cloud Trail",
-      "path": "100 study-notes/101 AWS SAA/Cloud Trail.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
     }
   ],
   "omittedPaths": [],
