@@ -1,20 +1,44 @@
 {
   "recentFiles": [
     {
-      "basename": "Linux Packaging Formats",
-      "path": "100 study-notes/104 Linux/Linux Packaging Formats.md"
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Variables",
+      "path": "100 study-notes/103 Golang/Go - Variables.md"
+    },
+    {
+      "basename": "Go - Package",
+      "path": "100 study-notes/103 Golang/Go - Package.md"
+    },
+    {
+      "basename": "105 Rust Index",
+      "path": "100 study-notes/105 Rust/105 Rust Index.md"
+    },
+    {
+      "basename": "Rust - Cargo",
+      "path": "100 study-notes/105 Rust/Rust - Cargo.md"
+    },
+    {
+      "basename": "Rust - Variable, Constants and Shadowing",
+      "path": "100 study-notes/105 Rust/Rust - Variable, Constants and Shadowing.md"
     },
     {
       "basename": "100 home",
       "path": "100 study-notes/100 home.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "Linux Packaging Formats",
+      "path": "100 study-notes/104 Linux/Linux Packaging Formats.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     },
     {
       "basename": "ElasticBeanstalk",
@@ -55,10 +79,6 @@
     {
       "basename": "S3 Websites",
       "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
       "basename": "CLI",
@@ -179,26 +199,6 @@
     {
       "basename": "DataSync & Backup",
       "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
-    },
-    {
-      "basename": "DMS",
-      "path": "100 study-notes/101 AWS SAA/DMS.md"
-    },
-    {
-      "basename": "Disaster Recovery",
-      "path": "100 study-notes/101 AWS SAA/Disaster Recovery.md"
-    },
-    {
-      "basename": "Transit Gateway",
-      "path": "100 study-notes/101 AWS SAA/Transit Gateway.md"
-    },
-    {
-      "basename": "Miscellaneous",
-      "path": "100 study-notes/101 AWS SAA/Miscellaneous.md"
-    },
-    {
-      "basename": "Organisations",
-      "path": "100 study-notes/101 AWS SAA/Organisations.md"
     }
   ],
   "omittedPaths": [],
