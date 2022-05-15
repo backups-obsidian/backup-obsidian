@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:45
-updated: 2022-05-14 21:43
+updated: 2022-05-15 16:32
 ---
 ---
 **Links**: [[../000 home | 000 Home]]
@@ -11,4 +11,5 @@ updated: 2022-05-14 21:43
 [[101 AWS SAA/101 AWS SAA Index | AWS SAA]]
 [[102 AWS DVA/102 AWS DVA Index | AWS DVA]]
 [[103 Golang/103 Golang Index | Golang]]
+[[104 Linux/104 Linux Index | Linux]]
 

@@ -1,6 +1,18 @@
 {
   "recentFiles": [
     {
+      "basename": "Linux Packaging Formats",
+      "path": "100 study-notes/104 Linux/Linux Packaging Formats.md"
+    },
+    {
+      "basename": "104 Linux Index",
+      "path": "100 study-notes/104 Linux/104 Linux Index.md"
+    },
+    {
+      "basename": "100 home",
+      "path": "100 study-notes/100 home.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
@@ -47,10 +59,6 @@
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
     },
     {
       "basename": "CLI",
@@ -191,14 +199,6 @@
     {
       "basename": "Organisations",
       "path": "100 study-notes/101 AWS SAA/Organisations.md"
-    },
-    {
-      "basename": "IPv6 & Egress Internet Gateway",
-      "path": "100 study-notes/101 AWS SAA/IPv6 & Egress Internet Gateway.md"
-    },
-    {
-      "basename": "Route53",
-      "path": "100 study-notes/101 AWS SAA/Route53.md"
     }
   ],
   "omittedPaths": [],
