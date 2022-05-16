@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-16 15:12
+updated: 2022-05-16 18:48
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -24,6 +24,13 @@ updated: 2022-05-16 15:12
 [[ElasticBeanstalk Docker]]
 
 ## CI/CD
+- Tech Stack
+	- ![[attachments/Pasted image 20220516161339.png]]
+
+[[CodeCommit]]
+[[CodePipeline]]
+[[CodeBuild]]
+[[CodeDeploy]]
 
 ## Miscellaneous
 - Typical 3 tier architecture

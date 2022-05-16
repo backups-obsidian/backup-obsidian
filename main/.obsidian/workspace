@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "a5a6ec6a59eda6b8",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,17 +194,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "12fca3be1cbcb731",
+  "active": "a5a6ec6a59eda6b8",
   "lastOpenFiles": [
+    "100 study-notes/102 AWS DVA/CodeDeploy.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/CodeBuild.md",
+    "100 study-notes/102 AWS DVA/CodePipeline.md",
+    "400 misc/useful symbols.md",
+    "100 study-notes/102 AWS DVA/CodeCommit.md",
     "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md",
     "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md",
     "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk Lifecycle policy.md",
-    "100 study-notes/101 AWS SAA/ElasticBeanstalk.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Variables.md",
-    "100 study-notes/103 Golang/Go - Package.md",
-    "100 study-notes/105 Rust/105 Rust Index.md"
+    "100 study-notes/102 AWS DVA/ElasticBeanstalk Lifecycle policy.md"
   ]
 }
