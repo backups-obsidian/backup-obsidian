@@ -5,6 +5,22 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "ElasticBeanstalk Deployment Modes",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "ElasticBeanstalk",
+      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
@@ -39,10 +55,6 @@
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     },
     {
       "basename": "ECS DVA",
@@ -187,18 +199,6 @@
     {
       "basename": "Introduction",
       "path": "100 study-notes/101 AWS SAA/Introduction.md"
-    },
-    {
-      "basename": "HPC in AWS",
-      "path": "100 study-notes/101 AWS SAA/HPC in AWS.md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
-    },
-    {
-      "basename": "DataSync & Backup",
-      "path": "100 study-notes/101 AWS SAA/DataSync & Backup.md"
     }
   ],
   "omittedPaths": [],

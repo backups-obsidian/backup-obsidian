@@ -1,9 +1,10 @@
 ---
 created: 2022-05-01 11:23
-updated: 2022-05-01 11:30
+updated: 2022-05-16 10:22
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/ElasticBeanstalk DVA | ElasticBeanstalk DVA]]
 
 ---
 ## ElasticBeanstalk

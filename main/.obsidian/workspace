@@ -184,14 +184,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md",
+    "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md",
+    "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md",
+    "100 study-notes/102 AWS DVA/ElasticBeanstalk Lifecycle policy.md",
+    "100 study-notes/101 AWS SAA/ElasticBeanstalk.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
     "100 study-notes/103 Golang/Go - Variables.md",
     "100 study-notes/103 Golang/Go - Package.md",
-    "100 study-notes/105 Rust/105 Rust Index.md",
-    "100 study-notes/105 Rust/Rust - Cargo.md",
-    "100 study-notes/105 Rust/Rust - Variable, Constants and Shadowing.md",
-    "100 study-notes/100 home.md",
-    "100 study-notes/104 Linux/Linux Packaging Formats.md",
-    "100 study-notes/104 Linux/104 Linux Index.md"
+    "100 study-notes/105 Rust/105 Rust Index.md"
   ]
 }
