@@ -1,6 +1,10 @@
 {
   "recentFiles": [
     {
+      "basename": "Useful Mac Apps",
+      "path": "200 general-notes/Useful Mac Apps.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "300 home",
       "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "Aurora",
-      "path": "100 study-notes/101 AWS SAA/Aurora.md"
     }
   ],
   "omittedPaths": [],

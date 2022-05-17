@@ -17,6 +17,19 @@
           },
           "pinned": true
         }
+      },
+      {
+        "id": "f9d2c9afc990619f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "200 general-notes/Useful Mac Apps.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
       }
     ],
     "direction": "vertical"
@@ -90,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "200 general-notes/Useful Mac Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "200 general-notes/Useful Mac Apps.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "200 general-notes/Useful Mac Apps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,8 +194,9 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "12fca3be1cbcb731",
+  "active": "f9d2c9afc990619f",
   "lastOpenFiles": [
+    "200 general-notes/Useful Mac Apps.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "100 study-notes/102 AWS DVA/CodeDeploy.md",
     "100 study-notes/102 AWS DVA/CodeBuild.md",
@@ -191,7 +205,6 @@
     "100 study-notes/102 AWS DVA/CodeGuru.md",
     "100 study-notes/102 AWS DVA/CodeArtifact.md",
     "100 study-notes/102 AWS DVA/CodeStar.md",
-    "300 short-notes/gRPC.md",
-    "100 study-notes/105 Rust/105 Rust Index.md"
+    "300 short-notes/gRPC.md"
   ]
 }
