@@ -1,6 +1,6 @@
 ---
 created: 2022-04-22 22:17
-updated: 2022-05-13 20:51
+updated: 2022-05-16 22:17
 ---
 ---
 **Links**: [[300 home]]
@@ -29,7 +29,7 @@ updated: 2022-05-13 20:51
 - **There are different RPC implementations but the most famous is gRPC**. 
 
 ### Stubs
-- In RPC data is *serialised/deserialised.*. **Stub is responsible for serialisation and deserialisation**. 
+- In RPC data is *serialised/deserialised*. **Stub is responsible for serialisation and deserialisation**. 
 - In the example given below Golang's struct is first serialised to be sent over network and then deserialised to be converted to Java's class. All this is done by stub.
 	- ![[attachments/Pasted image 20220513203144.png]]
 	- So in short a stub converts *methods*, *request types*, and *response types* into a form used by the RPC system.
@@ -52,12 +52,15 @@ updated: 2022-05-13 20:51
 - Serialisation and deserialisation work together to transform/recreate data objects to/from a *portable format*.
 - The verbs Marshal and Unmarshal are synonymous with serialise and deserialise
 - Serialising takes complex data and lists it in a sequential manner. This is what pickle (python library for writing to files) does under the hood.
+
+### Serialisation formats
 - Some *serialisation formats* are:
 	- *JSON*: serialised to **plain text**. In JavaScript, for example, you can serialise an object to a JSON string by calling the function `JSON.stringify()`.
 	- *Protobuf*: serialised to **binary**. 
 	- *XML*  
 
-> [!tip]- JSON vs Protobuf
+> [!tip]+ JSON vs Protobuf
+> - Like JSON **Protobuf is also a message format**.
 > - *JSON* is great when you have *small volume of message exchange* where as *protobuf* is great when you have a *high volume of message exchange*.
 > - *Protobuf* is something you would use if *performance really matters*.
 

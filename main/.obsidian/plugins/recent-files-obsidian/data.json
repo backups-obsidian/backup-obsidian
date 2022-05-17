@@ -1,12 +1,12 @@
 {
   "recentFiles": [
     {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "CodeDeploy",
+      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
     },
     {
       "basename": "CodeBuild",
@@ -17,12 +17,48 @@
       "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
     },
     {
-      "basename": "useful symbols",
-      "path": "400 misc/useful symbols.md"
-    },
-    {
       "basename": "CodeCommit",
       "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
+    },
+    {
+      "basename": "CodeGuru",
+      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
+    },
+    {
+      "basename": "CodeArtifact",
+      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
+    },
+    {
+      "basename": "CodeStar",
+      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
+    },
+    {
+      "basename": "gRPC",
+      "path": "300 short-notes/gRPC.md"
+    },
+    {
+      "basename": "105 Rust Index",
+      "path": "100 study-notes/105 Rust/105 Rust Index.md"
+    },
+    {
+      "basename": "Rust - Data Types",
+      "path": "100 study-notes/105 Rust/Rust - Data Types.md"
+    },
+    {
+      "basename": "note taking in obsidian",
+      "path": "400 misc/note taking in obsidian.md"
+    },
+    {
+      "basename": "obsidian tips and tricks",
+      "path": "400 misc/obsidian tips and tricks.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
+    },
+    {
+      "basename": "useful symbols",
+      "path": "400 misc/useful symbols.md"
     },
     {
       "basename": "ElasticBeanstalk Deployment Modes",
@@ -51,10 +87,6 @@
     {
       "basename": "Go - Package",
       "path": "100 study-notes/103 Golang/Go - Package.md"
-    },
-    {
-      "basename": "105 Rust Index",
-      "path": "100 study-notes/105 Rust/105 Rust Index.md"
     },
     {
       "basename": "Rust - Cargo",
@@ -167,38 +199,6 @@
     {
       "basename": "Aurora",
       "path": "100 study-notes/101 AWS SAA/Aurora.md"
-    },
-    {
-      "basename": "200 home",
-      "path": "200 general-notes/200 home.md"
-    },
-    {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "300 short-notes/gRPC.md"
-    },
-    {
-      "basename": "What is WebRTC",
-      "path": "300 short-notes/What is WebRTC.md"
-    },
-    {
-      "basename": "notes",
-      "path": "999 templates/notes.md"
-    },
-    {
-      "basename": "Websockets, Polling, SSE & Webhooks",
-      "path": "300 short-notes/Websockets, Polling, SSE & Webhooks.md"
-    },
-    {
-      "basename": "HTTP Deep Dive",
-      "path": "300 short-notes/HTTP Deep Dive.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
     }
   ],
   "omittedPaths": [],

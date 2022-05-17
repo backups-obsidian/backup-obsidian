@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-16 16:35
+updated: 2022-05-17 13:56
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,6 +14,7 @@ updated: 2022-05-16 16:35
 - Code only in AWS Cloud account => *increased security and compliance*
 - Security (encrypted, access control, etc)
 - Integrated with Jenkins, AWS CodeBuild, and other CI tools
+- You can setup **SNS/Lambda** to do a *code analysis after each commit*.
 
 ## Security
 - **Authentication**:

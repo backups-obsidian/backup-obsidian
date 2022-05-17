@@ -11,24 +11,11 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
           "pinned": true
-        }
-      },
-      {
-        "id": "a5a6ec6a59eda6b8",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
         }
       }
     ],
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -149,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CodeDeploy.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +181,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "a5a6ec6a59eda6b8",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/CodeDeploy.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/CodeDeploy.md",
     "100 study-notes/102 AWS DVA/CodeBuild.md",
     "100 study-notes/102 AWS DVA/CodePipeline.md",
-    "400 misc/useful symbols.md",
     "100 study-notes/102 AWS DVA/CodeCommit.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md",
-    "100 study-notes/102 AWS DVA/ElasticBeanstalk Lifecycle policy.md"
+    "100 study-notes/102 AWS DVA/CodeGuru.md",
+    "100 study-notes/102 AWS DVA/CodeArtifact.md",
+    "100 study-notes/102 AWS DVA/CodeStar.md",
+    "300 short-notes/gRPC.md",
+    "100 study-notes/105 Rust/105 Rust Index.md"
   ]
 }
