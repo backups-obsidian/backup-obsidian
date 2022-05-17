@@ -1,13 +1,12 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-17 13:42
+updated: 2022-05-17 19:50
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
+**Recommended Reads**: [[../101 AWS SAA/101 AWS SAA Index | AWS SAA Index]]
 
 ---
-[[../101 AWS SAA/101 AWS SAA Index | AWS SAA]]
-
 ## Databases
 [[ElastiCache DVA]]
 [[ElasticCache Replication]]
@@ -34,6 +33,9 @@ updated: 2022-05-17 13:42
 [[CodeStar]]
 [[CodeArtifact]]
 [[CodeGuru]]
+
+## CloudFormation
+[[CloudFormation]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
