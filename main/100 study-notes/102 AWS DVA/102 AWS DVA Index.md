@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-18 16:03
+updated: 2022-05-18 20:30
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -39,6 +39,14 @@ updated: 2022-05-18 16:03
 [[CloudFormation Template Components]]
 [[CloudFormation Intrinsic Functions]]
 [[CloudFormation RollBacks]]
+[[CloudFormation Advanced]]
+
+## Monitoring, Troubleshooting & Auditing
+- AWS CloudWatch offer us: 
+	- *Metrics*: Collect and track key metrics
+	- *Logs*: Collect, monitor, analyse and store log files
+	- *Events*: Send notifications when certain events happen in your AWS. Recommended to use EventBridge.
+	- *Alarms*: React in real-time to metrics/events
 
 ## Miscellaneous
 - Typical 3 tier architecture

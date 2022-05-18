@@ -1,16 +1,8 @@
 {
   "recentFiles": [
     {
-      "basename": "CloudFormation RollBacks",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
     },
     {
       "basename": "CloudFormation Template Components",
@@ -19,6 +11,18 @@
     {
       "basename": "CloudFormation",
       "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
+    },
+    {
+      "basename": "CloudFormation RollBacks",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
+    },
+    {
+      "basename": "CloudFormation Advanced",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
+    },
+    {
+      "basename": "CloudFormation Intrinsic Functions",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
     },
     {
       "basename": "105 Rust Index",
@@ -195,10 +199,6 @@
     {
       "basename": "Site to Site VPN",
       "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
-    },
-    {
-      "basename": "VPC Flow Logs",
-      "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
     }
   ],
   "omittedPaths": [],

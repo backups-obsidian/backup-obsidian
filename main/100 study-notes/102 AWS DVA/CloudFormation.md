@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-18 15:40
+updated: 2022-05-18 20:20
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,6 +15,9 @@ updated: 2022-05-18 15:40
 
 ## How CloudFormation works
 - *Templates* have to be **uploaded in S3** and then *referenced* in CloudFormation
+
+> [!note] CloudFormation references a template from Amazon S3, no matter what. *If you upload the template from the AWS console, it gets uploaded to Amazon S3* behind the scenes, and CloudFormation references that template from there.
+
 - *Template* is the **yml file**.
 - To update a template, we **can't edit previous ones** we have to *re upload a new version* of the template to AWS.
 	- CloudFormation will figure out the changes between the old and the new template and make the required changes to the infrastructure.

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-18 15:44
+updated: 2022-05-18 20:25
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -60,9 +60,12 @@ updated: 2022-05-18 15:44
 	- ![[attachments/Pasted image 20220518153418.png]]
 - To import the value we use `Fn::ImportValue function` or `!ImportValue`
 
-> [!caution] You *can't delete* a CloudFormation Stack if its outputs are being referenced by another CloudFormation stack
+> [!caution]- You *can't delete* a CloudFormation Stack if its outputs are being referenced by another CloudFormation stack
+> To delete it first, you need to *delete the other CloudFormation stacks that reference the exported outputs*, then delete it
 
 > [!note] Whenever question mentions about *linking CloudFormation templates* go with outputs.
+
+> [!caution] Exported output names must be *unique within your region*
 
 ## Conditions
 - Conditions are used to *control the creation of resources or outputs* based on a condition.
