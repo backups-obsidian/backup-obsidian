@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-17 20:41
+updated: 2022-05-18 15:40
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,7 +19,9 @@ updated: 2022-05-17 20:41
 - To update a template, we **can't edit previous ones** we have to *re upload a new version* of the template to AWS.
 	- CloudFormation will figure out the changes between the old and the new template and make the required changes to the infrastructure.
 - **Stacks** are identified by a **name**.
-- *Templates inside stack*.
+
+> [!important] **We can have multiple templates inside stack**. For example templates referencing each other for better separation of concerns.
+
 - **Deleting a stack deletes every single artifact** that was created by CloudFormation.
 - If **replacement** is *true* then the resource will be *terminated* and a new one will be created.
 

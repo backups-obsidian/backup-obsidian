@@ -1,8 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "CloudFormation RollBacks",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "CloudFormation Intrinsic Functions",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
+    },
+    {
+      "basename": "CloudFormation Template Components",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
+    },
+    {
+      "basename": "CloudFormation",
+      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
     },
     {
       "basename": "105 Rust Index",
@@ -15,10 +31,6 @@
     {
       "basename": "gRPC",
       "path": "300 short-notes/gRPC.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
     },
     {
       "basename": "Useful Mac Apps",
@@ -187,18 +199,6 @@
     {
       "basename": "VPC Flow Logs",
       "path": "100 study-notes/101 AWS SAA/VPC Flow Logs.md"
-    },
-    {
-      "basename": "NACLs",
-      "path": "100 study-notes/101 AWS SAA/NACLs.md"
-    },
-    {
-      "basename": "VPC & Subnets",
-      "path": "100 study-notes/101 AWS SAA/VPC & Subnets.md"
-    },
-    {
-      "basename": "ElastiCache",
-      "path": "100 study-notes/101 AWS SAA/ElastiCache.md"
     }
   ],
   "omittedPaths": [],
