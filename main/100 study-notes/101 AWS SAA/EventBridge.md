@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 15:59
+updated: 2022-05-19 13:58
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -15,7 +15,7 @@ updated: 2022-05-01 15:59
 - We have multiple event buses in EventBridge
     - **Partner event bus** → receive events from SaaS service or applications (Zendesk, DataDog, Segment, Auth0...). This means other services can send events to my AWS account.
     - **Custom event bus** → for our own applications.
-- Event buses can be accessed from other AWS accounts as well.
+- Event buses can be *accessed from other AWS accounts* as well using **resource based policies** of EventBridge.
 - We create **rules** on **how** we want **to process the events**.
 - **Schema Registry** → know in advance how the data will look like and generate code in advance
 - The *main difference* between EventBridge and CloudWatch Events are the *buses and schema registry*.

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-18 20:30
+updated: 2022-05-19 16:45
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -47,6 +47,14 @@ updated: 2022-05-18 20:30
 	- *Logs*: Collect, monitor, analyse and store log files
 	- *Events*: Send notifications when certain events happen in your AWS. Recommended to use EventBridge.
 	- *Alarms*: React in real-time to metrics/events
+
+[[../101 AWS SAA/CloudWatch | CloudWatch]]
+[[../101 AWS SAA/EventBridge | EventBridge]]
+[[X-Ray]]
+[[X-Ray Advanced]]
+[[../101 AWS SAA/CloudTrail | CloudTrail]]
+
+## Messaging: SQS, SNS & Kinesis
 
 ## Miscellaneous
 - Typical 3 tier architecture

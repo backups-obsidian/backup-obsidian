@@ -5,6 +5,26 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "X-Ray Advanced",
+      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
+    },
+    {
+      "basename": "X-Ray",
+      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
+    },
+    {
+      "basename": "CloudWatch",
+      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
+    },
+    {
+      "basename": "CloudTrail",
+      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
+    },
+    {
+      "basename": "EventBridge",
+      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
+    },
+    {
       "basename": "CloudFormation Template Components",
       "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "AWS Limits",
       "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
-    },
-    {
-      "basename": "Bookmarklets",
-      "path": "300 short-notes/Bookmarklets.md"
-    },
-    {
-      "basename": "ElasticCache Replication",
-      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
-    },
-    {
-      "basename": "VPC Peering and Endpoints",
-      "path": "100 study-notes/101 AWS SAA/VPC Peering and Endpoints.md"
-    },
-    {
-      "basename": "Direct Connect",
-      "path": "100 study-notes/101 AWS SAA/Direct Connect.md"
-    },
-    {
-      "basename": "Site to Site VPN",
-      "path": "100 study-notes/101 AWS SAA/Site to Site VPN.md"
     }
   ],
   "omittedPaths": [],

@@ -184,14 +184,14 @@
   "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/X-Ray Advanced.md",
+    "100 study-notes/102 AWS DVA/X-Ray.md",
+    "100 study-notes/101 AWS SAA/CloudWatch.md",
+    "100 study-notes/101 AWS SAA/CloudTrail.md",
+    "100 study-notes/101 AWS SAA/EventBridge.md",
+    "100 study-notes/102 AWS DVA/CloudWatch DVA.md",
     "100 study-notes/102 AWS DVA/CloudFormation Template Components.md",
     "100 study-notes/102 AWS DVA/CloudFormation.md",
-    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Advanced.md",
-    "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md",
-    "100 study-notes/105 Rust/105 Rust Index.md",
-    "100 study-notes/105 Rust/Rust - User Input.md",
-    "300 short-notes/gRPC.md",
-    "200 general-notes/Useful Mac Apps.md"
+    "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
   ]
 }

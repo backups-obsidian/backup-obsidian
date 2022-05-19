@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-01 11:50
+updated: 2022-05-19 16:49
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -37,14 +37,17 @@ updated: 2022-05-01 11:50
 	- *Number of logged in users*
 	- *processes*
 
-- To do this we use API call **PutMetricData**. 
+- To do this we use API call `PutMetricData`. 
 - We can define the *resolution of custom metrics* using the **StorageResolution** API. There are two possible value:
     - **Standard** custom metric: *1 minute (60 seconds)*. Values pushed every 1 minute.
     - **High Resolution** custom metric: *1/5/10/30 second(s)* **Higher cost**
 
-> [!important] For getting custom metrics we need to install CloudWatch agent on EC2.
+> [!important]- For getting custom metrics we need to install CloudWatch agent on EC2.
+> Behind the scenes the agent also uses `PutMetricData` API.
 
 - Important: CloudWatch Accepts metric data points **two weeks in the past** and **two hours in the future** (make sure to configure your EC2 instance time correctly)
+
+> [!note] To remember *Normal Metrics*: **Detailed (1 m)**, *Custom Metrics*: **Resolution (1 s)**, *Alarms*: **Resolution (10 s)**
 
 ## Dashboards
 - We can create custom dashboards for quick access to key metrics and alarms.
@@ -61,14 +64,23 @@ updated: 2022-05-01 11:50
 - We group the logs in **log groups**. The name of the group can be anything but is generally related to the application.
 -   **Within** each **log group** we have **log streams** which represents instances within the application/log files/containers.
 -   We can define a **log expiration policy** (never, 30 days etc). We are **paying for log storage** on CloudWatch logs.
-- CloudWatch Logs **can use filter expressions**. These metric filters can then be used to *trigger CloudWatch alarms*.
-	- For example, *find a specific IP inside* of a log
-	- Or count occurrences of "ERROR" in your logs. If there are too many occurrences then trigger an alarm.
-
 - **CloudWatch Logs Insights** enables us to interactively search and *analyse your log data in Amazon CloudWatch Logs*. 
 	- You *can perform queries* to help you quickly and effectively respond to operational issues.
 	- If an issue occurs, you *can use CloudWatch Logs Insights to identify potential causes* and validate deployed fixes.
 	- Using this we can analyse the logs with **minimal effort**.
+
+> [!important]+ By *default* log expiration policy is **Never Expire**.
+> *Log retention policy* is defined at the *log group level*.
+
+### CloudWatch Logs Filter
+- CloudWatch Logs **can use filter expressions**. These metric filters can then be used to *trigger CloudWatch alarms*. 
+	- ![[attachments/Pasted image 20220519133638.png]]
+- Essentially you are **creating a metric** by filtering a specific pattern from the logs. Since alarms can only be triggered from metrics this is the reason why we are able to create alarms from CloudWatch logs by filtering for metrics.
+- Examples 
+	- *Find a specific IP inside* of a log
+	- Or count occurrences of "ERROR" in your logs. If there are too many occurrences then trigger an alarm.
+
+> [!caution] Filters **do not retroactively filter data**. Filters only publish the metric data points for *events that happen after the filter was created*.
 
 ### Logs can be sent to
 - *Amazon S3* (exports): 
@@ -113,3 +125,4 @@ updated: 2022-05-01 11:50
 	- *SNS* : Send notification to SNS (from which *you can do pretty much anything*)  
 
 - We can *test the alarm using the CLI*. This is useful if we want to trigger an alarm before its threshold to see if it results in proper actions.
+	- Use `set-alarm-state` in CLI

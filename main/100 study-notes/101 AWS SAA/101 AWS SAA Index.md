@@ -1,6 +1,6 @@
 ---
 created: 2022-04-18 18:50
-updated: 2022-05-14 09:29
+updated: 2022-05-19 16:45
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -121,7 +121,7 @@ In the beginning serverless just meant AWS Lambda but now it means anything that
 ## Monitoring and Auditing
 [[CloudWatch]]
 [[EventBridge]]
-[[Cloud Trail]]
+[[CloudTrail]]
 [[Config]]
 
 ## VPC
