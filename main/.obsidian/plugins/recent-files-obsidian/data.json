@@ -5,6 +5,18 @@
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
+    },
+    {
+      "basename": "SQS",
+      "path": "100 study-notes/101 AWS SAA/SQS.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
       "basename": "X-Ray Advanced",
       "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
     },
@@ -187,18 +199,6 @@
     {
       "basename": "CloudFront Advanced",
       "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
-    },
-    {
-      "basename": "S3 Websites",
-      "path": "100 study-notes/101 AWS SAA/S3 Websites.md"
-    },
-    {
-      "basename": "CLI",
-      "path": "100 study-notes/102 AWS DVA/CLI.md"
-    },
-    {
-      "basename": "AWS Limits",
-      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
     }
   ],
   "omittedPaths": [],

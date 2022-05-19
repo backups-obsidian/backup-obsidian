@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-05-01 15:39
+updated: 2022-05-19 21:08
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -14,12 +14,13 @@ updated: 2022-05-01 15:39
 
 - In SNS the **event producer** sends message to **only** **one SNS topic**. There is only one producer and **many consumers**(also known as listeners/subscriber).
 - Each **subscriber** to the topic will get **all the messages**. Although there is an option to filter the messages.
-- We can have upto **10M subscriptions** on a topic.
+- We can have upto 12M subscriptions on a topic.
 - We can have upto **100K topics** in SNS.
 - Different **subscribers**
 	- **AWS Services**:
 		- *Lambda*
 		- *SQS*
+		- *Kinesis Data Firehose*
 	- Other:
 		- *Email*
 		- *SMS*
@@ -45,7 +46,7 @@ updated: 2022-05-01 15:39
 
 ## Security 
 - Security is exactly same as [[SQS#Security|SQS Security]]
-- It also uses access policies (resource based policies). [[SQS#Access Policies Resource based policies|Same effect as SQS]]
+- It also uses **access policies (resource based policies)**. [[SQS#Access Policies Resource based policies|Same effect as SQS]]
 
 ## SQS + SNS fan out
 - We want a **message** to be **sent to** **multiple SQS queues**. If we send it individually to all the queues then there can be problems like application crashes or delivery failures.
@@ -58,13 +59,21 @@ updated: 2022-05-01 15:39
 
 > [!note] For this to work we need to make sure that *SQS access policy allows write from SNS*
 
-> [!question]- Use case of fanout: S3 Events
+> [!question]- Use case of *fanout: S3 Events*
 > For the same combination of event type (eg: object create) and prefix (eg: /images) we can create only one S3 event rule. With this we can only use a single SQS queue. *To use multiple queues we use fan out pattern*.
+> ---
+> ![[attachments/Pasted image 20220519210144.png]]
+
+> [!important]- *SNS to S3* via Kinesis Data Firehose
+> This is possible since SNS can directly send data to KDF.
+> ![[attachments/Pasted image 20220519210420.png]]
 
 ## SNS FIFO
+- The topic name must *end with* `.fifo`
 - **Subscribers** can **only** be **SQS FIFO** queues.
 - We get similar features to SQS FIFO like *ordering* (group ID) and *deduplication*.
 - This is useful if we need **fanout** + **ordering** + **deduplication**
+- *Limited throughput* (same throughput as SQS FIFO)
 
 ## SNS Message Filtering
 - **JSON policy** to **filter messages** sent to SNS topic’s **subscriptions**.

@@ -1,9 +1,10 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-05-06 10:19
+updated: 2022-05-19 20:39
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/SQS DVA | SQS DVA]]
 **Keywords**: *3000 msgs*, *FIFO (only once)*, *manual message deletion*
 
 ---
@@ -24,7 +25,7 @@ updated: 2022-05-06 10:19
 - Low latency (<10 ms)
 - **Size limit** of the messages is **256KB**.
 - We **can have duplicate messages** in the queue and this has to be taken care at the application level.
-- We have **out of order messages**.
+- We have **out of order messages**. Best effort ordering is attempted by AWS.
 - Producers *send message to SQS* using the **SDK**.
 - The message will *persist in the queue* until the **consumer deletes it** or the *retention period is exceeded*.
 	- If the consumer doesn't delete the message after processing then a single message will be *processed multiple times*.
@@ -55,8 +56,12 @@ updated: 2022-05-06 10:19
 
 ### Access Policies / Resource based policies
 - We also have **SQS Access Policies** (similar to S3 bucket policies). These are useful for
-    -   **cross account access**: allowing other accounts to poll for messages.
-    -   **allow other services** (SNS, S3 etc) to **write to SQS queue**.
+    - **cross account access**: allowing other accounts to poll for messages.
+	    - ![[attachments/Pasted image 20220519201824.png]]
+    - **allow other services** (SNS, S3 etc) to **write to SQS queue**.
+		- ![[attachments/Pasted image 20220519201851.png]]
+
+> [!note] Access policies have to be used for other services to write to SQS. IAM roles is just for controlling the API.
 
 ## Message Visibility Timeout
 - When a **message is polled** by a consumer it **becomes invisible** to other consumers.
