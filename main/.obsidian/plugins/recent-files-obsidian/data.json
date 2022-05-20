@@ -1,12 +1,32 @@
 {
   "recentFiles": [
     {
-      "basename": "Lambda DVA",
-      "path": "100 study-notes/102 AWS DVA/Lambda DVA.md"
+      "basename": "Go - Variables",
+      "path": "100 study-notes/103 Golang/Go - Variables.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "105 Rust Index",
+      "path": "100 study-notes/105 Rust/105 Rust Index.md"
+    },
+    {
+      "basename": "Rust - Arithmetic & Type Casting",
+      "path": "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md"
+    },
+    {
+      "basename": "Rust - Data Types",
+      "path": "100 study-notes/105 Rust/Rust - Data Types.md"
+    },
+    {
+      "basename": "Lambda DVA",
+      "path": "100 study-notes/102 AWS DVA/Lambda DVA.md"
     },
     {
       "basename": "Lambda",
@@ -77,10 +97,6 @@
       "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
     },
     {
-      "basename": "105 Rust Index",
-      "path": "100 study-notes/105 Rust/105 Rust Index.md"
-    },
-    {
       "basename": "Rust - User Input",
       "path": "100 study-notes/105 Rust/Rust - User Input.md"
     },
@@ -121,10 +137,6 @@
       "path": "100 study-notes/102 AWS DVA/CodeStar.md"
     },
     {
-      "basename": "Rust - Data Types",
-      "path": "100 study-notes/105 Rust/Rust - Data Types.md"
-    },
-    {
       "basename": "note taking in obsidian",
       "path": "400 misc/note taking in obsidian.md"
     },
@@ -157,14 +169,6 @@
       "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     },
     {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "Go - Variables",
-      "path": "100 study-notes/103 Golang/Go - Variables.md"
-    },
-    {
       "basename": "Go - Package",
       "path": "100 study-notes/103 Golang/Go - Package.md"
     },
@@ -195,10 +199,6 @@
     {
       "basename": "ECR & EKS",
       "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
-    },
-    {
-      "basename": "ECS",
-      "path": "100 study-notes/101 AWS SAA/ECS.md"
     }
   ],
   "omittedPaths": [],

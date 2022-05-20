@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 20:52
-updated: 2022-05-16 22:07
+updated: 2022-05-20 21:45
 ---
 ---
 **Links**: [[105 Rust Index]]
@@ -15,7 +15,7 @@ updated: 2022-05-16 22:07
 		- Array, tuple
 
 ## Scalar Types
-- Signed and Unsigned (only positive integers) integer: `i32` & `u32`. We have 8,16,32,64 & 128.
+- Signed and Unsigned (only positive integers) integer: `i32`(**default**) & `u32`. We have 8,16,32,64 & 128.
 	- `let value: u32 = 67;`
 - Floating point: `f32` & `f64`. 
 	- `f64` is the **default** type for implicit types.

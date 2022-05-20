@@ -19,25 +19,12 @@
         }
       },
       {
-        "id": "fbe954a050aafda9",
+        "id": "8cd5def4015e4b3d",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/102 AWS DVA/Lambda DVA.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "7f8f4a00bb00efb6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/101 AWS SAA/Lambda.md",
+            "file": "100 study-notes/103 Golang/Go - Variables.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda DVA.md",
+                "file": "100 study-notes/103 Golang/Go - Variables.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda DVA.md"
+                "file": "100 study-notes/103 Golang/Go - Variables.md"
               }
             }
           },
@@ -162,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda DVA.md",
+                "file": "100 study-notes/103 Golang/Go - Variables.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +194,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "fbe954a050aafda9",
+  "active": "8cd5def4015e4b3d",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/Lambda DVA.md",
+    "100 study-notes/103 Golang/Go - Variables.md",
+    "100 study-notes/103 Golang/103 Golang Index.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/105 Rust/105 Rust Index.md",
+    "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md",
+    "100 study-notes/105 Rust/Rust - Data Types.md",
+    "100 study-notes/102 AWS DVA/Lambda DVA.md",
     "100 study-notes/101 AWS SAA/Lambda.md",
     "100 study-notes/102 AWS DVA/Kinesis DVA.md",
-    "100 study-notes/102 AWS DVA/SQS DVA.md",
-    "100 study-notes/101 AWS SAA/Kinesis.md",
-    "100 study-notes/101 AWS SAA/SQS.md",
-    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/SNS.md",
-    "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
+    "100 study-notes/102 AWS DVA/SQS DVA.md"
   ]
 }
