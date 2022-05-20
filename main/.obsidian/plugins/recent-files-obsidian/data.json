@@ -1,20 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "Lambda DVA",
+      "path": "100 study-notes/102 AWS DVA/Lambda DVA.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "Kinesis DVA",
+      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
+    },
+    {
+      "basename": "SQS DVA",
+      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+    },
+    {
+      "basename": "Kinesis",
+      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
     },
     {
       "basename": "SQS",
       "path": "100 study-notes/101 AWS SAA/SQS.md"
     },
     {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "SNS",
+      "path": "100 study-notes/101 AWS SAA/SNS.md"
     },
     {
       "basename": "X-Ray Advanced",
@@ -179,26 +199,6 @@
     {
       "basename": "ECS",
       "path": "100 study-notes/101 AWS SAA/ECS.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "CloudFront DVA",
-      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
-    },
-    {
-      "basename": "CloudFront",
-      "path": "100 study-notes/101 AWS SAA/CloudFront.md"
-    },
-    {
-      "basename": "Rough",
-      "path": "600 rough/Rough.md"
-    },
-    {
-      "basename": "CloudFront Advanced",
-      "path": "100 study-notes/101 AWS SAA/CloudFront Advanced.md"
     }
   ],
   "omittedPaths": [],

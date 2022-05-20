@@ -4,6 +4,7 @@ updated: 2022-05-01 15:53
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/Lambda DVA | Lambda DVA]]
 
 ---
 ## Lambda

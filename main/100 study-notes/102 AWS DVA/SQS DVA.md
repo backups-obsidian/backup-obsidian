@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-19 20:56
+updated: 2022-05-20 19:50
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -28,13 +28,15 @@ updated: 2022-05-19 20:56
 	- *Content-based deduplication*: will do a **SHA-256 hash** of the message body
 		- ![[attachments/Pasted image 20220519204755.png]]
 		- ![[attachments/Pasted image 20220519205238.png]]
-	- Explicitly provide a **Message Deduplication ID**
+	- Explicitly provide a **MessageDeduplicationID**
 
 ### Message Grouping
-- If you specify the *same value of MessageGroupID* in an SQS FIFO queue, you can **only have one consumer**, and *all the messages are in order*.
+- If you specify the *same value of `MessageGroupID` in an SQS FIFO queue*, you can **only have one consumer**, and *all the messages are in order*.
 - To get **ordering at the level of a subset of messages**, specify *different values for MessageGroupID*
 	- ![[attachments/Pasted image 20220519205145.png]]
-	- *Messages that share a common Message Group ID will be in order within the group*
+	- *Messages that share a common `MessageGroupID` will be in order within the group*
 	- *Each Group ID can have a different consumer* (**parallel processing**)
 	- **Ordering across groups is not guaranteed**
 - This is useful when you don't need ordering of all the messages but want ordering of messages for a particular ID.
+
+> [!important] You can have **as many consumers as MessageGroupID** for your SQS FIFO queues.

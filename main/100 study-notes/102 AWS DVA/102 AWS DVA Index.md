@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-19 20:59
+updated: 2022-05-20 19:53
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -58,6 +58,12 @@ updated: 2022-05-19 20:59
 [[../101 AWS SAA/SQS | SQS]]
 [[SQS DVA]]
 [[../101 AWS SAA/SNS | SNS]]
+[[../101 AWS SAA/Kinesis | Kinesis]]
+[[Kinesis DVA]]
+
+## Serverless
+[[../101 AWS SAA/Lambda | Lambda]]
+[[Lambda DVA]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
