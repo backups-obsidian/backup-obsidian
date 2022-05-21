@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - FlowControl",
-      "path": "100 study-notes/103 Golang/Go - FlowControl.md"
+      "basename": "Go - Arrays & Slices",
+      "path": "100 study-notes/103 Golang/Go - Arrays & Slices.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - For Loops",
+      "path": "100 study-notes/103 Golang/Go - For Loops.md"
+    },
+    {
+      "basename": "Go - ProgramFlow",
+      "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
+    },
+    {
+      "basename": "Go - If & Switch",
+      "path": "100 study-notes/103 Golang/Go - If & Switch.md"
     },
     {
       "basename": "102 AWS DVA Index",
@@ -187,18 +199,6 @@
     {
       "basename": "ElasticBeanstalk",
       "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
-    },
-    {
-      "basename": "Rust - Cargo",
-      "path": "100 study-notes/105 Rust/Rust - Cargo.md"
-    },
-    {
-      "basename": "Rust - Variable, Constants and Shadowing",
-      "path": "100 study-notes/105 Rust/Rust - Variable, Constants and Shadowing.md"
-    },
-    {
-      "basename": "100 home",
-      "path": "100 study-notes/100 home.md"
     }
   ],
   "omittedPaths": [],
