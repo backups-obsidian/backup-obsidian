@@ -24,7 +24,20 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/Go - Variables.md",
+            "file": "100 study-notes/103 Golang/Go - Basics.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "cbbddf827e188b32",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/103 Golang/Go - Constants.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Variables.md",
+                "file": "100 study-notes/103 Golang/Go - Constants.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Variables.md"
+                "file": "100 study-notes/103 Golang/Go - Constants.md"
               }
             }
           },
@@ -149,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Variables.md",
+                "file": "100 study-notes/103 Golang/Go - Constants.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +207,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "8cd5def4015e4b3d",
+  "active": "cbbddf827e188b32",
   "lastOpenFiles": [
+    "100 study-notes/103 Golang/Go - Constants.md",
+    "100 study-notes/103 Golang/Go - Basics.md",
     "100 study-notes/103 Golang/Go - Variables.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/103 Golang/Go - Package.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "100 study-notes/105 Rust/105 Rust Index.md",
     "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md",
     "100 study-notes/105 Rust/Rust - Data Types.md",
-    "100 study-notes/102 AWS DVA/Lambda DVA.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/102 AWS DVA/Kinesis DVA.md",
-    "100 study-notes/102 AWS DVA/SQS DVA.md"
+    "100 study-notes/102 AWS DVA/Lambda DVA.md"
   ]
 }

@@ -1,12 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "Go - Constants",
+      "path": "100 study-notes/103 Golang/Go - Constants.md"
+    },
+    {
+      "basename": "Go - Basics",
+      "path": "100 study-notes/103 Golang/Go - Basics.md"
+    },
+    {
       "basename": "Go - Variables",
       "path": "100 study-notes/103 Golang/Go - Variables.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Package",
+      "path": "100 study-notes/103 Golang/Go - Package.md"
     },
     {
       "basename": "102 AWS DVA Index",
@@ -169,10 +181,6 @@
       "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     },
     {
-      "basename": "Go - Package",
-      "path": "100 study-notes/103 Golang/Go - Package.md"
-    },
-    {
       "basename": "Rust - Cargo",
       "path": "100 study-notes/105 Rust/Rust - Cargo.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "104 Linux Index",
       "path": "100 study-notes/104 Linux/104 Linux Index.md"
-    },
-    {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
-    },
-    {
-      "basename": "ECR & EKS",
-      "path": "100 study-notes/101 AWS SAA/ECR & EKS.md"
     }
   ],
   "omittedPaths": [],
