@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-21 12:18
+updated: 2022-05-21 16:00
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -16,12 +16,19 @@ updated: 2022-05-21 12:18
 
 ## [[Go - Variables]]
 ## [[Go - Constants]]
+## [[Go - DataTypes]]
 ## Naming
 - Convention is to use **camelCase** for writing multi word names instead of snake_case. This is applicable to *variables*, *functions* and *constants*. `maxValue := 343`
 - Acronyms should be in all caps : `writeToDB := true`
 - By convention *packages* are given *small case single word names*
 
 > [!caution] *Don't use variables with capital letters* in the program as they will be exported by Go to be used in other packages.
+
+## Miscellaneous
+- `x++`, `x--` works
+- `==` equality check
+- `a < 5 && b > 10` - second operation is evaluated only if first one is true. *short circuit*.
+- A *float number overflows to infinity*
 
 ## fmt package
 - `Println` : 

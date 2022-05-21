@@ -19,25 +19,25 @@
         }
       },
       {
-        "id": "8cd5def4015e4b3d",
+        "id": "935b18d83c23ec67",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/Go - Basics.md",
-            "mode": "source",
+            "file": "100 study-notes/103 Golang/103 Golang Index.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
         }
       },
       {
-        "id": "cbbddf827e188b32",
+        "id": "7e2c7f5a4f2339e1",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/Go - Constants.md",
+            "file": "100 study-notes/103 Golang/Go - FlowControl.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Constants.md",
+                "file": "100 study-notes/103 Golang/Go - FlowControl.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Constants.md"
+                "file": "100 study-notes/103 Golang/Go - FlowControl.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Constants.md",
+                "file": "100 study-notes/103 Golang/Go - FlowControl.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +207,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "cbbddf827e188b32",
+  "active": "7e2c7f5a4f2339e1",
   "lastOpenFiles": [
-    "100 study-notes/103 Golang/Go - Constants.md",
-    "100 study-notes/103 Golang/Go - Basics.md",
-    "100 study-notes/103 Golang/Go - Variables.md",
+    "100 study-notes/103 Golang/Go - FlowControl.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Package.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/103 Golang/Go - Basics.md",
+    "100 study-notes/103 Golang/Go - DataTypes.md",
+    "100 study-notes/103 Golang/Go - Constants.md",
+    "100 study-notes/103 Golang/Go - Variables.md",
+    "100 study-notes/103 Golang/Go - Package.md",
     "100 study-notes/105 Rust/105 Rust Index.md",
-    "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md",
-    "100 study-notes/105 Rust/Rust - Data Types.md",
-    "100 study-notes/102 AWS DVA/Lambda DVA.md"
+    "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md"
   ]
 }

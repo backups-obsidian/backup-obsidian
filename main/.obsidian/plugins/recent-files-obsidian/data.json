@@ -1,28 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - Constants",
-      "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "Go - Basics",
-      "path": "100 study-notes/103 Golang/Go - Basics.md"
-    },
-    {
-      "basename": "Go - Variables",
-      "path": "100 study-notes/103 Golang/Go - Variables.md"
+      "basename": "Go - FlowControl",
+      "path": "100 study-notes/103 Golang/Go - FlowControl.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Go - Package",
-      "path": "100 study-notes/103 Golang/Go - Package.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Go - Basics",
+      "path": "100 study-notes/103 Golang/Go - Basics.md"
+    },
+    {
+      "basename": "Go - DataTypes",
+      "path": "100 study-notes/103 Golang/Go - DataTypes.md"
+    },
+    {
+      "basename": "Go - Constants",
+      "path": "100 study-notes/103 Golang/Go - Constants.md"
+    },
+    {
+      "basename": "Go - Variables",
+      "path": "100 study-notes/103 Golang/Go - Variables.md"
+    },
+    {
+      "basename": "Go - Package",
+      "path": "100 study-notes/103 Golang/Go - Package.md"
     },
     {
       "basename": "105 Rust Index",
@@ -191,14 +199,6 @@
     {
       "basename": "100 home",
       "path": "100 study-notes/100 home.md"
-    },
-    {
-      "basename": "Linux Packaging Formats",
-      "path": "100 study-notes/104 Linux/Linux Packaging Formats.md"
-    },
-    {
-      "basename": "104 Linux Index",
-      "path": "100 study-notes/104 Linux/104 Linux Index.md"
     }
   ],
   "omittedPaths": [],

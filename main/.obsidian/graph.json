@@ -5,8 +5,44 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"100 study-notes/101 AWS SAA\"",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"100 study-notes/102 AWS DVA\"",
+      "color": {
+        "a": 1,
+        "rgb": 2435792
+      }
+    },
+    {
+      "query": "path:\"100 study-notes/103 Golang\"",
+      "color": {
+        "a": 1,
+        "rgb": 14231209
+      }
+    },
+    {
+      "query": "path:\"100 study-notes/104 Linux\"",
+      "color": {
+        "a": 1,
+        "rgb": 292356
+      }
+    },
+    {
+      "query": "path:\"100 study-notes/105 Rust\"",
+      "color": {
+        "a": 1,
+        "rgb": 1767855
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +53,6 @@
   "repelStrength": 10.575207628422,
   "linkStrength": 0.575053829590895,
   "linkDistance": 224,
-  "scale": 1,
+  "scale": 0.6815847182624747,
   "close": true
 }
