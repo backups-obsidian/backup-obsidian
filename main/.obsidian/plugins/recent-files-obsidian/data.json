@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - Arrays & Slices",
-      "path": "100 study-notes/103 Golang/Go - Arrays & Slices.md"
+      "basename": "Go - Slices",
+      "path": "100 study-notes/103 Golang/Go - Slices.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Arrays",
+      "path": "100 study-notes/103 Golang/Go - Arrays.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Go - For Loops",
@@ -19,10 +27,6 @@
     {
       "basename": "Go - If & Switch",
       "path": "100 study-notes/103 Golang/Go - If & Switch.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Go - Basics",
@@ -195,10 +199,6 @@
     {
       "basename": "ElasticBeanstalk Docker",
       "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
-    },
-    {
-      "basename": "ElasticBeanstalk",
-      "path": "100 study-notes/101 AWS SAA/ElasticBeanstalk.md"
     }
   ],
   "omittedPaths": [],
