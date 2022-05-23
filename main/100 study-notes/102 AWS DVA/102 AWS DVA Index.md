@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-20 19:54
+updated: 2022-05-23 17:01
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -63,7 +63,15 @@ updated: 2022-05-20 19:54
 
 ## Serverless
 [[../101 AWS SAA/Lambda | Lambda]]
-[[Lambda DVA]]
+Three ways in which Lambda processes events
+- [[Lambda Synchronous Invocation]]
+- [[Lambda Asynchronous Invocation]]
+- [[Lambda Event Source Mapping]]
+
+### Miscellaneous
+- For *logging*:
+	- For *each lambda a log group* is created. 
+	- The logs are then grouped into streams. We can find the logs if we go inside a particular stream.
 
 ## Miscellaneous
 - Typical 3 tier architecture

@@ -1,10 +1,10 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-20 19:54
+updated: 2022-05-23 16:26
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
-**Recommended Reads**: [[../102 AWS DVA/Lambda DVA | Lambda DVA]]
+**Recommended Reads**: [[../102 AWS DVA/Lambda Synchronous Invocation | Lambda DVA]]
 
 ---
 ## Lambda
@@ -71,7 +71,17 @@ updated: 2022-05-20 19:54
 > ![[attachments/Pasted image 20220426202134.png]]
 
 - We can *generate responses to viewers without ever sending the request to the origin*. This can be done by using the *Viewer Request* and *Viewer Response* lambda functions.
+	- Global application
 	- ![[attachments/Pasted image 20220426202424.png]]
+
+- Why use lambda@edge
+	- *Website Security and Privacy*
+	- Dynamic Web Application at the Edge
+	- Search Engine Optimisation (*SEO*)
+	- Bot Mitigation at the Edge
+	- A/B Testing
+	- User *Authentication and Authorisation*
+	- User *Tracking and Analytics*
 
 > [!note] Keywords: *process the data in close geographical proximity to their users*
 

@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - Slices",
-      "path": "100 study-notes/103 Golang/Go - Slices.md"
+      "basename": "Lambda Event Source Mapping",
+      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Lambda Asynchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
+    },
+    {
+      "basename": "Lambda Synchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Go - Arrays",
-      "path": "100 study-notes/103 Golang/Go - Arrays.md"
+      "basename": "Go - Slices",
+      "path": "100 study-notes/103 Golang/Go - Slices.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "Go - Arrays",
+      "path": "100 study-notes/103 Golang/Go - Arrays.md"
     },
     {
       "basename": "Go - For Loops",
@@ -59,14 +75,6 @@
     {
       "basename": "Rust - Data Types",
       "path": "100 study-notes/105 Rust/Rust - Data Types.md"
-    },
-    {
-      "basename": "Lambda DVA",
-      "path": "100 study-notes/102 AWS DVA/Lambda DVA.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
     },
     {
       "basename": "Kinesis DVA",
@@ -191,14 +199,6 @@
     {
       "basename": "ElasticBeanstalk Deployment Modes",
       "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
-    },
-    {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Docker",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
     }
   ],
   "omittedPaths": [],
