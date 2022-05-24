@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-24 11:06
+updated: 2022-05-24 16:28
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -78,6 +78,21 @@ Three ways in which Lambda processes events
 - For *logging*:
 	- For *each lambda a log group* is created. 
 	- The logs are then grouped into streams. We can find the logs if we go inside a particular stream.
+- **Best Practices**:
+	- *Perform heavy-duty work outside of your function handler*
+		- Connect to databases outside of your function handler
+		- Initialise the AWS SDK outside of your function handler
+		- Pull in dependencies or datasets outside of your function handler
+	- Use *environment variables* for:
+		- Database Connection Strings, S3 bucket, etc... don't put these values in your code
+		- Passwords, sensitive values, etc can be encrypted using KMS
+	- *Minimise your deployment package size to its runtime necessities*
+		- Break down the function if need be
+		- Remember the AWS Lambda limits
+		- *Use Layers* where necessary
+- **Avoid using recursive code, never have a Lambda function call itself**. This can become very expensive.
+
+## DynamoDB
 
 ## Miscellaneous
 - Typical 3 tier architecture

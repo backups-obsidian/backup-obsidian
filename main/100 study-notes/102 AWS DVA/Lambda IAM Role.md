@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 09:54
-updated: 2022-05-24 10:20
+updated: 2022-05-24 15:40
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -29,4 +29,5 @@ updated: 2022-05-24 10:20
 	- If the *lAM policy* attached to the principal authorises it (e.g. *user access*)
 	- OR if the *resource-based policy* authorises (e.g. *service access*)
 
-> [!important] When an AWS service like Amazon *S3 calls your Lambda function*, the *resource-based policy gives it access*.
+> [!important]- When an AWS service like *S3 calls your Lambda function* (asynchronous invocation), then the *resource-based policy gives it access*.
+> If our lambda is performing some kind of operation on S3 like list buckets then its execution role should have S3 list bucket policy.

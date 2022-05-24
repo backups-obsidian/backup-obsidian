@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 16:28
-updated: 2022-05-24 09:43
+updated: 2022-05-24 16:31
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,7 +26,7 @@ updated: 2022-05-24 09:43
 	- *Minute wait after 1st* and *then 2 minutes wait*
 - Make sure the processing is **idempotent**. That is *in case of retries the result should be the same*.
 - If the function is retried, you will see *duplicate logs entries in CloudWatch Logs*
-- Can **define a DLQ** (dead-letter queue) *SNS or SQS for failed processing* (*need correct IAM permissions*). Or we can use [[Lambda Destinations]].
+- Can **define a DLQ** (dead-letter queue) **SNS or SQS** for failed processing (*need correct IAM permissions*). Or we can use [[Lambda Destinations]].
 	- We will need to modify the execution role of the lambda and include SQS permission. 
 	- ![[attachments/Pasted image 20220523163231.png]]
 

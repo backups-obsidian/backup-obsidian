@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-24 11:57
+updated: 2022-05-24 16:26
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -38,7 +38,7 @@ updated: 2022-05-24 11:57
 > ![[attachments/Pasted image 20220524113355.png]]
 
 ## Concurrency
-- **Concurrency limit**: up to *1000* concurrent executions **for all the functions** in the per account.
+- **Concurrency limit**: up to *1000* concurrent executions **for all the functions** in the per region.
 - We can set our own *limit* to the number of concurrent executions known as**reserved concurrency** at the function level.
 	- Each *invocation over the concurrency limit will trigger a Throttle*
 - Throttle behaviour:
@@ -47,7 +47,7 @@ updated: 2022-05-24 11:57
 - If you need a *higher limit, open a support ticket*
 
 > [!question]- What happens if we don't set reserved concurrency (limit)  per function?
-> - If we don't set reserved concurrency per function then there is a chance that one of the functions eats up the account limit of 1000 concurrent executions. 
+> - If we don't set reserved concurrency per function then there is a chance that one of the functions eats up the *region limit of 1000 concurrent executions*. 
 > - This means other functions won't be able to scale and will throttle.
 > ---
 > ![[attachments/Pasted image 20220524115027.png]]
@@ -66,3 +66,18 @@ updated: 2022-05-24 11:57
 	- *Concurrency is allocated* before the function is invoked (*in advance*)
 	- So the *cold start never happens* and all invocations have **low latency**
 	- **Application Auto Scaling** can manage concurrency (*schedule* or *target utilisation*)
+
+## Limits per region
+- **Execution**:
+	- *Memory* allocation: *128MB - 10GB* (1 MB increments)
+	- Maximum *execution time*: 900 seconds (*15 minutes*)
+	- *Environment variables (4 KB)*
+	- *Disk capacity* in the "function container" (in `/tmp`): *512 MB*
+	- *Concurrency executions: 1000* (can be increased)
+- **Deployment**:
+	- Lambda function deployment size (*compressed .zip*): *50 MB*
+	- Size of *uncompressed deployment* (*code + dependencies*): *250 MB*
+	- Can use the `/tmp` directory to load other files at startup
+	- Size of *environment variables: 4 KB*
+
+> [!note] If we have a *big file* then we should not use lambda. Limit of 512MB. 
