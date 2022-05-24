@@ -1,10 +1,10 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-23 16:26
+updated: 2022-05-24 10:57
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
-**Recommended Reads**: [[../102 AWS DVA/Lambda Synchronous Invocation | Lambda DVA]]
+**Recommended Reads**: [[../102 AWS DVA/102 AWS DVA Index#Lambda|Lambda DVA]]
 
 ---
 ## Lambda
@@ -27,7 +27,7 @@ updated: 2022-05-23 16:26
 
 > [!note] You can package and deploy lambda functions as *container images*.
 
-### Using a custom VPC
+### Using our own VPC
 > [!caution]+ By **default**, Lambda functions always **operate from an AWS owned VPC** and hence *have access to any public internet address or public AWS APIs*. Once a *Lambda function is VPC enabled*, it will need a *route through a NAT gateway in a public subnet* to access public resources.
 > - Lambda function *scales automatically* based on the number of events it processes. 
 > - If your *Lambda function accesses a VPC*, *you must make sure that your **VPC has sufficient ENI capacity** to support the scale requirements of your Lambda function*. 
@@ -38,6 +38,8 @@ updated: 2022-05-23 16:26
 
 - To enable your Lambda function to *access resources inside your private VPC*, you must provide additional *VPC-specific configuration* information that includes **VPC subnet IDs** and **security group IDs**. AWS Lambda uses this information *to set up elastic network interfaces (ENIs)* that enable your function.
 	- ![[attachments/Pasted image 20220426205040.png]]
+
+- For more clarity read [[../102 AWS DVA/Lambda Configuration & Deployments#Lambda in VPC|Lambda in VPC]]
 
 ### Pricing
 - It is **very cheap**.

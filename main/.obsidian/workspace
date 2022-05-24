@@ -19,12 +19,12 @@
         }
       },
       {
-        "id": "c7664e36c128e771",
+        "id": "ca88bbd2dd089c2b",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+            "file": "100 study-notes/102 AWS DVA/Lambda Performance.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -32,12 +32,12 @@
         }
       },
       {
-        "id": "1cbf59d1e8140e4e",
+        "id": "ee3e1998f49c49b8",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/101 AWS SAA/Lambda.md",
+            "file": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -116,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Performance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+                "file": "100 study-notes/102 AWS DVA/Lambda Performance.md"
               }
             }
           },
@@ -162,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+                "file": "100 study-notes/102 AWS DVA/Lambda Performance.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +207,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "c7664e36c128e771",
+  "active": "ca88bbd2dd089c2b",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/102 AWS DVA/Lambda Performance.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
-    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
     "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Slices.md",
-    "100 study-notes/103 Golang/Go - Arrays.md",
-    "100 study-notes/103 Golang/Go - For Loops.md",
-    "100 study-notes/103 Golang/Go - ProgramFlow.md"
+    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
+    "100 study-notes/102 AWS DVA/Lambda IAM Role.md",
+    "100 study-notes/102 AWS DVA/Lambda Destinations.md",
+    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
+    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
+    "100 study-notes/103 Golang/103 Golang Index.md"
   ]
 }

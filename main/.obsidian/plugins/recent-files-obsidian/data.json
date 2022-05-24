@@ -1,24 +1,40 @@
 {
   "recentFiles": [
     {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+      "basename": "Lambda Performance",
+      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
+    },
+    {
+      "basename": "Lambda Configuration & Deployments",
+      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "Lambda Asynchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
     },
     {
       "basename": "Lambda Synchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
     },
     {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+      "basename": "Lambda IAM Role",
+      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    },
+    {
+      "basename": "Lambda Destinations",
+      "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
+    },
+    {
+      "basename": "Lambda Event Source Mapping",
+      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
+    },
+    {
+      "basename": "Lambda Asynchronous Invocation",
+      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
     },
     {
       "basename": "103 Golang Index",
@@ -183,22 +199,6 @@
     {
       "basename": "note taking in obsidian",
       "path": "400 misc/note taking in obsidian.md"
-    },
-    {
-      "basename": "obsidian tips and tricks",
-      "path": "400 misc/obsidian tips and tricks.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
-    },
-    {
-      "basename": "useful symbols",
-      "path": "400 misc/useful symbols.md"
-    },
-    {
-      "basename": "ElasticBeanstalk Deployment Modes",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
     }
   ],
   "omittedPaths": [],

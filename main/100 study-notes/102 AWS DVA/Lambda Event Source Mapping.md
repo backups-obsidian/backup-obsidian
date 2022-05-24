@@ -1,6 +1,6 @@
 ---
 created: 2022-05-23 17:00
-updated: 2022-05-23 21:05
+updated: 2022-05-24 09:44
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -41,7 +41,7 @@ updated: 2022-05-23 21:05
 	- Discard old events
 	- Restrict the number of retries
 	- Split the batch on error (to work around Lambda timeout issues)
-- Discarded events can go to a **destination**
+- Discarded events can go to a [[Lambda Destinations|destination]].
 
 ### SQS & SQS FIFO
 #### Processing
