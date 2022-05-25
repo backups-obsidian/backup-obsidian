@@ -11,11 +11,24 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-            "mode": "preview",
+            "mode": "source",
             "backlinks": false,
             "source": true
           },
           "pinned": true
+        }
+      },
+      {
+        "id": "142ea884682e9bca",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
         }
       }
     ],
@@ -90,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -107,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+                "file": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
               }
             }
           },
@@ -136,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+                "file": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -181,17 +194,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "12fca3be1cbcb731",
+  "active": "142ea884682e9bca",
   "lastOpenFiles": [
+    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md",
-    "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md",
-    "100 study-notes/102 AWS DVA/Lambda Performance.md",
-    "100 study-notes/102 AWS DVA/Lambda IAM Role.md",
-    "100 study-notes/101 AWS SAA/Lambda.md",
-    "100 study-notes/102 AWS DVA/Lambda Destinations.md",
-    "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md",
-    "100 study-notes/103 Golang/103 Golang Index.md"
+    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
+    "100 study-notes/101 AWS SAA/DynamoDB.md",
+    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+    "300 short-notes/How to create awesome documentation.md",
+    "400 misc/publish-obsidian-vault.md",
+    "400 misc/projects.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
   ]
 }

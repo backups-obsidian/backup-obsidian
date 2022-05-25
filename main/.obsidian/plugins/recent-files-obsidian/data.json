@@ -1,8 +1,40 @@
 {
   "recentFiles": [
     {
+      "basename": "DynamoDB Indexes",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "DynamoDB Basic APIs",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
+    },
+    {
+      "basename": "DynamoDB Capacity",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
+    },
+    {
+      "basename": "DynamoDB",
+      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
+    },
+    {
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+    },
+    {
+      "basename": "How to create awesome documentation",
+      "path": "300 short-notes/How to create awesome documentation.md"
+    },
+    {
+      "basename": "publish-obsidian-vault",
+      "path": "400 misc/publish-obsidian-vault.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
     },
     {
       "basename": "Lambda Configuration & Deployments",
@@ -167,38 +199,6 @@
     {
       "basename": "Useful Mac Apps",
       "path": "200 general-notes/Useful Mac Apps.md"
-    },
-    {
-      "basename": "CodeDeploy",
-      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
-    },
-    {
-      "basename": "CodeBuild",
-      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
-    },
-    {
-      "basename": "CodePipeline",
-      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
-    },
-    {
-      "basename": "CodeCommit",
-      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
-    },
-    {
-      "basename": "CodeGuru",
-      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
-    },
-    {
-      "basename": "CodeArtifact",
-      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
-    },
-    {
-      "basename": "CodeStar",
-      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
-    },
-    {
-      "basename": "note taking in obsidian",
-      "path": "400 misc/note taking in obsidian.md"
     }
   ],
   "omittedPaths": [],

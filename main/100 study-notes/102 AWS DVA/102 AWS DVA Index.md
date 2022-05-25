@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-24 16:28
+updated: 2022-05-25 12:52
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -93,6 +93,11 @@ Three ways in which Lambda processes events
 - **Avoid using recursive code, never have a Lambda function call itself**. This can become very expensive.
 
 ## DynamoDB
+[[../101 AWS SAA/DynamoDB|DynamoDB]]
+[[DynamoDB DVA]]
+[[DynamoDB Capacity]]
+[[DynamoDB Basic APIs]]
+[[DynamoDB Indexes]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
