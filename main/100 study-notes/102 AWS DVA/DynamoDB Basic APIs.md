@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-25 13:10
+updated: 2022-05-25 17:18
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -25,7 +25,7 @@ updated: 2022-05-25 13:10
 	- Primary Key can be HASH or HASH+RANGE
 	- *Eventually Consistent Read (default)*
 	- Option to use *Strongly Consistent Reads* (*more RCU*, *might take longer*)
-	- **ProjectionExpression** can be specified to *retrieve only certain attributes*
+	- `ProjectionExpression` can be specified to **retrieve only certain attributes**
 
 ### Query
 - Query returns items based on:
@@ -48,7 +48,7 @@ updated: 2022-05-25 13:10
 - Returns up to 1 MB of data use pagination to keep on reading
 - *Consumes a lot of RCU*
 - Limit impact using **Limit** or reduce the size of the result and pause
-- For faster performance, use **Parallel Scan**
+- For *faster performance*, use **Parallel Scan**
 	- *Multiple workers* scan multiple data segments at the same time
 	- Increases the throughput and RCU consumed
 	- Limit the impact of parallel scans just like you would for Scans

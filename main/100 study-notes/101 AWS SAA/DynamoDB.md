@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-25 12:36
+updated: 2022-05-25 17:04
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -16,6 +16,7 @@ updated: 2022-05-25 12:36
 	- NoSQL databases don't perform aggregations such as "SUM", "AVG", etc.
 - It *scales to massive workloads*, distributed database.
 - **Integrated with IAM for security**, authentication and authorisation.
+	- *Access fully controlled* by IAM
 - **Low cost** and **scales automatically**. 
 	- By default, Auto Scaling is not enabled in a DynamoDB table which is created using the *AWS CLI*.
 	- Autoscaling is *free of cost*. 
@@ -74,13 +75,20 @@ updated: 2022-05-25 12:36
 
 ## DynamoDB Accelerator (DAX)
 - **Fully-managed**, **highly available**,  **in memory cache** for DynamoDB. Helps solve read congestion by caching.
+	- Solves the *hot key problem* (too many reads).
 - **Doesn't** require **application logic modification.** Compatible with existing DynamoDB APIs.
 - Data stored in DAX have a **TTL** of **5 minutes** (**default**).
+- DAX cluster is *made up of nodes* 
+	- We have to select the *node type* while creating the cluster
+	- *Multi-AZ* (*3 nodes minimum* recommended for *production*)
 -  Can deliver up to 10 times performance improvement—**from milliseconds to *microseconds***—even at millions of requests per second.
+- Secure: *Encryption at rest* with KMS, VPC, IAM, CloudTrail,
 
 > [!question]- When to go for ElastiCache over DAX?
 >- ElastiCache is useful in a scenario where the application is performing some computation after retrieving it from DynamoDB. The aggregation result is stored in ElastiCache. *If there is no compute then it is always advisable to use DAX*.
 >- Also using Elasticache with DynamoDB is much more involved than DAX.
+> ---
+> ![[attachments/Pasted image 20220525151014.png]]
 
 ## DynamoDB Streams
 - *Event driven programming* using **dynamo db streams**. 
@@ -90,6 +98,12 @@ updated: 2022-05-25 12:36
 - DynamoDB streams is **not enabled by default**.
 - Stream records can be sent to (**3**) : **Lambda**, **Kinesis Data Streams** and **Kinesis Client Library applications**.
 - *Data retention* for up to **24 hours**.
+- *Use cases*:
+	- React to changes in real-time (welcome email to users)
+	- Analytics
+	- Insert into derivative tables
+	- Insert into ElasticSearch
+	- Implement *cross-region replication*
 
 ## DynamoDB Global Tables
 - Tables are present in **different regions**.
@@ -104,10 +118,6 @@ updated: 2022-05-25 12:36
 > - We do have [[Aurora#Aurora Multi Master|Aurora Multi Master]] in which all the databases take writes but it is not multi region.
 > - So we can say **DynamoDB global tables** are **multi master**, **multi region** 
 > - Whereas **Aurora Global** is **single master**, **multi region**.
-
-## DynamoDB TTL
-- It is possible to *delete items in DynamoDB after a certain time automatically*.
-- Use case: *deleting expired cookies of users* and then prompting them to login again.
 
 ## DynamoDB Indexes
 - There are **two** types of indexes **Global Secondary Indexes (GSI)** & **Local Secondary Indexes (LSI)**.

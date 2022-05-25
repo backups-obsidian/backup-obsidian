@@ -1,12 +1,20 @@
 {
   "recentFiles": [
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "API Gateway",
+      "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
       "basename": "DynamoDB Indexes",
       "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "DynamoDB DVA",
+      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
     },
     {
       "basename": "DynamoDB Basic APIs",
@@ -21,8 +29,8 @@
       "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
     },
     {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
+      "basename": "Lambda Event Source Mapping",
+      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
     },
     {
       "basename": "How to create awesome documentation",
@@ -63,10 +71,6 @@
     {
       "basename": "Lambda Destinations",
       "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
-    },
-    {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
     },
     {
       "basename": "103 Golang Index",
@@ -195,10 +199,6 @@
     {
       "basename": "gRPC",
       "path": "300 short-notes/gRPC.md"
-    },
-    {
-      "basename": "Useful Mac Apps",
-      "path": "200 general-notes/Useful Mac Apps.md"
     }
   ],
   "omittedPaths": [],

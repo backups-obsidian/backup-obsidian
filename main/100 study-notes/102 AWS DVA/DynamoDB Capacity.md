@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 12:27
-updated: 2022-05-25 12:31
+updated: 2022-05-25 17:17
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -42,6 +42,9 @@ updated: 2022-05-25 12:31
 
 > [!note]- WCUs and RCUs are **spread evenly across partitions**.
 > If you have 10 partitions and you provision 10 WCUs and 10 RCUs then they are going to be spread evenly across partitions. This means each partition is going to get 1 WCU and 1 RCU.
+
+> [!question]- An application begins to receive a lot of `ProvisionedThroughputExceededException` exceptions from a DynamoDB table that you manage. After checking the CloudWatch metrics, you found that you haven't exceeded the *total provisioned RCU*. What is a possible cause for this?
+> You have a *Hot Partition/Hot Key*. Remember RCUs and WCUs are spread across all the table's partitions.
 
 ## Throttling
 - If we exceed provisioned RCUs or WCUs at the partition level, we get `ProvisionedThroughputExceededException`.

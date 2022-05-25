@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-25 12:52
+updated: 2022-05-25 16:17
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -94,10 +94,13 @@ Three ways in which Lambda processes events
 
 ## DynamoDB
 [[../101 AWS SAA/DynamoDB|DynamoDB]]
-[[DynamoDB DVA]]
 [[DynamoDB Capacity]]
 [[DynamoDB Basic APIs]]
 [[DynamoDB Indexes]]
+[[DynamoDB DVA]]
+
+## API Gateway
+[[../101 AWS SAA/API Gateway|API Gateway]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
