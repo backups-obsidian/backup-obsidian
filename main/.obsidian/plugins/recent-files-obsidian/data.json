@@ -1,12 +1,44 @@
 {
   "recentFiles": [
     {
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+    },
+    {
+      "basename": "API Gateway Monitoring",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
+      "basename": "API Gateway Caching",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
+    },
+    {
       "basename": "API Gateway",
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
+      "basename": "API Gateway Integration Types",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
+    },
+    {
+      "basename": "Difference between REST & HTTP API",
+      "path": "300 short-notes/Difference between REST & HTTP API.md"
+    },
+    {
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "What is BaaS",
+      "path": "300 short-notes/What is BaaS.md"
+    },
+    {
+      "basename": "000 home",
+      "path": "000 home.md"
     },
     {
       "basename": "DynamoDB Indexes",
@@ -167,38 +199,6 @@
     {
       "basename": "CloudTrail",
       "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudFormation Template Components",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Template Components.md"
-    },
-    {
-      "basename": "CloudFormation",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation.md"
-    },
-    {
-      "basename": "CloudFormation RollBacks",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation RollBacks.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
-    },
-    {
-      "basename": "CloudFormation Intrinsic Functions",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Intrinsic Functions.md"
-    },
-    {
-      "basename": "Rust - User Input",
-      "path": "100 study-notes/105 Rust/Rust - User Input.md"
-    },
-    {
-      "basename": "gRPC",
-      "path": "300 short-notes/gRPC.md"
     }
   ],
   "omittedPaths": [],

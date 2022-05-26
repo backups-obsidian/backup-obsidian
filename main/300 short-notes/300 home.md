@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-05-14 09:50
+updated: 2022-05-26 10:17
 description: Any thing short that is tech related
 ---
 ---
@@ -18,3 +18,5 @@ description: Any thing short that is tech related
 [[Websockets, Polling, SSE & Webhooks]]
 [[What is WebRTC]]
 [[Bookmarklets]]
+[[What is BaaS]]
+[[Difference between REST & HTTP API]]

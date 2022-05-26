@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-04-27 10:04
+updated: 2022-05-26 09:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -47,7 +47,7 @@ updated: 2022-04-27 10:04
 	- Expose HTTP endpoints in the backend. Example: *internal HTTP API on premise*
 	- To add rate limiting, caching, user authentications, API keys, etc...
 - *AWS Services*:
-	- Expose any AWS API through the API Gateway
+	- Expose **any AWS API** through the API Gateway
 	- To add authentication, deploy publicly, rate control etc
 
 ## API Gateway Endpoint Types

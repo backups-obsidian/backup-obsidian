@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-25 16:17
+updated: 2022-05-26 20:09
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -101,6 +101,10 @@ Three ways in which Lambda processes events
 
 ## API Gateway
 [[../101 AWS SAA/API Gateway|API Gateway]]
+[[API Gateway DVA]]
+[[API Gateway Integration Types]]
+[[API Gateway Caching]]
+[[API Gateway Monitoring]]
 
 ## Miscellaneous
 - Typical 3 tier architecture
