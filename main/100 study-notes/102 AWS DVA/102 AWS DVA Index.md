@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-26 20:09
+updated: 2022-05-27 13:36
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -105,6 +105,11 @@ Three ways in which Lambda processes events
 [[API Gateway Integration Types]]
 [[API Gateway Caching]]
 [[API Gateway Monitoring]]
+[[API Gateway Security]]
+
+## SAM & CDK
+[[SAM]]
+[[CDK]]
 
 ## Miscellaneous
 - Typical 3 tier architecture

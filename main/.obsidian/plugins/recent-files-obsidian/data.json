@@ -1,24 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "API Gateway DVA",
-      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+      "basename": "CDK",
+      "path": "100 study-notes/102 AWS DVA/CDK.md"
     },
     {
-      "basename": "API Gateway Monitoring",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
+      "basename": "SAM",
+      "path": "100 study-notes/102 AWS DVA/SAM.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "API Gateway Caching",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
+      "basename": "300 home",
+      "path": "300 short-notes/300 home.md"
+    },
+    {
+      "basename": "YAML",
+      "path": "300 short-notes/YAML.md"
+    },
+    {
+      "basename": "API Gateway DVA",
+      "path": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+    },
+    {
+      "basename": "API Gateway Security",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Security.md"
     },
     {
       "basename": "API Gateway",
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
+    },
+    {
+      "basename": "What is BaaS",
+      "path": "300 short-notes/What is BaaS.md"
+    },
+    {
+      "basename": "API Gateway Monitoring",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
+    },
+    {
+      "basename": "API Gateway Caching",
+      "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
     },
     {
       "basename": "API Gateway Integration Types",
@@ -27,14 +51,6 @@
     {
       "basename": "Difference between REST & HTTP API",
       "path": "300 short-notes/Difference between REST & HTTP API.md"
-    },
-    {
-      "basename": "300 home",
-      "path": "300 short-notes/300 home.md"
-    },
-    {
-      "basename": "What is BaaS",
-      "path": "300 short-notes/What is BaaS.md"
     },
     {
       "basename": "000 home",
@@ -183,22 +199,6 @@
     {
       "basename": "SNS",
       "path": "100 study-notes/101 AWS SAA/SNS.md"
-    },
-    {
-      "basename": "X-Ray Advanced",
-      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
-    },
-    {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
-    },
-    {
-      "basename": "CloudWatch",
-      "path": "100 study-notes/101 AWS SAA/CloudWatch.md"
-    },
-    {
-      "basename": "CloudTrail",
-      "path": "100 study-notes/101 AWS SAA/CloudTrail.md"
     }
   ],
   "omittedPaths": [],

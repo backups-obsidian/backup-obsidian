@@ -19,26 +19,13 @@
         }
       },
       {
-        "id": "c339b8ecb49dd77f",
+        "id": "2563eea4795c9f1e",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/102 AWS DVA/API Gateway DVA.md",
-            "mode": "preview",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "b44fc71cb0037e60",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/101 AWS SAA/API Gateway.md",
-            "mode": "preview",
+            "file": "100 study-notes/102 AWS DVA/CDK.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -116,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+                "file": "100 study-notes/102 AWS DVA/CDK.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/API Gateway DVA.md"
+                "file": "100 study-notes/102 AWS DVA/CDK.md"
               }
             }
           },
@@ -162,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+                "file": "100 study-notes/102 AWS DVA/CDK.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +194,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "c339b8ecb49dd77f",
+  "active": "2563eea4795c9f1e",
   "lastOpenFiles": [
-    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
-    "100 study-notes/102 AWS DVA/API Gateway Monitoring.md",
+    "100 study-notes/102 AWS DVA/CDK.md",
+    "100 study-notes/102 AWS DVA/SAM.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/API Gateway Usage Plans & API Keys.md",
-    "100 study-notes/102 AWS DVA/API Gateway Caching.md",
-    "100 study-notes/101 AWS SAA/API Gateway.md",
-    "100 study-notes/102 AWS DVA/API Gateway Integration Types.md",
-    "300 short-notes/Difference between REST & HTTP API.md",
     "300 short-notes/300 home.md",
-    "300 short-notes/What is BaaS.md"
+    "300 short-notes/YAML.md",
+    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+    "100 study-notes/102 AWS DVA/API Gateway Security.md",
+    "100 study-notes/101 AWS SAA/API Gateway.md",
+    "300 short-notes/What is BaaS.md",
+    "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
   ]
 }

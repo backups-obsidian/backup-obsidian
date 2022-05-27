@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2022-05-26 20:17
+updated: 2022-05-27 10:05
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -91,3 +91,44 @@ updated: 2022-05-26 20:17
 > - It *only supports proxy integrations* 
 > - There is no such thing as usage plan and API keys.
 
+## CORS
+- CORS must be **enabled when you receive API calls from another domain**.
+	- ![[attachments/Pasted image 20220527091836.png]]
+- The *OPTIONS pre-flight* request must contain the following headers:
+	- `Access-Control-Allow-Methods`
+	- `Access-Control-Allow-Headers`
+	- `Access-Control-Allow-Origin`
+- CORS can be enabled through the console
+- If you using a *lambda proxy or a HTTP proxy* you will need to have `Access-Control-Allow-Origin` header in your backend code since it is the one responding when there is a preflights request.
+	- ![[attachments/Pasted image 20220527092332.png]]
+
+## WebSocket API
+- It enables *stateful application* use cases.
+- WebSocket APIs are often used in **real time applications** such as chat applications, collaboration platforms, multiplayer games, and financial trading platforms.
+	- ![[attachments/Pasted image 20220527094642.png]]
+
+- *Connecting to the API*
+	- ConnectionId is stored in DynamoDB along with meta data 
+	- When the client disconnects ConnectionId will be deleted from DynamoDB
+	- ![[attachments/Pasted image 20220527094727.png]]
+- *Client to Server Messaging*
+	- User information and other meta data is retrieved from DynamoDB using the ConnectionId
+	- ![[attachments/Pasted image 20220527094922.png]]
+- *Server to Client Messaging*
+	- ![[attachments/Pasted image 20220527094958.png]]
+
+### Routing 
+- Incoming JSON messages are **routed to different backend**
+- If no routes => sent to `$default`
+- You request a **route selection expression** to select the field on JSON to route from
+	- See the routing expression
+	- ![[attachments/Pasted image 20220527095410.png]]
+
+> [!note] For exam perspective remember routing is there to *route to a specific backend* based on the routing expression
+
+## Architecture Example
+- Create a **single interface for all the microservices** in your company
+	- ![[attachments/Pasted image 20220527100357.png]]
+- Use API endpoints with various resources
+- Apply a simple domain name and SSL certificates
+- Can apply forwarding and transformation rules at the API Gateway level

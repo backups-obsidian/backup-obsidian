@@ -1,6 +1,6 @@
 ---
 created: 2022-04-16 16:39
-updated: 2022-05-26 10:17
+updated: 2022-05-27 11:52
 description: Any thing short that is tech related
 ---
 ---
@@ -20,3 +20,4 @@ description: Any thing short that is tech related
 [[Bookmarklets]]
 [[What is BaaS]]
 [[Difference between REST & HTTP API]]
+[[YAML]]

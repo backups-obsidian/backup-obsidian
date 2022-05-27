@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 19:08
-updated: 2022-05-26 09:38
+updated: 2022-05-27 09:39
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -66,15 +66,21 @@ updated: 2022-05-26 09:38
 
 ## Security
 ### IAM
+- Create an IAM policy authorisation and attach to User / Role
 - **Great for users / roles *already within* your AWS account**
 	- ![[attachments/Pasted image 20220427095642.png]]
-
-- Handle authentication + authorisation
-- Leverages **Sig v4**
+- *Authentication = IAM* | *Authorisation = IAM Policy*
+- Good to provide access within AWS (EC2, Lambda, lAM users...)
+- Handles authentication + authorisation
+- Leverages **Sig v4** capability where IAM credential are in headers
 
 ### Lambda/Custom Authoriser
+- **Token-based authoriser** (bearer token) ex JWT (SON Web Token) or Oauth
+- *Authentication = External* | *Authorisation = Lambda function*
 - Uses **AWS Lambda** to **validate the token** in header being passed
-	- ![[attachments/Pasted image 20220427095721.png]]
+	- A *request parameter-based* Lambda authoriser (headers, query string, stage var)
+	- Retrieves the token from an external provider, uses the lambda authoriser to validate the token with the external provider and then generate the IAM policy.
+	- ![[attachments/Pasted image 20220527093730.png]]
 
 - Helps to use OAuth / SAML / **3rd party type of authentication**
 - Lambda **must return an IAM policy for the user**. Very flexible in what IAM policy is returned.
@@ -82,7 +88,9 @@ updated: 2022-05-26 09:38
 ### Cognito User Pools
 - **Cognito fully manages user lifecycle**
 - *First the call is to cognito* user pools to authenticate and get the token. Once the token is returned it is sent along with the REST API request.
+	- Cognito has a direct integration with API Gateway so the token sent with the REST request is evaluated.
 	- ![[attachments/Pasted image 20220427095926.png]]
 
 - **No custom implementation required**
-- Cognito **only** helps with **authentication**, **not authorisation**. Authorisation must be handled in the backend.
+- *Authentication = Cognito User Pools* | *Authorisation = API Gateway Methods*
+	- Cognito **only** helps with **authentication**, **not authorisation**.
