@@ -17,19 +17,6 @@
           },
           "pinned": true
         }
-      },
-      {
-        "id": "2563eea4795c9f1e",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/102 AWS DVA/CDK.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -103,7 +90,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CDK.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +107,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CDK.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -149,7 +136,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/102 AWS DVA/CDK.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,11 +181,11 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "2563eea4795c9f1e",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "100 study-notes/102 AWS DVA/CDK.md",
     "100 study-notes/102 AWS DVA/SAM.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
     "300 short-notes/300 home.md",
     "300 short-notes/YAML.md",
     "100 study-notes/102 AWS DVA/API Gateway DVA.md",
