@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09 19:06
-updated: 2022-05-13 23:22
+updated: 2022-05-28 08:39
 ---
 ---
 **Links**: [[300 home]]
@@ -80,3 +80,15 @@ call plug#end()
 - We use the `require` function to load the different modules in lua. 
 - So the base directory will have a `init.lua` file which will load all the modules.
 - All the modules must be inside the `~/.config/nvim/lua` folder. For example we can have a settings folder inside lua folder. We will need a `init.lua` file in all the subfolders.
+
+
+## Miscellaneous
+- `:so %` after saving the file to source it.
+
+## Options
+- `:help options`
+- [Nvim documentation: options (neovim.io)](https://neovim.io/doc/user/options.html)
+
+## Plugins 
+- We will be using packer for our plugins
+- Packer is also written in lua

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-22 17:52
+updated: 2022-05-28 10:33
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -50,14 +50,23 @@ for i := 0; i < len(values); i++ {
 ```
 
 ### Copy 
-> [!important]- `=` creates a **copy of the array** in a different memory location. This is not the case with slices
-> The *arrays are not connected* and are saved in different memory locations. This can also be verified if we check the address location of both the arrays. They will be different. Incase of slice they will be same.
+> [!important]- `:=` or `=`(if the array has already been declared) creates a **copy of the array** in a different memory location. This is not possible with slices.
 ```go
 m := [3]int{1, 2, 3}
 n := m //n is a copy of m
 fmt.Println("n is equal to m: ", n == m) // => true
 m[0] = -1                                //only m is modified
 fmt.Println("n is equal to m: ", n == m) // => false
+fmt.Println(n,m) // [1,2,3] [-1,2,3]
+```
+```go
+var a = [3]int{1, 2, 3}
+var b [3]int
+fmt.Printf("%p, %p\n", &a, &b) // 0xc000014018, 0xc000014030
+b = a
+fmt.Printf("%p, %v\n", &b, b) // 0xc000014030,[1 2 3]
+b[1] = 10
+fmt.Println(a, b) // [1 2 3] [1 10 3]
 ```
 
 ### Keyed elements
@@ -74,3 +83,7 @@ values := [...]string{
 // length of the array is 7 and index of NYC is 6
 ```
 - Keyed elements are useful since they automatically populate the default values. For example if you want to have an array of weekends to be true and weekdays to be false then `weekends := [...]bool{5:true, 6:true}`
+
+### Array Working
+- An array consists of three things: a *pointer* (pointing to the first element of an array), *capacity* and *length*. 
+- For an array **length == capacity** always

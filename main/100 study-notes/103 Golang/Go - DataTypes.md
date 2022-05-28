@@ -1,6 +1,6 @@
 ---
 created: 2022-05-21 15:26
-updated: 2022-05-21 16:38
+updated: 2022-05-28 09:34
 ---
 ---
 **Links**: 
@@ -65,7 +65,7 @@ var x int8 = 4
 var y float32 = 5.6
 var z = x * int8(y) //20
 ```
-- In the above example y is not modified but a new int value is returned
+- In the above example **y is not modified but a new int value is returned**
 - int to string is done using `Sprintf` : `x := fmt.Sprintf("%d",45)`
 - Unicode conversion : `x := string(65)` - A
 - Converting string to int/float/bool : `var f1, err = strconv.ParseInt("45",32)` - second parameter is the precision.

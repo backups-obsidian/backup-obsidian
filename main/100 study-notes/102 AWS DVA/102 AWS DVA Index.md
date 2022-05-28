@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-27 16:48
+updated: 2022-05-27 19:01
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -119,5 +119,5 @@ Three ways in which Lambda processes events
 	- *Data subnet* is also a *private subnet*.
 
 ## Exam Tips
-- There are very very few trick questions
+- There are **very very few trick questions**
 - If a solution seems feasible but *highly complicated, it's probably wrong*

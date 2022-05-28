@@ -1,8 +1,60 @@
 {
   "recentFiles": [
     {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Slices",
+      "path": "100 study-notes/103 Golang/Go - Slices.md"
+    },
+    {
+      "basename": "Go - Slice Working",
+      "path": "100 study-notes/103 Golang/Go - Slice Working.md"
+    },
+    {
+      "basename": "Go - Arrays",
+      "path": "100 study-notes/103 Golang/Go - Arrays.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Go - ProgramFlow",
+      "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
+    },
+    {
+      "basename": "Go - For Loops",
+      "path": "100 study-notes/103 Golang/Go - For Loops.md"
+    },
+    {
+      "basename": "Go - If & Switch",
+      "path": "100 study-notes/103 Golang/Go - If & Switch.md"
+    },
+    {
+      "basename": "Go - Basics",
+      "path": "100 study-notes/103 Golang/Go - Basics.md"
+    },
+    {
+      "basename": "Go - DataTypes",
+      "path": "100 study-notes/103 Golang/Go - DataTypes.md"
+    },
+    {
+      "basename": "Go - Variables",
+      "path": "100 study-notes/103 Golang/Go - Variables.md"
+    },
+    {
+      "basename": "Go - Constants",
+      "path": "100 study-notes/103 Golang/Go - Constants.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "What is BaaS",
+      "path": "300 short-notes/What is BaaS.md"
     },
     {
       "basename": "CDK",
@@ -31,10 +83,6 @@
     {
       "basename": "API Gateway",
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
-    },
-    {
-      "basename": "What is BaaS",
-      "path": "300 short-notes/What is BaaS.md"
     },
     {
       "basename": "API Gateway Monitoring",
@@ -121,46 +169,6 @@
       "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
     },
     {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "Go - Slices",
-      "path": "100 study-notes/103 Golang/Go - Slices.md"
-    },
-    {
-      "basename": "Go - Arrays",
-      "path": "100 study-notes/103 Golang/Go - Arrays.md"
-    },
-    {
-      "basename": "Go - For Loops",
-      "path": "100 study-notes/103 Golang/Go - For Loops.md"
-    },
-    {
-      "basename": "Go - ProgramFlow",
-      "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
-    },
-    {
-      "basename": "Go - If & Switch",
-      "path": "100 study-notes/103 Golang/Go - If & Switch.md"
-    },
-    {
-      "basename": "Go - Basics",
-      "path": "100 study-notes/103 Golang/Go - Basics.md"
-    },
-    {
-      "basename": "Go - DataTypes",
-      "path": "100 study-notes/103 Golang/Go - DataTypes.md"
-    },
-    {
-      "basename": "Go - Constants",
-      "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "Go - Variables",
-      "path": "100 study-notes/103 Golang/Go - Variables.md"
-    },
-    {
       "basename": "Go - Package",
       "path": "100 study-notes/103 Golang/Go - Package.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "SQS",
       "path": "100 study-notes/101 AWS SAA/SQS.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
-    },
-    {
-      "basename": "SNS",
-      "path": "100 study-notes/101 AWS SAA/SNS.md"
     }
   ],
   "omittedPaths": [],

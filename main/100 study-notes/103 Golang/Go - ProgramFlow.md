@@ -1,6 +1,6 @@
 ---
 created: 2022-05-21 16:43
-updated: 2022-05-21 21:55
+updated: 2022-05-28 09:42
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -84,4 +84,4 @@ func main () {
 }
 ```
 
-> [!important] *Unused package scoped variables don't return an error* since it can be used in other files of the same package, whereas unused local/block scope variables do.
+> [!important] *Unused package scoped variables don't return an error* since they can be used in other files of the same package, whereas unused local/block scope variables do.

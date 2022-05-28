@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 21:24
-updated: 2022-05-26 21:22
+updated: 2022-05-27 19:35
 ---
 ---
 **Links**: [[300 home]]
@@ -24,7 +24,7 @@ updated: 2022-05-26 21:22
 > - *Stand-alone apps* or applications that require a small number of integrations
 > - Enterprise apps that are not mission-critical
 
-- **IaaS (AWS, Azure etc) vs PaaS (Heroku) vs BaaS (Firebase)**:
+- **IaaS (AWS, Azure etc) vs PaaS (Heroku/[[../100 study-notes/101 AWS SAA/ElasticBeanstalk|ElasticBeanStalk]]) vs BaaS (Firebase)**:
 	- IAAS = Data Center + Servers + Storage +Networking
 	- PAAS = IAAS + Deploy + Manage + Scale
 	- BAAS = PAAS + Features to Build Backend
@@ -38,6 +38,9 @@ updated: 2022-05-26 21:22
 - *FaaS* is actually an *event-based architecture* which is helping to execute events. It comes with a higher *simplicity level* and is *auto-scalable*. 
 	- While on the other hand, *BaaS* is the *services that are running in the background* to manage the entire backend services such as push notifications, geolocation, user authentication, email verification, database optimisation, etc.
 
+### Some BaaS
+- Appwrite 
+- Supabase
 
 ## References
 - [What is BaaS? Backend as a Service explained (back4app.com)](https://blog.back4app.com/backend-as-a-service-baas/)

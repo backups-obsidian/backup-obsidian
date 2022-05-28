@@ -1,6 +1,6 @@
 ---
 created: 2022-05-21 12:15
-updated: 2022-05-21 12:17
+updated: 2022-05-28 09:31
 ---
 ---
 **Links**: 
@@ -43,6 +43,7 @@ updated: 2022-05-21 12:17
 	- Cannot be used to redefine variables unless one of the variables is new
 		- `car, price := "audi",399; car, price := "test", 343` - this would give an *error*
 		- `car, price := "audi", 455; car, new_var := "test", true` - this is fine
+			- The second statement is equivalent to `car = "test";var new_var = true`
 - Multiple declaration using var
 	- `var a, b int`: concise way
 		- Tuple assignment: `var a, b; a, b = "test", 65`. 
