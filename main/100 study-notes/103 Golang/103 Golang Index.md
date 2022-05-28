@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-05-28 11:03
+updated: 2022-05-28 16:59
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -11,9 +11,11 @@ updated: 2022-05-28 11:03
 	- [[Go - Variables]]
 	- [[Go - Constants]]
 	- [[Go - DataTypes]]
+		- [[Go - Strings, Runes & Bytes]]
 - [[Go - ProgramFlow]]
 	- [[Go - If & Switch]]
 	- [[Go - For Loops]]
 - [[Go - Arrays]]
 - [[Go - Slices]]
 	- [[Go - Slice Working]]
+- [[Go - Maps]]

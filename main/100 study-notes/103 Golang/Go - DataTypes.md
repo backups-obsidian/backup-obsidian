@@ -1,6 +1,6 @@
 ---
 created: 2022-05-21 15:26
-updated: 2022-05-28 09:34
+updated: 2022-05-28 15:07
 ---
 ---
 **Links**: 
@@ -31,6 +31,7 @@ fmt.Println(a) // 102 (decimal ascii code of f)
 
 > [!caution] **Double quotes** should be used when working with *strings*
 
+### [[Go - Strings, Runes & Bytes]]
 ### Composite Types
 - **Array** has a **fixed** length, **slice** has a **dynamic** length.
 	- `var numbers = [4]int{1,2,3,4}` - Array

@@ -5,6 +5,22 @@
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
+      "basename": "Go - Maps",
+      "path": "100 study-notes/103 Golang/Go - Maps.md"
+    },
+    {
+      "basename": "Go - DataTypes",
+      "path": "100 study-notes/103 Golang/Go - DataTypes.md"
+    },
+    {
+      "basename": "Go - Strings, Runes & Bytes",
+      "path": "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md"
+    },
+    {
+      "basename": "Go - Basics",
+      "path": "100 study-notes/103 Golang/Go - Basics.md"
+    },
+    {
       "basename": "Go - Slices",
       "path": "100 study-notes/103 Golang/Go - Slices.md"
     },
@@ -31,14 +47,6 @@
     {
       "basename": "Go - If & Switch",
       "path": "100 study-notes/103 Golang/Go - If & Switch.md"
-    },
-    {
-      "basename": "Go - Basics",
-      "path": "100 study-notes/103 Golang/Go - Basics.md"
-    },
-    {
-      "basename": "Go - DataTypes",
-      "path": "100 study-notes/103 Golang/Go - DataTypes.md"
     },
     {
       "basename": "Go - Variables",
@@ -191,14 +199,6 @@
     {
       "basename": "SQS DVA",
       "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
-    },
-    {
-      "basename": "Kinesis",
-      "path": "100 study-notes/101 AWS SAA/Kinesis.md"
-    },
-    {
-      "basename": "SQS",
-      "path": "100 study-notes/101 AWS SAA/SQS.md"
     }
   ],
   "omittedPaths": [],
