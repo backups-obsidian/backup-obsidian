@@ -1,8 +1,28 @@
 {
   "recentFiles": [
     {
+      "basename": "Go - Functions",
+      "path": "100 study-notes/103 Golang/Go - Functions.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Structs",
+      "path": "100 study-notes/103 Golang/Go - Structs.md"
+    },
+    {
+      "basename": "Go - Basics",
+      "path": "100 study-notes/103 Golang/Go - Basics.md"
+    },
+    {
+      "basename": "Go - Files",
+      "path": "100 study-notes/103 Golang/Go - Files.md"
+    },
+    {
+      "basename": "Go - Strings, Runes & Bytes",
+      "path": "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md"
     },
     {
       "basename": "Go - Maps",
@@ -11,14 +31,6 @@
     {
       "basename": "Go - DataTypes",
       "path": "100 study-notes/103 Golang/Go - DataTypes.md"
-    },
-    {
-      "basename": "Go - Strings, Runes & Bytes",
-      "path": "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md"
-    },
-    {
-      "basename": "Go - Basics",
-      "path": "100 study-notes/103 Golang/Go - Basics.md"
     },
     {
       "basename": "Go - Slices",
@@ -187,18 +199,6 @@
     {
       "basename": "Rust - Arithmetic & Type Casting",
       "path": "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md"
-    },
-    {
-      "basename": "Rust - Data Types",
-      "path": "100 study-notes/105 Rust/Rust - Data Types.md"
-    },
-    {
-      "basename": "Kinesis DVA",
-      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
-    },
-    {
-      "basename": "SQS DVA",
-      "path": "100 study-notes/102 AWS DVA/SQS DVA.md"
     }
   ],
   "omittedPaths": [],

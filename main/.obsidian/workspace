@@ -25,7 +25,20 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/103 Golang/103 Golang Index.md",
-            "mode": "preview",
+            "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "26b4487f78bf898c",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/103 Golang/Go - Functions.md",
+            "mode": "source",
             "backlinks": false,
             "source": true
           }
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "100 study-notes/103 Golang/Go - Functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md"
+                "file": "100 study-notes/103 Golang/Go - Functions.md"
               }
             }
           },
@@ -149,7 +162,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "100 study-notes/103 Golang/Go - Functions.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -194,17 +207,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "40e98b46104a5f84",
+  "active": "26b4487f78bf898c",
   "lastOpenFiles": [
+    "100 study-notes/103 Golang/Go - Functions.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/103 Golang/Go - Structs.md",
+    "100 study-notes/103 Golang/Go - Basics.md",
+    "100 study-notes/103 Golang/Go - Files.md",
+    "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md",
     "100 study-notes/103 Golang/Go - Maps.md",
     "100 study-notes/103 Golang/Go - DataTypes.md",
-    "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md",
-    "100 study-notes/103 Golang/Go - Basics.md",
     "100 study-notes/103 Golang/Go - Slices.md",
-    "100 study-notes/103 Golang/Go - Slice Working.md",
-    "100 study-notes/103 Golang/Go - Arrays.md",
-    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/103 Golang/Go - ProgramFlow.md"
+    "100 study-notes/103 Golang/Go - Slice Working.md"
   ]
 }

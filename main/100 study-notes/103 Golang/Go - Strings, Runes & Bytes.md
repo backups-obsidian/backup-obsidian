@@ -1,6 +1,6 @@
 ---
 created: 2022-05-28 15:08
-updated: 2022-05-28 16:58
+updated: 2022-05-29 10:08
 ---
 ---
 **Links**: 
@@ -37,19 +37,6 @@ fmt.Println(s[0:2]) // AB
 	- Recommended way to compare strings when we don't want to take into account the case => `fmt.Println(strings.EqualFold("GO","go"))`
 	- Converting to lower case and then comparing is an expensive operation
 
-- Miscellaneous example
-```go
-a := "hello"
-b := []byte(a)
-for _, value := range b {
-	fmt.Printf("%#v, %d, %c\n", value, value, value)
-}
-// 0x68, 104, h
-// 0x65, 101, e
-// 0x6c, 108, l
-// 0x6c, 108, l
-// 0x6f, 111, o 
-```
 
 ## Bytes & Runes
 - Strings are implemented quite differently as compared to other programming languages.
@@ -145,4 +132,39 @@ rs := []rune(str)
 fmt.Println(len(rs)) // 3
 fmt.Println(rs) // [165 254 240]
 fmt.Println(string(rs[1:3])) // þð
+```
+
+## Miscellaneous Examples
+```go
+a := "hello"
+b := []byte(a)
+for _, value := range b {
+	fmt.Printf("%#v, %d, %c\n", value, value, value)
+}
+// 0x68, 104, h
+// 0x65, 101, e
+// 0x6c, 108, l
+// 0x6c, 108, l
+// 0x6f, 111, o 
+```
+- Converting string to byte and rune slice
+```go
+s := "hello"
+rs := []rune(s)
+bs := []byte(s)
+fmt.Println(rs) // [104 101 108 108 111]
+fmt.Println(bs) // [104 101 108 108 111]
+```
+- Converting to string
+```go
+bs := []byte{102, 97, 65, 34}
+rs := []rune{102, 97, 65, 34}
+is := []uint8{102, 97, 65, 34} // alias to byte
+bis := []int32{102, 97, 65, 34} // alias to rune
+fmt.Println(string(bs)) // faA"
+fmt.Println(string(rs)) // faA"
+fmt.Println(string(is)) // faA"
+fmt.Println(string(bis)) // faA"
+// is := []int{102,97,65,34} // this would give an error since we cannot convert int to string
+// we cannot convert any other data type to string
 ```

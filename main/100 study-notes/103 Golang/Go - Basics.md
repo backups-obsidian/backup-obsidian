@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-21 16:00
+updated: 2022-05-29 11:46
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -43,6 +43,7 @@ updated: 2022-05-21 16:00
 		- `%q` - double-quoted strings. Eg: `a := "hello"; fmt.Printf("How %q",a)` - How "hello"
 		- `%v` - can be **replaced by any value**
 		- `%#v`- a Go-syntax representation of the value
+		- `%+v` - to print the struct's values and fields
 		- `%T` - print the *type of the variable* 
 		- `%t` - for *boolean* values
 		- `%p` - for *pointer* address. Address in base 16, with leading 0x

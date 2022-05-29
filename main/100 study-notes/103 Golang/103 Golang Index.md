@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-05-28 16:59
+updated: 2022-05-29 12:40
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -19,3 +19,6 @@ updated: 2022-05-28 16:59
 - [[Go - Slices]]
 	- [[Go - Slice Working]]
 - [[Go - Maps]]
+- [[Go - Files]]
+- [[Go - Structs]]
+- [[Go - Functions]]
