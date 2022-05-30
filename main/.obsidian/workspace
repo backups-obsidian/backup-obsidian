@@ -11,7 +11,7 @@
           "type": "markdown",
           "state": {
             "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-            "mode": "source",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           },
@@ -19,25 +19,12 @@
         }
       },
       {
-        "id": "40e98b46104a5f84",
+        "id": "8de115d3665bb468",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/103 Golang Index.md",
-            "mode": "source",
-            "backlinks": false,
-            "source": true
-          }
-        }
-      },
-      {
-        "id": "26b4487f78bf898c",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "100 study-notes/103 Golang/Go - Functions.md",
+            "file": "100 study-notes/102 AWS DVA/Other Services DVA.md",
             "mode": "source",
             "backlinks": false,
             "source": true
@@ -94,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -116,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Functions.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Functions.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -162,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/Go - Functions.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -207,17 +193,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "26b4487f78bf898c",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "100 study-notes/103 Golang/Go - Functions.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Structs.md",
-    "100 study-notes/103 Golang/Go - Basics.md",
-    "100 study-notes/103 Golang/Go - Files.md",
-    "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md",
-    "100 study-notes/103 Golang/Go - Maps.md",
-    "100 study-notes/103 Golang/Go - DataTypes.md",
-    "100 study-notes/103 Golang/Go - Slices.md",
-    "100 study-notes/103 Golang/Go - Slice Working.md"
+    "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/102 AWS DVA/Step Functions.md",
+    "100 study-notes/102 AWS DVA/Other Services DVA.md",
+    "100 study-notes/102 AWS DVA/AppSync.md",
+    "100 study-notes/101 AWS SAA/Other Services.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/102 AWS DVA/Cognito.md",
+    "300 short-notes/How to setup neovim.md",
+    "600 rough/rough - neovim vimrc config.md",
+    "100 study-notes/103 Golang/103 Golang Index.md"
   ]
 }

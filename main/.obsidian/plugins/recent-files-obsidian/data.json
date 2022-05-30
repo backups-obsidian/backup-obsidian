@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "Go - Functions",
-      "path": "100 study-notes/103 Golang/Go - Functions.md"
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "Other Services",
+      "path": "100 study-notes/101 AWS SAA/Other Services.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Cognito",
+      "path": "100 study-notes/102 AWS DVA/Cognito.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "rough - neovim vimrc config",
+      "path": "600 rough/rough - neovim vimrc config.md"
     },
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
+    },
+    {
+      "basename": "Go - Pointers",
+      "path": "100 study-notes/103 Golang/Go - Pointers.md"
+    },
+    {
+      "basename": "Go - Functions",
+      "path": "100 study-notes/103 Golang/Go - Functions.md"
     },
     {
       "basename": "Go - Structs",
@@ -45,10 +81,6 @@
       "path": "100 study-notes/103 Golang/Go - Arrays.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
       "basename": "Go - ProgramFlow",
       "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
     },
@@ -67,10 +99,6 @@
     {
       "basename": "Go - Constants",
       "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
     },
     {
       "basename": "What is BaaS",
@@ -167,38 +195,6 @@
     {
       "basename": "Lambda Asynchronous Invocation",
       "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
-    },
-    {
-      "basename": "Lambda Synchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "Lambda Performance",
-      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
-    },
-    {
-      "basename": "Lambda IAM Role",
-      "path": "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
-    },
-    {
-      "basename": "Lambda",
-      "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
-      "basename": "Lambda Destinations",
-      "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
-    },
-    {
-      "basename": "Go - Package",
-      "path": "100 study-notes/103 Golang/Go - Package.md"
-    },
-    {
-      "basename": "105 Rust Index",
-      "path": "100 study-notes/105 Rust/105 Rust Index.md"
-    },
-    {
-      "basename": "Rust - Arithmetic & Type Casting",
-      "path": "100 study-notes/105 Rust/Rust - Arithmetic & Type Casting.md"
     }
   ],
   "omittedPaths": [],

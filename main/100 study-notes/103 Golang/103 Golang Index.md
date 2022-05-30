@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-05-29 12:40
+updated: 2022-05-29 16:01
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -22,3 +22,4 @@ updated: 2022-05-29 12:40
 - [[Go - Files]]
 - [[Go - Structs]]
 - [[Go - Functions]]
+- [[Go - Pointers]]

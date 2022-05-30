@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-29 13:15
+updated: 2022-05-29 19:53
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -12,7 +12,10 @@ updated: 2022-05-29 13:15
 > [!caution]- Within the same package function names must be unique!
 - One of Go's features is that functions and methods **can return multiple values**.
 - Go *doesn't support function overloading*.
-- Everything in Go is **passed by value**.
+- In Go functions are first class citizens. This means
+	- Functions can be assigned to variables
+	- Can be passed as arguments to other functions
+	- Or return from other functions
 
 ### Defining functions
 ```go
@@ -77,3 +80,97 @@ fmt.Println(val, b) // hello 100
 ```
 
 ### Variadic Functions
+- Variadic functions take variable number of arguments
+	- We use variadic function when the number of arguments is unknown
+- Ellipsis prefix (three-dots) in front of the parameter type makes a function variadic.
+- The function may be called with **0 or more parameters**
+- If the function takes *parameters of different types* then **only the last parameter of the function can be variadic**.
+```go
+func f1(a ...int, string b) {} // this is wrong
+func f1(b string, a ...int) {} // this is correct
+```
+- `fmt.Println` is an example of variadic function
+- We can paste a slice to a variadic function by postfixing it with the variadic operator (`...`)
+	- You can think it as taking out all the values of slice and then passing them to the function
+```go
+// here type of a is []int
+func f1(a ...int) {
+	fmt.Printf("%T, %#v\n", a, a)
+}
+f1(1, 2, 3, 4) // []int, []int{1, 2, 3, 4}
+f1() // []int, []int(nil)
+slice := []int{12, 13, 14}
+f1(slice...) // []int, []int{12, 13, 14}
+```
+- We cannot pass arrays to variadic functions
+	- variadic functions use slices and `[]int != [4]int`
+```go
+func f1(a ...int) {
+	a[0] = 100
+}
+slice := [4]int{1, 2, 3, 4}
+f1(slice...) 
+// error -> cannot use slice (variable of type [4]int) as type []int in argument to f1
+// notice the types in error
+```
+
+### Defer
+- A defer statement postpones the execution of a function until the surrounding function returns.
+- If there are *multiple deferrals* then go will execute them in the reverse order of their deferral. Think of it as going from *bottom to top* (only for the deferred functions).
+- The *arguments of the deferred functions are evaluated immediately* but not executed until the surrounding function returns.
+- `defer` statement is used to make sure some function is executed later for cleanup like when opening a file we defer the file close function.
+```go
+func f1() {
+	fmt.Println("This is function 1")
+}
+
+func f2() {
+	fmt.Println("This is function 2")
+}
+
+func f3() {
+	fmt.Println("This is function 3")
+}
+
+func main() {
+	defer f1() // 5
+	f2() // 1
+	fmt.Println("penultimate statement") // 2
+	defer f3() // 4
+	fmt.Printn("last statement") // 3
+
+}
+// This is function 2
+// penultimate statement
+// last statement
+// This is function 3
+// This is function 1
+```
+
+### Anonymous Function
+- These functions don't have any name and are *declared inline*.
+- These can be used to *form closures*.
+```go
+func (a string) {
+	fmt.Println(a)
+}("hello")
+```
+```go
+// saying that we are returning a function of type int
+func increment(a int) func() int {
+	// returning an anonymous function
+	return func() int {
+		a++
+		return a
+	}
+	// we are not executing the function immediately as in above example
+}
+
+func main() {
+	inc := increment(10)
+	fmt.Printf("%T\n", inc) // func() int
+	fmt.Printf("%#v\n", inc) // (func() int)(0x47f6c0)
+	inc()
+	fmt.Println(inc()) // 12
+}
+```

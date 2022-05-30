@@ -12,3 +12,4 @@ imap jk <Esc>
 
 nmap K 10k
 nmap J 10j
+
