@@ -74,6 +74,7 @@ export EDITOR='nvim'
 
 ## Telescope
 - find_files
-- live_grep
-`brew install ripgrep`
+- live_grep - `brew install ripgrep`
 - Go to normal mode and mode up and down, go to insert mode to type
+
+

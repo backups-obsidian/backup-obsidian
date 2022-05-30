@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 14:40
-updated: 2022-05-30 15:01
+updated: 2022-05-30 19:03
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -60,3 +60,29 @@ updated: 2022-05-30 15:01
 	- CI/CD
 	- Custom domain name
 	- ![[attachments/Pasted image 20220530145408.png]]
+
+## ACM (AWS Certificate Manager)
+- Let's you easily **provision, manage, and deploy SSL/TLS Certificates**
+- Used to provide in-flight encryption for websites (HTTPS)
+- Supports both *public and private TLS certificates*
+- *Automatic TLS certificate renewal*
+- Integrations with (load TLS certificates on)
+	- *Elastic Load Balancers*
+	- *CloudFront Distributions*
+	- APIs on *API Gateway*
+
+## CloudMap
+- A fully managed **resource discovery service**
+	- ![[attachments/Pasted image 20220530185830.png]]
+	- Automatically update from v1 to v2 without any manual code change
+- Creates a *map* of the backend services/resources that your applications depend on
+- You register your application components, their locations, attributes, and health status with AWS Cloud Map
+- *Integrated health checking* (stop sending traffic to unhealthy endpoints)
+- Your applications can query AWS Cloud Map using AWS SDK, API, or DNS
+
+## FIS (Fault Injection Simulator)
+- A fully managed service for **running fault injection experiments on AWS** workloads 
+	- ![[attachments/Pasted image 20220530190205.png]]
+- Based on **chaos engineering**. 
+- Helps you *uncover hidden bugs and performance bottlenecks*
+- Use *pre-built templates* that generate the desired disruptions

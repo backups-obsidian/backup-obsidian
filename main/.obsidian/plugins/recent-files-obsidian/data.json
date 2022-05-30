@@ -1,16 +1,24 @@
 {
   "recentFiles": [
     {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+      "basename": "Difference between REST & HTTP API",
+      "path": "300 short-notes/Difference between REST & HTTP API.md"
     },
     {
       "basename": "Other Services DVA",
       "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
     },
     {
       "basename": "Other Services",
@@ -23,10 +31,6 @@
     {
       "basename": "Cognito",
       "path": "100 study-notes/102 AWS DVA/Cognito.md"
-    },
-    {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
     },
     {
       "basename": "rough - neovim vimrc config",
@@ -143,10 +147,6 @@
     {
       "basename": "API Gateway Integration Types",
       "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
-    },
-    {
-      "basename": "Difference between REST & HTTP API",
-      "path": "300 short-notes/Difference between REST & HTTP API.md"
     },
     {
       "basename": "000 home",
