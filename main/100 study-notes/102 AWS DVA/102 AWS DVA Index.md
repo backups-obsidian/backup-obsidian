@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-06-01 11:42
+updated: 2022-06-01 15:00
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -120,6 +120,7 @@ Three ways in which Lambda processes events
 [[../101 AWS SAA/KMS|KMS]]
 [[KMS DVA]]
 [[KMS Working]]
+[[SSM Parameter Store vs Secrets Manager]]
 
 ## Other Services
 [[Other Services DVA]]

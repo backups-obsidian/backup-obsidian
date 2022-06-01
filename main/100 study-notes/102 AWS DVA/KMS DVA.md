@@ -1,6 +1,6 @@
 ---
 created: 2022-05-30 12:29
-updated: 2022-06-01 12:08
+updated: 2022-06-01 15:28
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -32,3 +32,21 @@ updated: 2022-06-01 12:08
 	- ![[attachments/Pasted image 20220601120714.png]]
 - You will see *less KMS CloudTrail events* in CloudTrail
 
+> [!question]- Important question
+> You have critical data stored in an S3 bucket with `SSE:KMS` encryption enabled. You're running an application on an EC2 instance in which you want to download some files from the bucket. So, you have created an IAM role with `s3:GetObject` permissions and attached it to the EC2 instance, but when the application tries to download files from the S3 bucket, it gets a *denied exception*. What is a possible cause for this issue?
+>
+> Add permission for `KMS:Decrypt`. Because the bucket encrypted using `SSE:KMS`, **you must give permissions to the EC2 instance to access the KMS Keys and to make decrypt operations**.
+
+## CloudWatch Log Encryption
+- You can encrypt CloudWatch logs with KMS keys
+- **Encryption is enabled at the log group level**, by associating a CMK with a log group, *either when you create the log group or after it exists*.
+
+> [!note]- You *cannot* associate a CMK with a log group using the CloudWatch *console*.
+
+- You **must use** the CloudWatch Logs **API**:
+	- **`associate-kms-key`** : if the *log group already exists*
+	- **`create-log-group`** : if the *log group doesn't exist yet*
+
+- Also for Logs to be encrypted the *key policy must be updated* so that CloudWatch logs service can use KMS to encrypt and decrypt the logs.
+	- ![[attachments/Pasted image 20220601151248.png]]
+	- This just means our key can be used by the logs service.

@@ -1,9 +1,10 @@
 ---
 created: 2022-04-29 09:03
-updated: 2022-06-01 12:34
+updated: 2022-06-01 15:01
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
+**Recommended Reads**: [[../102 AWS DVA/SSM Parameter Store vs Secrets Manager|SSM Parameter Store vs Secrets Manager]]
 
 ---
 
@@ -24,3 +25,6 @@ updated: 2022-06-01 12:34
 	- Allow to assign a TTL to a parameter (expiration date) to force updating or deleting sensitive data such as passwords
 	- Can assign multiple policies at a time
 		- ![[attachments/Pasted image 20220601122959.png]]
+
+- If preparing for any interviews or want some hands on, watch this
+	- https://www.udemy.com/course/aws-certified-developer-associate-dva-c01/learn/lecture/11851458#overview

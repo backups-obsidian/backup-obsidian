@@ -1,20 +1,36 @@
 {
   "recentFiles": [
     {
-      "basename": "SSM Parameter Store",
-      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "KMS DVA",
       "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
     },
     {
+      "basename": "SSM Parameter Store",
+      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+    },
+    {
       "basename": "KMS Working",
       "path": "100 study-notes/102 AWS DVA/KMS Working.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "S3 Encryption",
+      "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "SSM Parameter Store vs Secrets Manager",
+      "path": "100 study-notes/102 AWS DVA/SSM Parameter Store vs Secrets Manager.md"
+    },
+    {
+      "basename": "Secrets Manager",
+      "path": "100 study-notes/101 AWS SAA/Secrets Manager.md"
     },
     {
       "basename": "101 AWS SAA Index",
@@ -23,10 +39,6 @@
     {
       "basename": "Lambda",
       "path": "100 study-notes/101 AWS SAA/Lambda.md"
-    },
-    {
-      "basename": "KMS",
-      "path": "100 study-notes/101 AWS SAA/KMS.md"
     },
     {
       "basename": "How to setup neovim",
@@ -187,18 +199,6 @@
     {
       "basename": "DynamoDB Indexes",
       "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
-    },
-    {
-      "basename": "DynamoDB DVA",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB DVA.md"
-    },
-    {
-      "basename": "DynamoDB Basic APIs",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md"
-    },
-    {
-      "basename": "DynamoDB Capacity",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
     }
   ],
   "omittedPaths": [],
