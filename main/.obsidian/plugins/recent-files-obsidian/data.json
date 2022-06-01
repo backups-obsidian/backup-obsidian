@@ -1,6 +1,26 @@
 {
   "recentFiles": [
     {
+      "basename": "publish-obsidian-vault",
+      "path": "400 misc/publish-obsidian-vault.md"
+    },
+    {
+      "basename": "Rough",
+      "path": "600 rough/Rough.md"
+    },
+    {
+      "basename": "How to create awesome documentation",
+      "path": "300 short-notes/How to create awesome documentation.md"
+    },
+    {
+      "basename": "projects",
+      "path": "400 misc/projects.md"
+    },
+    {
+      "basename": "backup-obisidian-vault",
+      "path": "400 misc/backup-obisidian-vault.md"
+    },
+    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
@@ -179,26 +199,6 @@
     {
       "basename": "API Gateway",
       "path": "100 study-notes/101 AWS SAA/API Gateway.md"
-    },
-    {
-      "basename": "API Gateway Monitoring",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Monitoring.md"
-    },
-    {
-      "basename": "API Gateway Caching",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Caching.md"
-    },
-    {
-      "basename": "API Gateway Integration Types",
-      "path": "100 study-notes/102 AWS DVA/API Gateway Integration Types.md"
-    },
-    {
-      "basename": "000 home",
-      "path": "000 home.md"
-    },
-    {
-      "basename": "DynamoDB Indexes",
-      "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
     }
   ],
   "omittedPaths": [],
