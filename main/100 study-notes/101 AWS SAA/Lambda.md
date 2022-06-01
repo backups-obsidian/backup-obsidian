@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-24 10:57
+updated: 2022-06-01 11:54
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -95,3 +95,5 @@ updated: 2022-05-24 10:57
 
 > [!question]- Why use encryption helpers?
 > Although Lambda encrypts the environment variables in your function by default, the *sensitive information would still be visible to other users who have access to the Lambda console*. This is because Lambda uses a default KMS key to encrypt the variables, which is usually accessible by other users. The *best option in this scenario is to use encryption helpers to secure your environment variables*.
+>
+> Env variables must be decrypted in the application, also the lambda must have permission to use KMS *Decrypt API*.

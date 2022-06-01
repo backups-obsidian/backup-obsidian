@@ -1,12 +1,48 @@
 {
   "recentFiles": [
     {
-      "basename": "How to setup neovim",
-      "path": "300 short-notes/How to setup neovim.md"
+      "basename": "SSM Parameter Store",
+      "path": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
+    },
+    {
+      "basename": "KMS DVA",
+      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
+    },
+    {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
     },
     {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "101 AWS SAA Index",
+      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
+    },
+    {
+      "basename": "Lambda",
+      "path": "100 study-notes/101 AWS SAA/Lambda.md"
+    },
+    {
+      "basename": "KMS",
+      "path": "100 study-notes/101 AWS SAA/KMS.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
+    },
+    {
+      "basename": "STS & IAM Advanced DVA",
+      "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "STS & Identity Federation",
+      "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
     },
     {
       "basename": "Difference between REST & HTTP API",
@@ -23,10 +59,6 @@
     {
       "basename": "Other Services",
       "path": "100 study-notes/101 AWS SAA/Other Services.md"
-    },
-    {
-      "basename": "101 AWS SAA Index",
-      "path": "100 study-notes/101 AWS SAA/101 AWS SAA Index.md"
     },
     {
       "basename": "Cognito",
@@ -167,34 +199,6 @@
     {
       "basename": "DynamoDB Capacity",
       "path": "100 study-notes/102 AWS DVA/DynamoDB Capacity.md"
-    },
-    {
-      "basename": "DynamoDB",
-      "path": "100 study-notes/101 AWS SAA/DynamoDB.md"
-    },
-    {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
-    },
-    {
-      "basename": "How to create awesome documentation",
-      "path": "300 short-notes/How to create awesome documentation.md"
-    },
-    {
-      "basename": "publish-obsidian-vault",
-      "path": "400 misc/publish-obsidian-vault.md"
-    },
-    {
-      "basename": "projects",
-      "path": "400 misc/projects.md"
-    },
-    {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Lambda Asynchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
     }
   ],
   "omittedPaths": [],

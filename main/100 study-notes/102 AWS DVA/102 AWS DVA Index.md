@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-30 14:40
+updated: 2022-06-01 11:42
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -114,6 +114,12 @@ Three ways in which Lambda processes events
 ## Cognito & Step Functions 
 [[Cognito]]
 [[Step Functions]]
+
+## Security
+[[STS & IAM Advanced DVA]]
+[[../101 AWS SAA/KMS|KMS]]
+[[KMS DVA]]
+[[KMS Working]]
 
 ## Other Services
 [[Other Services DVA]]

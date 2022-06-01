@@ -19,13 +19,39 @@
         }
       },
       {
-        "id": "e27a6ce0d574ac51",
+        "id": "748c0e1e16c0c632",
         "type": "leaf",
         "state": {
           "type": "markdown",
           "state": {
-            "file": "300 short-notes/How to setup neovim.md",
+            "file": "100 study-notes/102 AWS DVA/KMS Working.md",
             "mode": "source",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "6c6850b15c0cc68f",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/102 AWS DVA/KMS DVA.md",
+            "mode": "preview",
+            "backlinks": false,
+            "source": true
+          }
+        }
+      },
+      {
+        "id": "29cf72a2834b0cd7",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "100 study-notes/101 AWS SAA/SSM Parameter Store.md",
+            "mode": "preview",
             "backlinks": false,
             "source": true
           }
@@ -102,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "300 short-notes/How to setup neovim.md",
+                "file": "100 study-notes/101 AWS SAA/SSM Parameter Store.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "300 short-notes/How to setup neovim.md"
+                "file": "100 study-notes/101 AWS SAA/SSM Parameter Store.md"
               }
             }
           },
@@ -148,7 +174,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "300 short-notes/How to setup neovim.md",
+                "file": "100 study-notes/101 AWS SAA/SSM Parameter Store.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,17 +219,17 @@
     "width": 393,
     "collapsed": true
   },
-  "active": "e27a6ce0d574ac51",
+  "active": "29cf72a2834b0cd7",
   "lastOpenFiles": [
-    "300 short-notes/How to setup neovim.md",
+    "100 study-notes/101 AWS SAA/SSM Parameter Store.md",
+    "100 study-notes/102 AWS DVA/KMS DVA.md",
+    "100 study-notes/102 AWS DVA/KMS Working.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "300 short-notes/Difference between REST & HTTP API.md",
-    "100 study-notes/102 AWS DVA/Other Services DVA.md",
-    "100 study-notes/102 AWS DVA/Step Functions.md",
-    "100 study-notes/102 AWS DVA/AppSync.md",
-    "100 study-notes/101 AWS SAA/Other Services.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/102 AWS DVA/Cognito.md",
-    "600 rough/rough - neovim vimrc config.md"
+    "100 study-notes/101 AWS SAA/Lambda.md",
+    "100 study-notes/101 AWS SAA/KMS.md",
+    "300 short-notes/How to setup neovim.md",
+    "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md",
+    "100 study-notes/102 AWS DVA/CLI.md"
   ]
 }

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-09 19:06
-updated: 2022-05-30 09:33
+updated: 2022-06-01 00:06
 ---
 ---
 **Links**: [[300 home]]
@@ -56,14 +56,16 @@ export EDITOR='nvim'
 - If you feel there is some problem then delete the `~/.config/nvim/plugin/packer_compiled.lua` file
 	- Put it in your `.gitignore`
 - Lazy loading means it will only run if one of the specified commands is run
+- Plugins will be under `~/.local/share/nvim/site/pack/packer` - most of them will be in start
 
 ## ColourSchemes
 - For colour schemes we have to first install them in the plugins and then use them
 
 ## Miscellaneous
 - `:so %` after saving the file to source it.
+- `echo &ft` - to get the file type
 
-## LSP
+## LSP (incomplete)
 - `LspInstallInfo` - a menu will pop up
 - To install something search it in the menu and press `i`
 - To update `u`
@@ -71,10 +73,15 @@ export EDITOR='nvim'
 - To which particular one you have active in the current buffer `LspInfo`
 - Any server must be installed for it to be active
 - More to do
+- null ls video
 
 ## Telescope
 - find_files
 - live_grep - `brew install ripgrep`
 - Go to normal mode and mode up and down, go to insert mode to type
 
+## Commenting 
+- For better commenting use `nvim-ts-context-commentstring` (generally for webdev languages)
 
+## Toggle term
+- When you scroll you go to visual mode, use a/i to go to insert mode

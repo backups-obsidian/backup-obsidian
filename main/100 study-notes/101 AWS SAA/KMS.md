@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-06 13:48
+updated: 2022-06-01 11:52
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -31,6 +31,8 @@ updated: 2022-05-06 13:48
 	- **AWS Managed Service Default CMK**: *free*. 
 		- Gets *created during the integration of AWS services*. Like the key you use in S3 SSE-KMS.
 		- It rotates every 3 years.
+		- They will start with `aws/` prefix
+			- ![[attachments/Pasted image 20220531193937.png]]
 	- **Customer Managed CMK**: *$1/Month*
 		- We can only manage the customer managed CMK and not AWS managed default CMK.
 	- **User Imported keys** (AES 256) (not recommended): *$1/month*
@@ -57,7 +59,7 @@ updated: 2022-05-06 13:48
 
 ### KMS Key Policies
 - These are **resource based policies** similar to bucket policies in S3. The *main difference is that we cannot control access without them*. 
-	- If no key policy is specified then no one can access them.
+	- If **no key policy is specified then no one can access them**. 
 
 - **Default** KMS Key Policy
     - Created *automatically even if you don’t provide a specific KMS key policy*.
@@ -115,9 +117,3 @@ updated: 2022-05-06 13:48
 - **Public key** is **downloadable** but we **cannot access the private key unencrypted**.
 
 > [!important] Use case would be *encryption outside of AWS users who cannot call the KMS API*
-
-## Data Keys
-- Data keys are *encryption keys that you can use to encrypt data*, including large amounts of data and other data encryption keys.
-- We use *CMKs to generate, encrypt, and decrypt data keys*.
-- To create a data key, call the `GenerateDataKey`, `GenerateDataKeyWithoutPlaintext operation`
-	- ![[attachments/Pasted image 20220429094320.png]]
