@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 21:47
-updated: 2022-05-29 19:53
+updated: 2022-06-05 10:06
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -112,6 +112,18 @@ slice := [4]int{1, 2, 3, 4}
 f1(slice...) 
 // error -> cannot use slice (variable of type [4]int) as type []int in argument to f1
 // notice the types in error
+```
+- Example
+```go
+func main() {
+	fmt.Println("Hello world")
+	b := []int{1, 2, 3, 4}
+	test(b...)
+	fmt.Println(b) // {54, 2 ,3, 4}
+}
+func test(a ...int) {
+	a[0] = 54
+}
 ```
 
 ### Defer

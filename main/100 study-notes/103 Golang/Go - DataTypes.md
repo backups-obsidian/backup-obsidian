@@ -1,6 +1,6 @@
 ---
 created: 2022-05-21 15:26
-updated: 2022-05-28 15:07
+updated: 2022-06-05 11:28
 ---
 ---
 **Links**: 
@@ -102,6 +102,17 @@ var y unit8 = unit8(x) // no error
 > - We can *attach methods to newly defined types*
 > - **Type safety**: We must convert one type into another to perform operations with them.
 > - **Readability**: When we defined a new type let's say `type usd float64` we know that new type represents the US Dollar not only floats
+
+```go
+package main
+
+type usd float64
+
+func main() {
+	var balance usd = 50.5
+}
+// usd is a named type and balance a variable of usd type
+```
 
 ### Aliases
 - An alias declaration has the form: `type T1=T2` as opposed to a standard type definition which has the form: `type T1 T2`

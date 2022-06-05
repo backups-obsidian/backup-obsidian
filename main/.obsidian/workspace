@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "400 misc/publish-obsidian-vault.md",
+            "file": "100 study-notes/103 Golang/103 Golang Index.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "scopes",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "400 misc/publish-obsidian-vault.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "400 misc/publish-obsidian-vault.md"
+                "file": "100 study-notes/103 Golang/103 Golang Index.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "400 misc/publish-obsidian-vault.md",
+                "file": "100 study-notes/103 Golang/103 Golang Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -195,15 +195,15 @@
   },
   "active": "3051ccba3df90029",
   "lastOpenFiles": [
-    "400 misc/publish-obsidian-vault.md",
-    "600 rough/Rough.md",
-    "300 short-notes/How to create awesome documentation.md",
-    "400 misc/projects.md",
-    "400 misc/backup-obisidian-vault.md",
+    "100 study-notes/103 Golang/103 Golang Index.md",
+    "100 study-notes/103 Golang/Go - Packages.md",
+    "100 study-notes/103 Golang/Go - Modules.md",
+    "100 study-notes/103 Golang/Go - Packages New.md",
+    "100 study-notes/103 Golang/Go - ProgramFlow.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/KMS DVA.md",
-    "100 study-notes/101 AWS SAA/SSM Parameter Store.md",
-    "100 study-notes/102 AWS DVA/KMS Working.md",
-    "100 study-notes/101 AWS SAA/S3 Encryption.md"
+    "100 study-notes/103 Golang/Go - Interfaces.md",
+    "100 study-notes/103 Golang/Go - Methods.md",
+    "100 study-notes/103 Golang/Go - DataTypes.md",
+    "100 study-notes/103 Golang/Go - Pointers.md"
   ]
 }
