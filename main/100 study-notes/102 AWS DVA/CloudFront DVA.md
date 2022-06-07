@@ -1,6 +1,6 @@
 ---
 created: 2022-05-15 08:57
-updated: 2022-05-15 11:21
+updated: 2022-06-06 10:14
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -19,7 +19,7 @@ updated: 2022-05-15 11:21
 	- ![[attachments/Pasted image 20220515090054.png]]
 
 - We use *TTL to control the cache hit*. TTL (0 seconds to year), can be set by the origin using the Cache *Control header*, *Expires header*.
-- We can invalidate a part of the cache using the `Createlnvalidation` API
+- We can invalidate a part of the cache using the `CreateInvalidation` API
 - In CloudFront it is common to separate caching of dynamic content from static content. 
 	- For caching of static content we don't use any caching rules to maximise the cache hit. We use these rules for dynamic content.
 	- ![[attachments/Pasted image 20220515090513.png]]
@@ -46,7 +46,7 @@ updated: 2022-05-15 11:21
 	- HTTPS only
 	- Or Match Viewer: (HTTP => HTTP & HTTPS => HTTPS)
 
-> [!note] [[../101 AWS SAA/S3 Websites#Websites| S3 Website]] don't support HTTPS but if you put your S3 website behind a CloudFront distribution then it will be secured by HTTPS.
+> [!note] [[../101 AWS SAA/S3 Websites#Websites| S3 Websites]] don't support HTTPS but if you put your S3 website behind a CloudFront distribution then it will be secured by HTTPS.
 
 ## CloudFront Signed URL Process
 - More about [[../101 AWS SAA/CloudFront Advanced#CloudFront Signed URL Cookies | CloudFront Signed URLs]]

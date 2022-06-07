@@ -1,6 +1,6 @@
 ---
 created: 2022-05-14 21:41
-updated: 2022-06-05 21:33
+updated: 2022-06-06 19:06
 ---
 ---
 **Links**: [[../100 home | 100 Home]]
@@ -26,6 +26,7 @@ updated: 2022-06-05 21:33
 - [[Go - Interfaces]]
 - [[Go - Packages]]
 - [[Go - Modules]]
+- [[Go - Concurrency]]
 
 ### ToDo
 - Error handling 

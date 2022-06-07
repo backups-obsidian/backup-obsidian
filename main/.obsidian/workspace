@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/103 Golang/103 Golang Index.md",
+            "file": "200 general-notes/Useful Mac Apps.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "200 general-notes/Useful Mac Apps.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md"
+                "file": "200 general-notes/Useful Mac Apps.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/103 Golang/103 Golang Index.md",
+                "file": "200 general-notes/Useful Mac Apps.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,20 +190,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 393,
+    "width": 278.0398254394531,
     "collapsed": true
   },
   "active": "3051ccba3df90029",
   "lastOpenFiles": [
+    "200 general-notes/Useful Mac Apps.md",
     "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Packages.md",
+    "100 study-notes/103 Golang/Go - Concurrency.md",
     "100 study-notes/103 Golang/Go - Modules.md",
-    "100 study-notes/103 Golang/Go - Packages New.md",
-    "100 study-notes/103 Golang/Go - ProgramFlow.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/103 Golang/Go - Interfaces.md",
-    "100 study-notes/103 Golang/Go - Methods.md",
-    "100 study-notes/103 Golang/Go - DataTypes.md",
-    "100 study-notes/103 Golang/Go - Pointers.md"
+    "100 study-notes/102 AWS DVA/CodeGuru.md",
+    "100 study-notes/102 AWS DVA/CodeArtifact.md",
+    "100 study-notes/102 AWS DVA/CodeStar.md",
+    "100 study-notes/102 AWS DVA/CodeDeploy.md",
+    "100 study-notes/102 AWS DVA/CodeBuild.md"
   ]
 }

@@ -1,16 +1,16 @@
 ---
 created: 2022-05-14 16:43
-updated: 2022-05-14 16:57
+updated: 2022-06-06 10:07
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
 ## API Rate Limits
-- For eg: `Describelnstances` API for EC2 has a limit of 100 calls per seconds
+- For eg: `DescribeInstances` API for EC2 has a limit of 100 calls per seconds
 - `GetObject` on S3 has a limit of 5500 GET per second per prefix
 - For **Intermittent Errors**: implement *Exponential Backoff*.
-- For **Consistent Errors**: *request an API throttling limit increase*.
+- For **Consistent Errors**: *request an API throttling or limit increase*.
 
 ### Exponential Backoff
 - Exponential backoff means that we double the waiting time before each retry.

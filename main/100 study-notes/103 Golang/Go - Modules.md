@@ -1,6 +1,6 @@
 ---
 created: 2022-06-05 21:11
-updated: 2022-06-05 21:30
+updated: 2022-06-06 17:01
 ---
 ---
 **Links**: [[103 Golang Index]]
@@ -22,6 +22,29 @@ require <module-path> <version>
 - If we want to get some modules we can use `go get ...` 
 
 > [!note]- *Module name is the import path prefix* for all packages within the module (local packages).
+
+- Go modules that are downloaded are *stored locally* at `$GOPATH/pkg/mod`. 
+	- Also known as module caching to prevent repeated downloads of the module.
+	- If you are downloading files from github then they will be inside the directory `github.com`
+
+- **We import the package and not the module**. So provide the git path to the package. 
+	- ![[attachments/Pasted image 20220606163859.png]]
+	- ![[attachments/Pasted image 20220606163935.png]]
+	- But the `go.mod` file will have something like this  `require github.com/ddadumitrescu/go_math v1.1.0` since we download the full repo.
+- If we are doing a `go get` then we provide the path to the repo.
+- Updating the dependencies `go get -u`: this *will only work for minor updates and not patches and major updates*.
+- `//indirect` in the `go.mod file` means no file is using that package.
+
+- We can use *different versions of the same package* using **aliases**.
+```go
+import (
+	packagev1 "github.com/user/repo/package"
+	packagev2 "github.com/user/repo/v2/package"
+)
+```
+
+> [!question]- A new version of a Go package that you are using in an application was released. How do you *update to the new version*?
+> By **manually editing `go.mod`** or **running `go get`** command.
 
 ### Sample Project Structure
 ![[attachments/Pasted image 20220605211214.png]]

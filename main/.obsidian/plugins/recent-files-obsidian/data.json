@@ -1,24 +1,96 @@
 {
   "recentFiles": [
     {
+      "basename": "Useful Mac Apps",
+      "path": "200 general-notes/Useful Mac Apps.md"
+    },
+    {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
-      "basename": "Go - Packages",
-      "path": "100 study-notes/103 Golang/Go - Packages.md"
+      "basename": "Go - Concurrency",
+      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
     },
     {
       "basename": "Go - Modules",
       "path": "100 study-notes/103 Golang/Go - Modules.md"
     },
     {
-      "basename": "Go - ProgramFlow",
-      "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
-    },
-    {
       "basename": "102 AWS DVA Index",
       "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "CodeGuru",
+      "path": "100 study-notes/102 AWS DVA/CodeGuru.md"
+    },
+    {
+      "basename": "CodeArtifact",
+      "path": "100 study-notes/102 AWS DVA/CodeArtifact.md"
+    },
+    {
+      "basename": "CodeStar",
+      "path": "100 study-notes/102 AWS DVA/CodeStar.md"
+    },
+    {
+      "basename": "CodeDeploy",
+      "path": "100 study-notes/102 AWS DVA/CodeDeploy.md"
+    },
+    {
+      "basename": "CodeBuild",
+      "path": "100 study-notes/102 AWS DVA/CodeBuild.md"
+    },
+    {
+      "basename": "CodePipeline",
+      "path": "100 study-notes/102 AWS DVA/CodePipeline.md"
+    },
+    {
+      "basename": "CodeCommit",
+      "path": "100 study-notes/102 AWS DVA/CodeCommit.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Docker",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Docker.md"
+    },
+    {
+      "basename": "ElasticBeanstalk Deployment Modes",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+    },
+    {
+      "basename": "CloudFront DVA",
+      "path": "100 study-notes/102 AWS DVA/CloudFront DVA.md"
+    },
+    {
+      "basename": "AWS Limits",
+      "path": "100 study-notes/102 AWS DVA/AWS Limits.md"
+    },
+    {
+      "basename": "CLI",
+      "path": "100 study-notes/102 AWS DVA/CLI.md"
+    },
+    {
+      "basename": "ElasticCache Replication",
+      "path": "100 study-notes/102 AWS DVA/ElasticCache Replication.md"
+    },
+    {
+      "basename": "ElastiCache DVA",
+      "path": "100 study-notes/102 AWS DVA/ElastiCache DVA.md"
+    },
+    {
+      "basename": "Go - Packages",
+      "path": "100 study-notes/103 Golang/Go - Packages.md"
+    },
+    {
+      "basename": "Go - ProgramFlow",
+      "path": "100 study-notes/103 Golang/Go - ProgramFlow.md"
     },
     {
       "basename": "Go - Interfaces",
@@ -121,84 +193,12 @@
       "path": "100 study-notes/102 AWS DVA/STS & IAM Advanced DVA.md"
     },
     {
-      "basename": "CLI",
-      "path": "100 study-notes/102 AWS DVA/CLI.md"
-    },
-    {
       "basename": "STS & Identity Federation",
       "path": "100 study-notes/101 AWS SAA/STS & Identity Federation.md"
     },
     {
       "basename": "Difference between REST & HTTP API",
       "path": "300 short-notes/Difference between REST & HTTP API.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "Step Functions",
-      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
-    },
-    {
-      "basename": "Other Services",
-      "path": "100 study-notes/101 AWS SAA/Other Services.md"
-    },
-    {
-      "basename": "Cognito",
-      "path": "100 study-notes/102 AWS DVA/Cognito.md"
-    },
-    {
-      "basename": "rough - neovim vimrc config",
-      "path": "600 rough/rough - neovim vimrc config.md"
-    },
-    {
-      "basename": "Go - Basics",
-      "path": "100 study-notes/103 Golang/Go - Basics.md"
-    },
-    {
-      "basename": "Go - Files",
-      "path": "100 study-notes/103 Golang/Go - Files.md"
-    },
-    {
-      "basename": "Go - Strings, Runes & Bytes",
-      "path": "100 study-notes/103 Golang/Go - Strings, Runes & Bytes.md"
-    },
-    {
-      "basename": "Go - Slices",
-      "path": "100 study-notes/103 Golang/Go - Slices.md"
-    },
-    {
-      "basename": "Go - Slice Working",
-      "path": "100 study-notes/103 Golang/Go - Slice Working.md"
-    },
-    {
-      "basename": "Go - Arrays",
-      "path": "100 study-notes/103 Golang/Go - Arrays.md"
-    },
-    {
-      "basename": "Go - For Loops",
-      "path": "100 study-notes/103 Golang/Go - For Loops.md"
-    },
-    {
-      "basename": "Go - If & Switch",
-      "path": "100 study-notes/103 Golang/Go - If & Switch.md"
-    },
-    {
-      "basename": "Go - Variables",
-      "path": "100 study-notes/103 Golang/Go - Variables.md"
-    },
-    {
-      "basename": "Go - Constants",
-      "path": "100 study-notes/103 Golang/Go - Constants.md"
-    },
-    {
-      "basename": "What is BaaS",
-      "path": "300 short-notes/What is BaaS.md"
-    },
-    {
-      "basename": "CDK",
-      "path": "100 study-notes/102 AWS DVA/CDK.md"
     }
   ],
   "omittedPaths": [],
