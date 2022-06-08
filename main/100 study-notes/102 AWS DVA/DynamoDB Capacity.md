@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 12:27
-updated: 2022-05-25 17:17
+updated: 2022-06-08 16:09
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -52,7 +52,7 @@ updated: 2022-05-25 17:17
 	- Hot Keys: *one partition key is being read too many times* (e.g., popular item)
 	- Hot Partitions
 	- *Very large items*, remember *RCU and WCU depends on size of items*
-**Solutions**:
+- **Solutions**:
 	- *Exponential backoff* when exception is encountered (*already in SDK*)
 	- *Distribute partition keys* as much as possible
 	- If *RCU issue*, we can use DynamoDB Accelerator (*DAX*)

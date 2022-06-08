@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "200 general-notes/Useful Mac Apps.md",
+            "file": "100 study-notes/106 Git/106 Git Index.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -102,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "200 general-notes/Useful Mac Apps.md",
+                "file": "100 study-notes/106 Git/106 Git Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "200 general-notes/Useful Mac Apps.md"
+                "file": "100 study-notes/106 Git/106 Git Index.md"
               }
             }
           },
@@ -148,7 +149,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "200 general-notes/Useful Mac Apps.md",
+                "file": "100 study-notes/106 Git/106 Git Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -190,20 +191,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0398254394531,
-    "collapsed": true
+    "width": 278.0398254394531
   },
   "active": "3051ccba3df90029",
   "lastOpenFiles": [
-    "200 general-notes/Useful Mac Apps.md",
-    "100 study-notes/103 Golang/103 Golang Index.md",
-    "100 study-notes/103 Golang/Go - Concurrency.md",
-    "100 study-notes/103 Golang/Go - Modules.md",
+    "100 study-notes/106 Git/106 Git Index.md",
+    "100 study-notes/100 home.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
-    "100 study-notes/102 AWS DVA/CodeGuru.md",
-    "100 study-notes/102 AWS DVA/CodeArtifact.md",
-    "100 study-notes/102 AWS DVA/CodeStar.md",
-    "100 study-notes/102 AWS DVA/CodeDeploy.md",
-    "100 study-notes/102 AWS DVA/CodeBuild.md"
+    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
+    "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
+    "100 study-notes/102 AWS DVA/Lambda Performance.md",
+    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
+    "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
   ]
 }

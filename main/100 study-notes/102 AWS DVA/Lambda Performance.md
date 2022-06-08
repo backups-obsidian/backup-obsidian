@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-24 16:26
+updated: 2022-06-08 15:43
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -39,7 +39,7 @@ updated: 2022-05-24 16:26
 
 ## Concurrency
 - **Concurrency limit**: up to *1000* concurrent executions **for all the functions** in the per region.
-- We can set our own *limit* to the number of concurrent executions known as**reserved concurrency** at the function level.
+- We can set our own *limit* to the number of concurrent executions known as **reserved concurrency** at the function level.
 	- Each *invocation over the concurrency limit will trigger a Throttle*
 - Throttle behaviour:
 	- If **synchronous invocation** => return *ThrottleError 429*

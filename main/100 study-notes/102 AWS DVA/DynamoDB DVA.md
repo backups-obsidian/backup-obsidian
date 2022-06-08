@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 10:53
-updated: 2022-05-25 17:23
+updated: 2022-06-08 16:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,7 +8,7 @@ updated: 2022-05-25 17:23
 ---
 ## Partition keys
 - Also known as **primary key**.
-- Option I: Partition Key (*HASH*)
+- Option 1: Partition Key (*HASH*)
 	- Partition key must be **unique** for each item
 	- Partition key must be **diverse** so that the data is distributed
 	- Example: *User_ID for a users table*
@@ -110,7 +110,7 @@ updated: 2022-05-25 17:23
 
 ## DynamoDB Write Sharding
 - Imagine we have a voting application with two candidates, candidate A and candidate B
-- If Partition Key is Candidate_ ID, this results into two partitions, which will generate issues (e.g., Hot Partition)
+- If Partition Key is Candidate_ID, this results into two partitions, which will generate issues (e.g., Hot Partition)
 - A strategy that allows better distribution of items evenly across partitions 
 - **Add a suffix to Partition Key value**
 	- ![[attachments/Pasted image 20220525163538.png]]

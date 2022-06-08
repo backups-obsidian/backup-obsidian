@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-20 19:41
+updated: 2022-06-07 15:30
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -125,7 +125,7 @@ updated: 2022-05-20 19:41
 		- ![[attachments/Pasted image 20220520163655.png]]
 	- *Old shards are closed and will be deleted* once the data is expired
 	- *Can't merge more than two shards in a single operation*
-	- **Increases capacity and cost**.
+	- **Decreases capacity and cost**.
 
 ## SQS vs Kinesis Ordering
 - Let's assume 100 trucks, 5 kinesis shards, SQS FIFO

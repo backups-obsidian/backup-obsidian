@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-20 19:50
+updated: 2022-06-07 15:17
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -15,8 +15,8 @@ updated: 2022-05-20 19:50
 - `CreateQueue(MessageRetentionPeriod)`, `DeleteQueue`
 - `PurgeQueue`: delete all the messages in queue
 - `SendMessage(Delay Seconds)`, `ReceiveMessage`, `DeleteMessage`
-- `MaxNumberOfMessages`: default I, **max 10** (for `ReceiveMessage` API)
-	- For receive a *batch of messages*.
+- `MaxNumberOfMessages`: default 1, **max 10** (for `ReceiveMessage` API)
+	- To receive a *batch of messages*.
 - `ReceiveMessageWaitTimeSeconds`: Long Polling
 - `ChangeMessageVisibility`: change the message timeout
 - Batch APIs for `SendMessage`, `DeleteMessage`, `ChangeMessageVisibility` helps **decrease your costs**.

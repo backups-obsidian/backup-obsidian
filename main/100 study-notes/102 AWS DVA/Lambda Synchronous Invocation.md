@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-23 16:37
+updated: 2022-06-08 15:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -8,7 +8,7 @@ updated: 2022-05-23 16:37
 ---
 ## Synchronous Invocation
 - We **wait for the results of the invocation**.
-- *Results is returned right away*
+- *Results are returned right away*
 - **Error handling must happen client side** (retries, exponential backoff, etc...)
 	- ![[attachments/Pasted image 20220523152943.png]]
 - Services which can do synchronous invocation
@@ -33,7 +33,7 @@ updated: 2022-05-23 16:37
 > [!question]- How does ALB convert an HTTP request to a lambda invocation?
 > - From ALB to Lambda the HTTP request gets transformed to a JSON document.
 > - We get all the information present in the HTTP request in the **event** parameter of the function handler. 
-> - Like *Query String Parameters as Key/Value pairs*, *Headers as Key/Value pairs*, *Body* (for POST, PUT...) *isBase64Encoded*.
+> - Like *Query String Parameters as Key/Value pairs*, *Headers as Key/Value pairs*, *Body* (for POST, PUT...) is *Base64Encoded*.
 > ---
 > ![[attachments/Pasted image 20220523154559.png]]
 

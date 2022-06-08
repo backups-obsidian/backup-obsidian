@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 09:54
-updated: 2022-05-24 15:40
+updated: 2022-06-08 15:24
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -10,7 +10,7 @@ updated: 2022-05-24 15:40
 - Sample managed policies for Lambda:
 	- **AWSLambdaBasicExecutionRole**:  *Upload logs to CloudWatch*.
 	- AWSLambdaKinesisExecutionRole: Read from Kinesis
-	- AWSLambdaDynamoDBExecutionRoleRead: from DynamoDB Streams
+	- AWSLambdaDynamoDBExecutionRole: Read from DynamoDB Streams
 	- *AWSLambdaSQSQueueExecutionRole*: *Read from SQS*
 	- AWSLambdaVPCAccessExecutionRole: Deploy Lambda function in VPC
 	- AWSXRayDaemonWriteAccess: Upload trace data to X-Ray.
