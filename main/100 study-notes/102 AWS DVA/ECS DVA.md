@@ -1,12 +1,23 @@
 ---
 created: 2022-05-15 11:30
-updated: 2022-05-15 16:06
+updated: 2022-06-09 15:35
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 **Recommended Reads**: [[../101 AWS SAA/ECS | ECS]]
 
 ---
+## Miscellaneous
+- If you *terminate a container instance* while it is in the *STOPPED* state, that container instance *isn't automatically removed from the cluster*. You will need to remove your container instance in the STOPPED state by using the Amazon ECS console or AWS Command Line Interface. 
+
+> [!question]- Question related to *cluster name parameter*
+> You are working for a shipping company that is automating the creation of ECS clusters with an Auto Scaling Group using an AWS CloudFormation template that accepts cluster name as its parameters. *Initially*, you launch the template with *input value 'MainCluster'*, which deployed five instances across two availability zones. The *second time, you launch the template with an input value 'SecondCluster'*. However, the instances created in the second run *were also launched in 'MainCluster'* even after specifying a different cluster name. What is the root cause of this issue?
+>
+> - The **cluster name Parameter has not been updated** in the file `/etc/ecs/ecs.config` during bootstrap
+> - In the `ecs.config` file you have to configure the parameter `ECS_CLUSTER=your_cluster_name` to *register the container instance with a cluster named your_cluster_name*.
+
+- Logging into ECR: `$(aws ecr get-login--no-include-email)` 
+
 ## ECS Tasks and Services 
 - When we create an *ECS cluster* we specify the *launch types* (by default fargate is selected), VPC and subnets to be used.
 - Task Definition indicates how to create an ECS task.

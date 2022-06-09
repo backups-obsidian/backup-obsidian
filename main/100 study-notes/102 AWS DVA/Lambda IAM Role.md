@@ -1,6 +1,6 @@
 ---
 created: 2022-05-24 09:54
-updated: 2022-06-08 15:24
+updated: 2022-06-09 15:34
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -31,3 +31,9 @@ updated: 2022-06-08 15:24
 
 > [!important]- When an AWS service like *S3 calls your Lambda function* (asynchronous invocation), then the *resource-based policy gives it access*.
 > If our lambda is performing some kind of operation on S3 like list buckets then its execution role should have S3 list bucket policy.
+
+> [!note]+ Cross account access
+> The development team at a retail organisation wants to allow a *Lambda function in its AWS Account A to access a DynamoDB table in another AWS Account B*.
+> - Create an IAM role in Account B with access to DynamoDB. 
+> - *Modify the trust policy of the role in Account B to allow the execution role of Lambda to assume this role*. 
+> - Update the Lambda function code to add the AssumeRole API call

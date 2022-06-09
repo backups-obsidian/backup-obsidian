@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 19:15
-updated: 2022-05-05 19:18
+updated: 2022-06-09 15:03
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -12,6 +12,7 @@ updated: 2022-05-05 19:18
 - We can *automatically register new instances to the load balancer*. ASGs and Load Balancers work hand in hand.
 - To launch new instances we provide [[Launch Configuration-Template]]. In this launch configuration/template we provide details like AMI type, volume size etc.
 - ASGs are free to use.
+- It works with both ALBs and NLBs.
 
 > [!caution] A role applied to ASG will be applied to all the EC2 instances in the ASG.
 

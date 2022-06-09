@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-17 10:48
+updated: 2022-06-09 15:16
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -29,6 +29,7 @@ updated: 2022-05-17 10:48
 
 ### Deployment Groups:
 - A **set of tagged EC2 instances** to which the code will be deployed.
+- You can specify *one or more deployment groups* for a CodeDeploy application
 - Directly to an ASG
 - Mix of ASG / Tags so you can build deployment segments
 - Customisation in scripts with `DEPLOYMENT_GROUP_NAME` environment variables
@@ -56,7 +57,7 @@ updated: 2022-05-17 10:48
 
 ## `appspec.yml`
 - *files*: how to source and copy from S3/GitHub to filesystem. We have *source* and *destination*.
-- *hooks*: set of *instructions* to do to deploy the new version (hooks *can have timeouts*), the order is:
+- *hooks*: set of *instructions* which correspond to lifecycle events such as (hooks *can have timeouts*) :
 	- ApplicationStop
 	- DownloadBundle
 	- Beforelnstall
@@ -74,7 +75,7 @@ updated: 2022-05-17 10:48
 
 ### Failures
 - EC2 instances stay in "Failed" state
-- New deployments will first be deployed to failed instances
+- New deployments will first be deployed to **failed instances**
 - *To rollback, redeploy old deployment or enable automated rollback for failures*.
 
 #### Rollbacks

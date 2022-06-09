@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 16:54
-updated: 2022-05-27 10:05
+updated: 2022-06-09 15:29
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -101,6 +101,10 @@ updated: 2022-05-27 10:05
 - CORS can be enabled through the console
 - If you using a *lambda proxy or a HTTP proxy* you will need to have `Access-Control-Allow-Origin` header in your backend code since it is the one responding when there is a preflights request.
 	- ![[attachments/Pasted image 20220527092332.png]]
+
+> [!tip]- CORS is used to restrict access to your APIs from other domains
+> You team maintains a public API Gateway that is *accessed by clients from another domain*. Usage has been consistent for the last few months but recently it has more than doubled. As a result, your costs have gone up and would like to prevent other unauthorised domains from accessing your API. 
+> Restrict access using CORS.
 
 ## WebSocket API
 - It enables *stateful application* use cases.

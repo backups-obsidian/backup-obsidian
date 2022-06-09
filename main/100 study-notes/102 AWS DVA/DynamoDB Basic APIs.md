@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-25 17:18
+updated: 2022-06-09 12:15
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -26,12 +26,15 @@ updated: 2022-05-25 17:18
 	- *Eventually Consistent Read (default)*
 	- Option to use *Strongly Consistent Reads* (*more RCU*, *might take longer*)
 	- `ProjectionExpression` can be specified to **retrieve only certain attributes**
+		- A projection expression is *a string that identifies the attributes you want*. 
+		- To retrieve a single attribute, specify its name. 
+		- For multiple attributes, the names must be comma-separated.
 
 ### Query
 - Query returns items based on:
-	- **KeyConditionExpression**
-		- *Partition Key value* (must be `=` operator) **required**
-		- *Sort Key value* (=, <, <=, >, >=, Between, Begins with) optional 
+	- **KeyConditionExpression**: (`--query`)
+		- *Partition Key value* (must be `=` operator): **required**
+		- *Sort Key value* (=, <, <=, >, >=, Between, Begins with): **Optionally**, you can provide a sort key attribute and use a comparison operator to *refine the search results*.
 	- **FilterExpression**
 		- Additional filtering *after the Query operation* (before data returned to you)
 		- Use *only with non-key attributes* (does not allow HASH or RANGE attributes)

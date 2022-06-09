@@ -1,6 +1,6 @@
 ---
 created: 2022-04-25 14:13
-updated: 2022-05-19 20:39
+updated: 2022-06-09 14:38
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -49,6 +49,8 @@ updated: 2022-05-19 20:39
 ### Encryption
 - **In flight encryption** using HTTPS
 - At **rest encryption using KMS**
+	- To store data in encrypted queues we should enable SQS KMS encryption
+	- Messages can be encrypted in both standard and FIFO queues.
 - We can also have client side encryption.
 
 ### Access Controls

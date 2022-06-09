@@ -1,6 +1,6 @@
 ---
 created: 2022-04-19 16:22
-updated: 2022-05-19 16:49
+updated: 2022-06-09 14:51
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -24,10 +24,15 @@ updated: 2022-05-19 16:49
 	- Detailed monitoring can be useful for *scaling ASGs faster*.
 
 - List of things that are **monitored**: 
-	- ***CPU utilisation*** 
-	- *Network utilisation* 
+	- ***CPU utilisation***
+	- *Network utilisation*
 	- *Disk performance*
 	- *Disk Reads/Writes*
+
+- Predefined metrics for *target tracking* policy.
+	- `ALBRequestCountPerTarget`
+	- `ASGAverageCPUUtilization` 
+	- `ASGAverageNetworkOut` 
 
 ### Custom Metrics
 - Since a lot of important metrics are not published. We can define our **custom metrics** in CloudWatch.  ^b7481a

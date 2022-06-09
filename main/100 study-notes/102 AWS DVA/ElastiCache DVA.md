@@ -1,6 +1,6 @@
 ---
 created: 2022-04-17 15:43
-updated: 2022-05-14 11:18
+updated: 2022-06-09 15:12
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,6 +14,7 @@ updated: 2022-05-14 11:18
 - You will be asked to look at pseudo code and find out the type of strategy.
 
 ### Lazy Loading / Cache-Aside / Lazy Population
+- Lazy loading *loads data into cache only when necessary* i.e. when there is a cache miss.
 - Only requested data is cached (the cache isn't filled up with unused data)
 	- ![[attachments/Pasted image 20220514103230.png]]
 - Cons
@@ -28,7 +29,7 @@ updated: 2022-05-14 11:18
 > *Lazy Loading* would load data into the cache only when necessary (actively requested data from the database).
 
 ### Write Through
-- You add or update the cache when database is updated. Because of this *data is never stale*.
+- You add or update the cache when database is updated. Because of this **data is never stale**.
 	- ![[attachments/Pasted image 20220514104242.png]]
 - There is a **write penalty** (each write requires 2 network calls) instead of a read penalty.
 - **Writes are slow but reads are fast**.
@@ -42,6 +43,8 @@ updated: 2022-05-14 11:18
 	- `save_user` is for *write*
 
 > [!tip] If you want *minimum latency read requests* and you are ok with write taking longer then go with *write through*.
+
+> [!note] If you want your *cache to never go out of sync with the backend* then go with write through cache
 
 ## Cache Eviction and TTL
 - Cache eviction is the process of removing items from cache. It can occur in three ways:

@@ -1,6 +1,6 @@
 ---
 created: 2022-05-25 12:27
-updated: 2022-06-08 16:09
+updated: 2022-06-09 15:06
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -25,7 +25,7 @@ updated: 2022-06-08 16:09
 	- If we read just after a write, we will **get the correct data**
 	- Set `ConsistentRead` parameter to **True** in API calls (GetItem, BatchGetItem, Query, Scan)
 	- Consumes **twice the RCU**.
-	- May have slightly higher latency.
+	- **slightly higher latency**.
 
 ### RCU Calculation
 - **One** Read Capacity Unit (RCU) represents *one Strongly Consistent Read per second*, or *two Eventually Consistent Reads per second*, for an item up to **4 KB** in size

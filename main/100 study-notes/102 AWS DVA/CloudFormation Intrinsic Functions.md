@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-18 16:02
+updated: 2022-06-09 12:10
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,7 +14,7 @@ updated: 2022-05-18 16:02
 
 ## GetAtt
 - `Fn:GetAtt`
-- **Attributes** are attached to any resources you create
+- **Attributes** are attached to any *resources* you create
 - We can get a lot of attributes depending on the resource. To know what is exposed by the resource we will have to go through the documentation.
 	- ![[attachments/Pasted image 20220518155349.png]]
 	- ![[attachments/Pasted image 20220518155530.png]]

@@ -1,6 +1,6 @@
 ---
 created: 2022-04-23 15:21
-updated: 2022-05-03 11:04
+updated: 2022-06-09 15:18
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -25,7 +25,10 @@ updated: 2022-05-03 11:04
 
 - Generally the notifications are delivered in a second but sometimes it can take minutes
 
-> [!tip] For best performance and making sure you get the event *enable versioning*.
+> [!tip]- For best performance and making sure you get the event *enable versioning*. Why?
+> Your team-mate has configured an Amazon S3 event notification for an S3 bucket that holds sensitive audit data of a firm. As the Team Lead, you are *receiving the SNS notifications for every event in this bucket*. After validating the event data, you realised that *few events are missing*. What could be the reason for this behaviour and how to avoid this in the future?
+>
+> If two writes are made to a single non-versioned object at the same time, it is possible that only a single event notification will be sent. Solution is to enable versioning.
 
 > [!caution] Only normal SQS is allowed. **SQS FIFO is NOT allowed**.
 

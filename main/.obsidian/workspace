@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "scopes",
+                "query": "256",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,8 +81,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -191,19 +190,20 @@
       }
     ],
     "direction": "horizontal",
-    "width": 278.0398254394531
+    "width": 278.0398254394531,
+    "collapsed": true
   },
   "active": "3051ccba3df90029",
   "lastOpenFiles": [
     "100 study-notes/106 Git/106 Git Index.md",
-    "100 study-notes/100 home.md",
+    "100 study-notes/102 AWS DVA/ECS DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md",
+    "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
+    "100 study-notes/101 AWS SAA/ELB.md",
+    "100 study-notes/102 AWS DVA/Lambda IAM Role.md",
     "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Indexes.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Basic APIs.md",
-    "100 study-notes/102 AWS DVA/DynamoDB Capacity.md",
-    "100 study-notes/102 AWS DVA/Lambda Performance.md",
-    "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md",
-    "100 study-notes/102 AWS DVA/Lambda IAM Role.md"
+    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
+    "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
   ]
 }

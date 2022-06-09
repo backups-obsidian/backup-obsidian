@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2022-05-16 15:45
+updated: 2022-06-09 14:59
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -86,6 +86,14 @@ updated: 2022-05-16 15:45
 	- *Terminate the old environment* (**RDS won't be deleted** since we have a delete protection) 
 	- The CloudFormation stack won't be deleted since the RDS was protected from delete. 
 	- *Delete CloudFormation stack* (in DELETE_FAILED state)
+
+### One AWS account to another
+- The project manager of a team wants to *migrate the Elastic Beanstalk environment from Team A's AWS account into Team B's AWS account*.
+	- Create a *saved configuration* in Team A's account and download it to your local machine.
+	- Make the account-specific parameter changes and upload to the S3 bucket in Team B's account. 
+	- From Elastic Beanstalk console, create an application from *Saved Configurations*
+- You must use **saved configurations to migrate an Elastic Beanstalk environment between AWS accounts**.
+	- There is no direct Export and Import option for migrating Elastic Beanstalk configurations.
 
 ## Using HTTPS
 ### Beanstalk with HTTPS

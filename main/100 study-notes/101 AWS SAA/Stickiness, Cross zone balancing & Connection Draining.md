@@ -1,6 +1,6 @@
 ---
 created: 2022-04-20 16:18
-updated: 2022-04-20 19:14
+updated: 2022-06-09 15:40
 ---
 ---
 **Links**: [[101 AWS SAA Index]]
@@ -51,3 +51,9 @@ updated: 2022-04-20 19:14
 
 - It allows already existing connections to close cleanly.
 - EC2 instance cannot be removed until draining is done.
+
+## Factors that could cause unequal distribution of traffic
+- Sticky sessions
+- Disabling cross zone load balancing. Enabled by default for ALB.
+- *Long lived TCP connection*
+- Instances of a specific capacity type aren't equally distributed across Availability Zones

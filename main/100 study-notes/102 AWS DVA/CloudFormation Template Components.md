@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 12:39
-updated: 2022-05-18 20:25
+updated: 2022-06-09 14:53
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -59,6 +59,8 @@ updated: 2022-05-18 20:25
 - Example: *Exporting* a value
 	- ![[attachments/Pasted image 20220518153418.png]]
 - To import the value we use `Fn::ImportValue function` or `!ImportValue`
+- Exporting and importing process: 
+	- Create a cross-stack reference and use the *Export output field* to export the value. Then use `Fn:ImportValue` intrinsic function to import the value.
 
 > [!caution]- You *can't delete* a CloudFormation Stack if its outputs are being referenced by another CloudFormation stack
 > To delete it first, you need to *delete the other CloudFormation stacks that reference the exported outputs*, then delete it
@@ -68,7 +70,8 @@ updated: 2022-05-18 20:25
 > [!caution] Exported output names must be *unique within your region*
 
 ## Conditions
-- Conditions are used to *control the creation of resources or outputs* based on a condition.
+- Conditions are used to _control the creation of **resources or outputs**_ based on a condition.
+	- You *cannot* use conditions with *parameters*.
 - Conditions can be whatever you want them to be, but common ones are:
 	- *Environment* (dev / test / prod)
 	- AWS *Region*
