@@ -24,7 +24,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "100 study-notes/106 Git/106 Git Index.md",
+            "file": "100 study-notes/106 Git/Git - Commands.md",
             "mode": "preview",
             "backlinks": false,
             "source": true
@@ -102,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +119,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md"
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "100 study-notes/106 Git/106 Git Index.md",
+                "file": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -193,17 +193,17 @@
     "width": 278.0398254394531,
     "collapsed": true
   },
-  "active": "3051ccba3df90029",
+  "active": "12fca3be1cbcb731",
   "lastOpenFiles": [
-    "100 study-notes/106 Git/106 Git Index.md",
-    "100 study-notes/102 AWS DVA/ECS DVA.md",
     "100 study-notes/102 AWS DVA/102 AWS DVA Index.md",
+    "100 study-notes/106 Git/Git - Commands.md",
+    "100 study-notes/106 Git/106 Git Index.md",
+    "100 study-notes/106 Git/Git - Staging & Committing.md",
+    "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md",
+    "100 study-notes/106 Git/Git - Rough.md",
+    "100 study-notes/102 AWS DVA/ECS DVA.md",
     "100 study-notes/101 AWS SAA/Stickiness, Cross zone balancing & Connection Draining.md",
     "100 study-notes/101 AWS SAA/101 AWS SAA Index.md",
-    "100 study-notes/101 AWS SAA/ELB.md",
-    "100 study-notes/102 AWS DVA/Lambda IAM Role.md",
-    "100 study-notes/102 AWS DVA/DynamoDB DVA.md",
-    "100 study-notes/102 AWS DVA/API Gateway DVA.md",
-    "100 study-notes/101 AWS SAA/S3 Miscellaneous.md"
+    "100 study-notes/101 AWS SAA/ELB.md"
   ]
 }

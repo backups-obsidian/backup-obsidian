@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:12
-updated: 2022-06-08 23:33
+updated: 2022-06-09 22:15
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -26,7 +26,7 @@ git commit -m "Unrelated change to c"
 - Git concentrates on the **changes to a file, not the file itself**.
 - A `git add file` command does not tell git to add the file to the repository, but to note the current state of the file for it to be committed later.
 
-### Example:
+### Example: Git tracks files
 - Suppose you have a file name `hello.html` you make a *first change* and then do a `git add hello.html`
 - Now you make a second change in `hello.html`. 
 - Now if you do a `git status` you will see the following
@@ -60,3 +60,15 @@ git commit -m "Unrelated change to c"
 	- `git switch` cannot be used to go to specific commits. This can only be done by `git checkout`
 - `git checkout` can also be used to restore files to the state they were on a specified commit. This functionality has been extracted into `git restore`.
 - Discarding local changes can still be performed by `git checkout` but the new commands are easier to use and less confusing.
+
+## Discarding local changes
+### Using revert 
+- Not altering the history
+```bash
+* 45fa96b 2011-03-09 | Revert "Oops, we didn't want this commit" (HEAD, master) [Alexander Shvets]
+* 846b90c 2011-03-09 | Oops, we didn't want this commit [Alexander Shvets]
+* fa3c141 2011-03-09 | Added HTML header (v1) [Alexander Shvets]
+* 8c32287 2011-03-09 | Added standard HTML page tags (v1-beta) [Alexander Shvets]
+* 43628f7 2011-03-09 | Added h1 tag [Alexander Shvets]
+* 911e8c9 2011-03-09 | First Commit [Alexander Shvets]
+```

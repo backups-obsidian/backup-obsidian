@@ -1,16 +1,32 @@
 {
   "recentFiles": [
     {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
-      "basename": "ECS DVA",
-      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
+      "basename": "Git - Staging & Committing",
+      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
     },
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+      "basename": "Git - Branching, Rebasing & Merging",
+      "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
+    },
+    {
+      "basename": "Git - Rough",
+      "path": "100 study-notes/106 Git/Git - Rough.md"
+    },
+    {
+      "basename": "ECS DVA",
+      "path": "100 study-notes/102 AWS DVA/ECS DVA.md"
     },
     {
       "basename": "Stickiness, Cross zone balancing & Connection Draining",
@@ -121,14 +137,6 @@
       "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
     },
     {
-      "basename": "Git - Staging & Committing",
-      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
-    },
-    {
       "basename": "Git - Miscellaneous",
       "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
     },
@@ -191,14 +199,6 @@
     {
       "basename": "X-Ray",
       "path": "100 study-notes/102 AWS DVA/X-Ray.md"
-    },
-    {
-      "basename": "EventBridge",
-      "path": "100 study-notes/101 AWS SAA/EventBridge.md"
-    },
-    {
-      "basename": "CloudFormation Advanced",
-      "path": "100 study-notes/102 AWS DVA/CloudFormation Advanced.md"
     }
   ],
   "omittedPaths": [],
