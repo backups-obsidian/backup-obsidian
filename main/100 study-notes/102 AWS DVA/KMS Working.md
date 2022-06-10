@@ -1,6 +1,6 @@
 ---
 created: 2022-06-01 11:42
-updated: 2022-06-01 12:03
+updated: 2022-06-10 15:16
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -14,6 +14,9 @@ updated: 2022-06-01 12:03
 - If you want to *encrypt > 4 KB*, we need to use **Envelope Encryption**
 
 ### Envelope encryption
+> [!note] Envelope encryption is the **practice of encrypting plaintext data with a data key and then encrypting the data key under another key.**
+
+- **Symmetric encryption** process.
 - The main API that will help us is the **GenerateDataKey** API
 - *Encryption Process*:
 	- We call the GenerateDataKey API with the CMK with which we want to encrypt the data, KMS checks if we have the appropriate permission.

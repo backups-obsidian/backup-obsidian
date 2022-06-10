@@ -1,6 +1,6 @@
 ---
 created: 2022-05-16 10:21
-updated: 2022-06-09 14:59
+updated: 2022-06-10 15:20
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
@@ -17,6 +17,9 @@ updated: 2022-06-09 14:59
 - You can run cron jobs in EB by defining a `cron.yaml` file and using the [[../101 AWS SAA/ElasticBeanstalk#Web vs Worker Tier|Worker Environment]] 
 
 > [!caution] All the *source bundles* (code *zip files* for deployment) are stored in **S3**.
+
+> [!note]- We cannot configure Amazon Athena, **AWS Lambda**, and **Amazon CloudFront** on ElasticBeanstalk.
+> We can configure *EC2*, *Load Balancers* and *CloudWatch*.
 
 ## Components
 - **Application**: An Elastic Beanstalk _application_ is a logical collection of Elastic Beanstalk components, including _environments_, _versions_, and _environment configurations_. In Elastic Beanstalk an application is conceptually similar to a folder.

@@ -1,11 +1,13 @@
 ---
 created: 2022-05-30 12:29
-updated: 2022-05-30 15:07
+updated: 2022-06-10 15:34
 ---
 ---
 **Links**: [[102 AWS DVA Index]]
 
 ---
+> [!note] Keywords: state machines, multiple lambdas
+
 ## Step Functions
 - It allows us to **model our workflow as state machines**.
 - Use cases:
@@ -31,6 +33,29 @@ updated: 2022-05-30 15:07
 	- Activities poll the Step functions for work
 	- Activities send results back to Step Functions
 	- ![[attachments/Pasted image 20220530123526.png]]
+
+#### Information Flow
+- A *Step Functions execution receives a JSON text as input* and passes that input to the first state in the workflow. 
+- **Individual states receive JSON as input and usually pass JSON as output to the next state**. 
+	- ![[attachments/Pasted image 20220610152407.png]]
+- In the Amazon States Language, these fields filter and control the flow of JSON from state to state:
+	- InputPath
+	- OutputPath
+	- ResultPath
+	- Parameters
+
+- Both the `InputPath` and `Parameters` fields provide a way to manipulate JSON as it moves through your workflow. 
+	- `InputPath` can limit the input that is passed by *filtering the JSON notation* by using a path. 
+	- The `Parameters` field enables you to *pass a collection of key-value pairs*, where the values are either static values that you define in your state machine definition, or that are selected from the input using a path.
+	- AWS Step Functions **applies the InputPath field first, and then the Parameters field**. You can first filter your raw input to a selection you want using `InputPath`, and then apply `Parameters` to manipulate that input further, or add new values.
+-  The *output of a state* can be 
+	- A copy of its input, 
+	- The result it produces (for example, the output from a Task state’s Lambda function), 
+	- Or a combination of its input and result. 
+- Use `ResultPath` to *control which combination of these is passed to the state output*.
+- `OutputPath` enables you to **select a portion of the state output to pass to the next state**. 
+	- This enables you to filter out unwanted information, and pass only the portion of JSON that you care about.
+- Out of these field filters, the `ResultPath` field filter is the only one that can control input values and its previous results to be passed to the state output. 
 
 #### States
 - *Choice State*: *Test for a condition* to send to a branch (or default branch)

@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-09 22:48
+updated: 2022-06-10 20:42
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -36,7 +36,7 @@ updated: 2022-06-09 22:48
 ## Committing
 - `git commit` : open editor for typing the commit messages
 
-### Cancelling local commits 
+### Cancelling local commits (incomplete)
 - `git revert` : This will open the default editor, now you can edit the default commit message or leave it as is. Save and close the file.
 	- `git revert HEAD` : If you just want to cancel the last commit
 	- We may *cancel any random commit in history, pointing out its hash value or tags*.
@@ -93,7 +93,7 @@ git commit --amend -m "message"
 - `git branch -d <branch-name>` : Deleting local branches
 	- `git branch -D <branch-name>` : To force delete a branch
 - `git merge <branch-name>` : merging the `branch-name` to the branch you are on.
-	- [[Git - Staging & Committing#Example Merging|Example Merging]]
+	- [[Git - Branching, Rebasing & Merging#Merging Examples|Merging Examples]]
 
 ## Stashing
 

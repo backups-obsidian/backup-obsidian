@@ -1,28 +1,60 @@
 {
   "recentFiles": [
     {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
-    },
-    {
-      "basename": "Git - Commands",
-      "path": "100 study-notes/106 Git/Git - Commands.md"
+      "basename": "Git - Relative Refs",
+      "path": "100 study-notes/106 Git/Git - Relative Refs.md"
     },
     {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
-      "basename": "Git - Staging & Committing",
-      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
+      "basename": "Git - Rough",
+      "path": "100 study-notes/106 Git/Git - Rough.md"
+    },
+    {
+      "basename": "Git - Commands",
+      "path": "100 study-notes/106 Git/Git - Commands.md"
     },
     {
       "basename": "Git - Branching, Rebasing & Merging",
       "path": "100 study-notes/106 Git/Git - Branching, Rebasing & Merging.md"
     },
     {
-      "basename": "Git - Rough",
-      "path": "100 study-notes/106 Git/Git - Rough.md"
+      "basename": "Git - Remote Repository",
+      "path": "100 study-notes/106 Git/Git - Remote Repository.md"
+    },
+    {
+      "basename": "Git - Miscellaneous",
+      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Step Functions",
+      "path": "100 study-notes/102 AWS DVA/Step Functions.md"
+    },
+    {
+      "basename": "ElasticBeanstalk DVA",
+      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
+    },
+    {
+      "basename": "KMS Working",
+      "path": "100 study-notes/102 AWS DVA/KMS Working.md"
+    },
+    {
+      "basename": "KMS DVA",
+      "path": "100 study-notes/102 AWS DVA/KMS DVA.md"
+    },
+    {
+      "basename": "Other Services DVA",
+      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
+    },
+    {
+      "basename": "Git - Staging & Committing",
+      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
     },
     {
       "basename": "ECS DVA",
@@ -85,10 +117,6 @@
       "path": "100 study-notes/101 AWS SAA/Types of ELBs.md"
     },
     {
-      "basename": "ElasticBeanstalk DVA",
-      "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk DVA.md"
-    },
-    {
       "basename": "ElasticBeanstalk Deployment Modes",
       "path": "100 study-notes/102 AWS DVA/ElasticBeanstalk Deployment Modes.md"
     },
@@ -137,10 +165,6 @@
       "path": "100 study-notes/101 AWS SAA/S3 Encryption.md"
     },
     {
-      "basename": "Git - Miscellaneous",
-      "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
-    },
-    {
       "basename": "100 home",
       "path": "100 study-notes/100 home.md"
     },
@@ -175,30 +199,6 @@
     {
       "basename": "103 Golang Index",
       "path": "100 study-notes/103 Golang/103 Golang Index.md"
-    },
-    {
-      "basename": "Other Services DVA",
-      "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "CDK",
-      "path": "100 study-notes/102 AWS DVA/CDK.md"
-    },
-    {
-      "basename": "SAM",
-      "path": "100 study-notes/102 AWS DVA/SAM.md"
-    },
-    {
-      "basename": "Kinesis DVA",
-      "path": "100 study-notes/102 AWS DVA/Kinesis DVA.md"
-    },
-    {
-      "basename": "X-Ray Advanced",
-      "path": "100 study-notes/102 AWS DVA/X-Ray Advanced.md"
-    },
-    {
-      "basename": "X-Ray",
-      "path": "100 study-notes/102 AWS DVA/X-Ray.md"
     }
   ],
   "omittedPaths": [],
