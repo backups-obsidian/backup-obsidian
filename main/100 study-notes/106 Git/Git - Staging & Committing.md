@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:12
-updated: 2022-06-09 22:15
+updated: 2022-06-10 21:16
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -52,23 +52,3 @@ git commit -m "Unrelated change to c"
 - When you checkout something you will be in *detached HEAD* state. You can look around, make experimental changes and commit them, and you can discard any commits you make in this state without impacting any branches by performing another checkout.
 - If you want to create a new branch to retain commits you create, you may do so (now or later) by using `-b` with the checkout command again.
 	- `git checkout -b new_branch_name`
-
-## Discarding local changes (unstaged)
-- `git restore` is a new command that has been introduced in Git 2.23 together with `git switch`. 
-- Their purposes are to simplify and separate the use cases of `git checkout` that does too many things.
-- `git checkout` can be used to switch branches (and also to create a new branch before switching to it). This functionality has been extracted into `git switch`.
-	- `git switch` cannot be used to go to specific commits. This can only be done by `git checkout`
-- `git checkout` can also be used to restore files to the state they were on a specified commit. This functionality has been extracted into `git restore`.
-- Discarding local changes can still be performed by `git checkout` but the new commands are easier to use and less confusing.
-
-## Discarding local changes
-### Using revert 
-- Not altering the history
-```bash
-* 45fa96b 2011-03-09 | Revert "Oops, we didn't want this commit" (HEAD, master) [Alexander Shvets]
-* 846b90c 2011-03-09 | Oops, we didn't want this commit [Alexander Shvets]
-* fa3c141 2011-03-09 | Added HTML header (v1) [Alexander Shvets]
-* 8c32287 2011-03-09 | Added standard HTML page tags (v1-beta) [Alexander Shvets]
-* 43628f7 2011-03-09 | Added h1 tag [Alexander Shvets]
-* 911e8c9 2011-03-09 | First Commit [Alexander Shvets]
-```

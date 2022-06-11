@@ -1,20 +1,56 @@
 {
   "recentFiles": [
     {
-      "basename": "Git - Relative Refs",
-      "path": "100 study-notes/106 Git/Git - Relative Refs.md"
+      "basename": "Go - Channels",
+      "path": "100 study-notes/103 Golang/Go - Channels.md"
+    },
+    {
+      "basename": "103 Golang Index",
+      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     },
     {
       "basename": "106 Git Index",
       "path": "100 study-notes/106 Git/106 Git Index.md"
     },
     {
-      "basename": "Git - Rough",
-      "path": "100 study-notes/106 Git/Git - Rough.md"
+      "basename": "Git - Introduction",
+      "path": "100 study-notes/106 Git/Git - Introduction.md"
+    },
+    {
+      "basename": "Go - Race Conditions & Mutexes",
+      "path": "100 study-notes/103 Golang/Go - Race Conditions & Mutexes.md"
+    },
+    {
+      "basename": "Go - Concurrency",
+      "path": "100 study-notes/103 Golang/Go - Concurrency.md"
+    },
+    {
+      "basename": "Go - Pointers",
+      "path": "100 study-notes/103 Golang/Go - Pointers.md"
+    },
+    {
+      "basename": "How to setup neovim",
+      "path": "300 short-notes/How to setup neovim.md"
     },
     {
       "basename": "Git - Commands",
       "path": "100 study-notes/106 Git/Git - Commands.md"
+    },
+    {
+      "basename": "102 AWS DVA Index",
+      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
+    },
+    {
+      "basename": "Git - Reversing Changes",
+      "path": "100 study-notes/106 Git/Git - Reversing Changes.md"
+    },
+    {
+      "basename": "Git - Staging & Committing",
+      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
+    },
+    {
+      "basename": "Git - Relative Refs",
+      "path": "100 study-notes/106 Git/Git - Relative Refs.md"
     },
     {
       "basename": "Git - Branching, Rebasing & Merging",
@@ -27,10 +63,6 @@
     {
       "basename": "Git - Miscellaneous",
       "path": "100 study-notes/106 Git/Git - Miscellaneous.md"
-    },
-    {
-      "basename": "102 AWS DVA Index",
-      "path": "100 study-notes/102 AWS DVA/102 AWS DVA Index.md"
     },
     {
       "basename": "Step Functions",
@@ -51,10 +83,6 @@
     {
       "basename": "Other Services DVA",
       "path": "100 study-notes/102 AWS DVA/Other Services DVA.md"
-    },
-    {
-      "basename": "Git - Staging & Committing",
-      "path": "100 study-notes/106 Git/Git - Staging & Committing.md"
     },
     {
       "basename": "ECS DVA",
@@ -171,34 +199,6 @@
     {
       "basename": "DynamoDB Indexes",
       "path": "100 study-notes/102 AWS DVA/DynamoDB Indexes.md"
-    },
-    {
-      "basename": "Lambda Performance",
-      "path": "100 study-notes/102 AWS DVA/Lambda Performance.md"
-    },
-    {
-      "basename": "Lambda Configuration & Deployments",
-      "path": "100 study-notes/102 AWS DVA/Lambda Configuration & Deployments.md"
-    },
-    {
-      "basename": "Lambda Destinations",
-      "path": "100 study-notes/102 AWS DVA/Lambda Destinations.md"
-    },
-    {
-      "basename": "Lambda Event Source Mapping",
-      "path": "100 study-notes/102 AWS DVA/Lambda Event Source Mapping.md"
-    },
-    {
-      "basename": "Lambda Asynchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Asynchronous Invocation.md"
-    },
-    {
-      "basename": "Lambda Synchronous Invocation",
-      "path": "100 study-notes/102 AWS DVA/Lambda Synchronous Invocation.md"
-    },
-    {
-      "basename": "103 Golang Index",
-      "path": "100 study-notes/103 Golang/103 Golang Index.md"
     }
   ],
   "omittedPaths": [],

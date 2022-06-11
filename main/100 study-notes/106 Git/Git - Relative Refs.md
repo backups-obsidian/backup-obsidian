@@ -1,6 +1,6 @@
 ---
 created: 2022-06-10 20:58
-updated: 2022-06-10 21:01
+updated: 2022-06-10 21:08
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -37,4 +37,5 @@ updated: 2022-06-10 21:01
 - This is a use case of relative refs.
 - Initial state:
 	- ![[attachments/Pasted image 20220610210144.png]]
-- 
+- `git branch -f main HEAD~3`: `-f` means forceful
+	- ![[attachments/Pasted image 20220610210252.png]]

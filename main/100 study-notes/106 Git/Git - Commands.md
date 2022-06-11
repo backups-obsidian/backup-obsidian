@@ -1,6 +1,6 @@
 ---
 created: 2022-06-08 19:22
-updated: 2022-06-10 20:42
+updated: 2022-06-10 22:11
 ---
 ---
 **Links**: [[106 Git Index]]
@@ -36,23 +36,24 @@ updated: 2022-06-10 20:42
 ## Committing
 - `git commit` : open editor for typing the commit messages
 
-### Cancelling local commits (incomplete)
+### Cancelling local commits 
+#### Using Revert
 - `git revert` : This will open the default editor, now you can edit the default commit message or leave it as is. Save and close the file.
 	- `git revert HEAD` : If you just want to cancel the last commit
 	- We may *cancel any random commit in history, pointing out its hash value or tags*.
 	- `git revert HEAD --no-edit` : No editor. Commit message of the reverted commit will be used.
-- This **doesn't change the history so this technique can be applied to any commit** (however there may be conflicts). It is safe to use even in public branches of remote repositories.
+- This **doesn't change the history so this technique can be applied to any commit** (however there may be conflicts). It is *safe to use even in public branches* of remote repositories.
 	- Both original and cancelled commits are seen in the history of the branch
-	- [[Git - Staging & Committing#Using revert | Example]]
-- `git reset --hard <tag/hash>` : this will move the branch you are on to that commit.
-- do soft, the other changes goes to unstaged area, add them and stash them.
-	- another way of squashing commit: reset to the oldest after which you want the commits, the changes will be in unstaged area, add them, and now make the single commit.
-	- or interactive rebase.
-- Force push to remove a commit from upstream.
-- Forking and updating
-	- `git fetch --all --prune` : to fetch the upstream changes, what is upstream?
-	- `git reset --hard upstream/main` : local will be synced, push this to update your repo also
-	- or `git pull upstream main` and not push to your repo
+	- [[Git - Reversing Changes#Example|Revert Example]]
+
+#### Using Reset (incomplete)
+- **Use only in private branches** (branches in which no one else is working) since you will be modifying the history.
+- `git reset --hard <tag/hash/relative-ref>` : this will move the branch you are on to that commit.
+	- [[Git - Reversing Changes#Example Hard Reset|Hard Reset Example]]
+- `git reset --mixed <tag/hash/relative-ref>` : *default*, moves the all the changes (from your `HEAD` to hash) to the **unstaged area**.
+- `git reset --soft <tag/hash/relative-ref>` : moves the all the changes (from your `HEAD` to hash) to the **staging area**
+
+> [!caution] Don't use hard reset
 
 ### Changing commits
 - Amending the previous commit
@@ -60,6 +61,17 @@ updated: 2022-06-10 20:42
 git add file
 git commit --amend -m "message"
 ```
+- Or we can use interactive rebase
+
+### Squashing commits
+- *Any rebase operation will change the history so try to use in private branches only*.
+- `git rebase -i HEAD~3` : interactive rebase of last 3 commits.
+- Interactive rebase alters every commit after the one you specify
+	- `git rebase -i HEAD` : No commits after HEAD so it does nothing
+- When you squash from bottom it moves to the most recent pick in upward direction. Squashed up in pick from bottom.
+
+> [!note]- Whenever you use `git log` it will show you commits from newest to oldest whereas interactive rebase shows commits from oldest to newest.
+> ![[attachments/Pasted image 20220610220032.png]]
 
 ## History
 - `git log`
@@ -94,10 +106,26 @@ git commit --amend -m "message"
 	- `git branch -D <branch-name>` : To force delete a branch
 - `git merge <branch-name>` : merging the `branch-name` to the branch you are on.
 	- [[Git - Branching, Rebasing & Merging#Merging Examples|Merging Examples]]
+- `git branch -f <branch-name> <commit/relative-ref/tag>` : Forcefully moving a branch pointer to another commit.
+	- [[Git - Relative Refs#Example Moving Branches|Example Moving Branches]]
 
 ## Stashing
 
 ## Rebasing
+- `git rebase <branch-name>`
 
 ## Pushing
 - `git push -u origin` : push to the same branch as the local one
+
+## Pulling
+
+## Rough
+
+- do soft, the other changes goes to unstaged area, add them and stash them.
+	- another way of squashing commit: reset to the oldest after which you want the commits, the changes will be in unstaged area, add them, and now make the single commit.
+	- or interactive rebase.
+- Force push to remove a commit from upstream.
+- Forking and updating
+	- `git fetch --all --prune` : to fetch the upstream changes, what is upstream?
+	- `git reset --hard upstream/main` : local will be synced, push this to update your repo also
+	- or `git pull upstream main` and not push to your repo
